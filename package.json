@@ -30,8 +30,8 @@
     "eslint-config-klasa": "dirigeants/klasa-lint",
     "nyc": "^15.0.1",
     "source-map-support": "^0.5.19",
-    "typescript": "^3.9.3",
-    "typedoc": "^0.17.7"
+    "typedoc": "^0.17.7",
+    "typescript": "^3.9.3"
   },
   "repository": {
     "type": "git",
@@ -50,5 +50,9 @@
         "test/": "dist/test/"
       }
     }
+  },
+  "dependencies": {
+    "@klasa/timestamp": "^0.0.1",
+    "@klasa/utils": "^0.0.5"
   }
 }
