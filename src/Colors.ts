@@ -1,81 +1,83 @@
+/**
+ * The format options for Color
+ */
 export interface ColorsFormatOptions {
-	background?: string;
-	style?: string | string[];
-	text?: string;
+	/**
+	 * The format for the background
+	 */
+	background?: Color;
+	/**
+	 * The style or styles to apply
+	 */
+	style?: Style | Style[];
+	/**
+	 * The format for the text
+	 */
+	text?: Color;
 }
 
-export type ColorsFormatType = string | number | [string, string, string] | [number, number, number];
-
+/**
+ * The format data for Color
+ */
 export interface ColorsFormatData {
+	/**
+	 * The opening format data styles
+	 */
 	opening?: number[];
+	/**
+	 * The closing format data styles
+	 */
 	closing?: number[];
 }
+
+/**
+ * The color to apply
+ */
+export type Color = 'black' | 'green' | 'yellow' | 'blue' | 'red' | 'magenta' | 'cyan' | 'gray' |
+'grey' | 'lightgray' | 'lightgrey' | 'lightred' | 'lightgreen' |
+'lightyellow' | 'lightblue' | 'lightmagenta' | 'lightcyan' | 'white' | string;
+
+/**
+ * The style or styles to apply
+ */
+export type Style = 'normal' | 'bold' | 'dim' | 'italic' | 'underline' | 'inverse' | 'hidden' | 'strikethrough' | string;
 
 /**
  * The Colors class that manages the colors displayed in the console.
  */
 export class Colors {
 
+	/**
+	 * The opening tags
+	 */
 	public opening: string;
+
+	/**
+	 * the closing tags
+	 */
 	public closing: string;
 
-
-	/**
-	 * @typedef {Object} ColorsFormatOptions
-	 * @property {(string|string[])} [style] The style or styles to apply
-	 * @property {string} [background] The format for the background
-	 * @property {string} [text] The format for the text
-	 */
-
-	/**
-	 * @typedef {Object} ColorsFormatData
-	 * @property {string[]} opening The opening format data styles
-	 * @property {string[]} closing The closing format data styles
-	 * @private
-	 */
-
-	/**
-	 * Constructs our Colors instance
-	 * @param {ColorsFormatOptions} [options = {}] The options for this format
-	 * @since 0.4.0
-	 */
 	constructor(options: ColorsFormatOptions = {}) {
 		const { opening, closing } = Colors.text(options.text, (this.constructor as typeof Colors).background(options.background, (this.constructor as typeof Colors).style(options.style)));
 
-		/**
-		 * The opening tags
-		 * @type {string}
-		 * @since 0.5.0
-		 */
 		this.opening = (this.constructor as typeof Colors).useColors && opening ? `\u001B[${opening.join(';')}m` : '';
-
-		/**
-		 * The closing tags
-		 * @type {string}
-		 * @since 0.5.0
-		 */
-		this.closing = (this.constructor as typeof Colors) && closing ? `\u001B[${closing.join(';')}m` : '';
+		this.closing = (this.constructor as typeof Colors).useColors && closing ? `\u001B[${closing.join(';')}m` : '';
 	}
 
 	/**
 	 * Format a string
-	 * @since 0.4.0
-	 * @param {string} string The string to format
-	 * @returns {string}
+	 * @param string The string to format
 	 */
 	format(string: string): string {
 		return this.opening + string + this.closing;
 	}
 
 	/**
-	 * Apply the style
-	 * @since 0.5.0
-	 * @param {(string|string[])} [styles] The style or styles to apply
-	 * @param {ColorsFormatData} [data={}] The data
-	 * @returns {ColorsFormatData}
-	 * @private
-	 */
-	static style(styles?: string | string[], { opening = [], closing = [] }: ColorsFormatData = {}): ColorsFormatData {
+		* Applies the style
+		* @param styles The style or styles to apply
+		* @param FormatData the format data
+		*/
+	static style(styles?: Style | Style[], { opening = [], closing = [] }: ColorsFormatData = {}): ColorsFormatData {
 		if (styles) {
 			if (!Array.isArray(styles)) styles = [styles];
 			for (let style of styles) {
@@ -89,12 +91,11 @@ export class Colors {
 	}
 
 	/**
-	 * Apply the background
-	 * @since 0.5.0
-	 * @param background The background to apply
-	 * @param data The data
-	 */
-	private static background(background?: string, { opening = [], closing = [] }: ColorsFormatData = {}): ColorsFormatData {
+		* Apply the background
+		* @param background the background to apply
+		* @param FormatData the format data
+		*/
+	private static background(background?: Color, { opening = [], closing = [] }: ColorsFormatData = {}): ColorsFormatData {
 		if (background && background.toLowerCase() in this.BACKGROUNDS) {
 			opening.push(this.BACKGROUNDS[background.toLowerCase()]);
 			closing.push(this.CLOSE.background);
@@ -108,7 +109,13 @@ export class Colors {
 	 * @param text The text format to apply
 	 * @param data The data
 	 */
-	private static text(text?: string, { opening = [], closing = [] }: ColorsFormatData = {}): ColorsFormatData {
+
+	/**
+	 * Apply the text format
+	 * @param text the text format to apply
+	 * @param FormatData the format data
+	 */
+	private static text(text?: Color, { opening = [], closing = [] }: ColorsFormatData = {}): ColorsFormatData {
 		if (text && text.toLowerCase() in this.TEXTS) {
 			opening.push(this.TEXTS[text.toLowerCase()]);
 			closing.push(this.CLOSE.text);
@@ -140,7 +147,7 @@ export class Colors {
 	/**
 	 * The style codes
 	 */
-	private static STYLES: Record<string, number> = {
+	private static STYLES: Record<Style, number> = {
 		normal: 0,
 		bold: 1,
 		dim: 2,
@@ -154,7 +161,7 @@ export class Colors {
 	/**
 	 * The text codes
 	 */
-	private static TEXTS: Record<string, number> = {
+	private static TEXTS: Record<Color, number> = {
 		black: 30,
 		red: 31,
 		green: 32,
@@ -178,7 +185,7 @@ export class Colors {
 	/**
 	 * The background codes
 	 */
-	private static BACKGROUNDS: Record<string, number> = {
+	private static BACKGROUNDS: Record<Color, number> = {
 		black: 40,
 		red: 41,
 		green: 42,
