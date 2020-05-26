@@ -68,7 +68,7 @@ export class Colors {
 	 * Format a string
 	 * @param string The string to format
 	 */
-	format(string: string): string {
+	public format(string: string): string {
 		return this.opening + string + this.closing;
 	}
 
