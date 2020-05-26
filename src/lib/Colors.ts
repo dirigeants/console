@@ -126,7 +126,7 @@ export class Colors {
 	/**
 	 * Determines if this class should be constructed with colors or not
 	 */
-	static useColors = true;
+	protected static useColors = true;
 
 	/**
 	 * The close codes
