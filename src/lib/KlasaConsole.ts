@@ -82,6 +82,7 @@ export interface ConsoleOptionsColor {
  * Klasa's console class, extends NodeJS Console class.
  */
 export class KlasaConsole extends Console {
+
 	/**
 	 * Whether or not timestamps should be enabled for this console.
 	 */
