@@ -1,6 +1,6 @@
 {
   "name": "@klasa/console",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "The Console implementation for the @klasa/framework project",
   "main": "dist/src/index.js",
   "scripts": {
