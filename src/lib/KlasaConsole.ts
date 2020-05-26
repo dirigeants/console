@@ -154,7 +154,7 @@ export class KlasaConsole extends Console {
 	 * Calls a warn write with everything to the console/writable stream.
 	 * @param data The data we want to print
 	 */
-	warn(...data: any[]): void {
+	public warn(...data: any[]): void {
 		this.write(data, 'warn');
 	}
 
