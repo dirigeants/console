@@ -1,61 +1,158 @@
 {
 	"id": 0,
-	"name": "@klasa/util",
+	"name": "@klasa/console",
 	"kind": 0,
 	"flags": {},
 	"originalName": "",
 	"children": [
 		{
-			"id": 1,
+			"id": 251,
 			"name": "\"src/index\"",
 			"kind": 1,
 			"kindString": "Module",
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "/home/runner/work/util-ts-template/util-ts-template/src/index.ts",
+			"originalName": "/home/runner/work/console/console/src/index.ts",
 			"children": [
 				{
-					"id": 2,
-					"name": "foo",
-					"kind": 64,
-					"kindString": "Function",
+					"id": 259,
+					"name": "Color",
+					"kind": 16777216,
+					"kindString": "Reference",
 					"flags": {
 						"isExported": true
 					},
-					"signatures": [
-						{
-							"id": 3,
-							"name": "foo",
-							"kind": 4096,
-							"kindString": "Call signature",
-							"flags": {
-								"isExported": true
-							},
-							"comment": {
-								"shortText": "The mythical function"
-							},
-							"type": {
-								"type": "intrinsic",
-								"name": "string"
-							}
-						}
-					],
-					"sources": [
-						{
-							"fileName": "src/index.ts",
-							"line": 4,
-							"character": 27
-						}
-					]
+					"target": 98
+				},
+				{
+					"id": 261,
+					"name": "Colors",
+					"kind": 16777216,
+					"kindString": "Reference",
+					"flags": {
+						"isExported": true
+					},
+					"target": 9
+				},
+				{
+					"id": 258,
+					"name": "ColorsFormatData",
+					"kind": 16777216,
+					"kindString": "Reference",
+					"flags": {
+						"isExported": true
+					},
+					"target": 6
+				},
+				{
+					"id": 257,
+					"name": "ColorsFormatOptions",
+					"kind": 16777216,
+					"kindString": "Reference",
+					"flags": {
+						"isExported": true
+					},
+					"target": 2
+				},
+				{
+					"id": 254,
+					"name": "ConsoleColorsOptions",
+					"kind": 16777216,
+					"kindString": "Reference",
+					"flags": {
+						"isExported": true
+					},
+					"target": 142
+				},
+				{
+					"id": 262,
+					"name": "ConsoleDefaults",
+					"kind": 16777216,
+					"kindString": "Reference",
+					"flags": {
+						"isExported": true
+					},
+					"target": 109
+				},
+				{
+					"id": 252,
+					"name": "ConsoleOptions",
+					"kind": 16777216,
+					"kindString": "Reference",
+					"flags": {
+						"isExported": true
+					},
+					"target": 135
+				},
+				{
+					"id": 255,
+					"name": "ConsoleOptionsColor",
+					"kind": 16777216,
+					"kindString": "Reference",
+					"flags": {
+						"isExported": true
+					},
+					"target": 150
+				},
+				{
+					"id": 253,
+					"name": "ConsoleOutputType",
+					"kind": 16777216,
+					"kindString": "Reference",
+					"flags": {
+						"isExported": true
+					},
+					"target": 250
+				},
+				{
+					"id": 263,
+					"name": "ConsoleTypes",
+					"kind": 16777216,
+					"kindString": "Reference",
+					"flags": {
+						"isExported": true
+					},
+					"target": 127
+				},
+				{
+					"id": 256,
+					"name": "KlasaConsole",
+					"kind": 16777216,
+					"kindString": "Reference",
+					"flags": {
+						"isExported": true
+					},
+					"target": 155
+				},
+				{
+					"id": 260,
+					"name": "Style",
+					"kind": 16777216,
+					"kindString": "Reference",
+					"flags": {
+						"isExported": true
+					},
+					"target": 99
 				}
 			],
 			"groups": [
 				{
-					"title": "Functions",
-					"kind": 64,
+					"title": "References",
+					"kind": 16777216,
 					"children": [
-						2
+						259,
+						261,
+						258,
+						257,
+						254,
+						262,
+						252,
+						255,
+						253,
+						263,
+						256,
+						260
 					]
 				}
 			],
@@ -68,14 +165,6148 @@
 			]
 		},
 		{
-			"id": 4,
+			"id": 1,
+			"name": "\"src/lib/Colors\"",
+			"kind": 1,
+			"kindString": "Module",
+			"flags": {
+				"isExported": true
+			},
+			"originalName": "/home/runner/work/console/console/src/lib/Colors.ts",
+			"children": [
+				{
+					"id": 9,
+					"name": "Colors",
+					"kind": 128,
+					"kindString": "Class",
+					"flags": {
+						"isExported": true
+					},
+					"comment": {
+						"shortText": "The Colors class that manages the colors displayed in the console.",
+						"tags": [
+							{
+								"tag": "since",
+								"text": "0.0.1\n"
+							}
+						]
+					},
+					"children": [
+						{
+							"id": 12,
+							"name": "constructor",
+							"kind": 512,
+							"kindString": "Constructor",
+							"flags": {
+								"isPublic": true,
+								"isExported": true
+							},
+							"comment": {
+								"tags": [
+									{
+										"tag": "since",
+										"text": "0.0.1"
+									},
+									{
+										"tag": "example",
+										"text": "\nconst red = new Colors({ text: 'red' });\nconsole.log(red.format('Hello World'));\n// A 'Hello World' string will be printed red.\n"
+									}
+								]
+							},
+							"signatures": [
+								{
+									"id": 13,
+									"name": "new Colors",
+									"kind": 16384,
+									"kindString": "Constructor signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"tags": [
+											{
+												"tag": "since",
+												"text": "0.0.1"
+											},
+											{
+												"tag": "example",
+												"text": "\nconst red = new Colors({ text: 'red' });\nconsole.log(red.format('Hello World'));\n// A 'Hello World' string will be printed red.\n"
+											}
+										]
+									},
+									"parameters": [
+										{
+											"id": 14,
+											"name": "options",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"comment": {
+												"shortText": "The options."
+											},
+											"type": {
+												"type": "reference",
+												"id": 2,
+												"name": "ColorsFormatOptions"
+											},
+											"defaultValue": "{}"
+										}
+									],
+									"type": {
+										"type": "reference",
+										"id": 9,
+										"name": "Colors"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "src/lib/Colors.ts",
+									"line": 72,
+									"character": 33
+								}
+							]
+						},
+						{
+							"id": 11,
+							"name": "closing",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isPublic": true,
+								"isExported": true,
+								"isReadonly": true
+							},
+							"comment": {
+								"shortText": "the closing tags.",
+								"tags": [
+									{
+										"tag": "since",
+										"text": "0.0.1\n"
+									}
+								]
+							},
+							"sources": [
+								{
+									"fileName": "src/lib/Colors.ts",
+									"line": 72,
+									"character": 24
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "string"
+							}
+						},
+						{
+							"id": 10,
+							"name": "opening",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isPublic": true,
+								"isExported": true,
+								"isReadonly": true
+							},
+							"comment": {
+								"shortText": "The opening tags.",
+								"tags": [
+									{
+										"tag": "since",
+										"text": "0.0.1\n"
+									}
+								]
+							},
+							"sources": [
+								{
+									"fileName": "src/lib/Colors.ts",
+									"line": 66,
+									"character": 24
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "string"
+							}
+						},
+						{
+							"id": 39,
+							"name": "useColors",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isProtected": true,
+								"isStatic": true,
+								"isExported": true
+							},
+							"comment": {
+								"shortText": "Determines if this class should be constructed with colors or not.",
+								"tags": [
+									{
+										"tag": "since",
+										"text": "0.0.1\n"
+									}
+								]
+							},
+							"sources": [
+								{
+									"fileName": "src/lib/Colors.ts",
+									"line": 150,
+									"character": 27
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "boolean"
+							},
+							"defaultValue": "true"
+						},
+						{
+							"id": 15,
+							"name": "format",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isPublic": true,
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 16,
+									"name": "format",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Format a string.",
+										"tags": [
+											{
+												"tag": "since",
+												"text": "0.0.1"
+											}
+										]
+									},
+									"parameters": [
+										{
+											"id": 17,
+											"name": "string",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"comment": {
+												"text": "The string to format\n"
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "src/lib/Colors.ts",
+									"line": 95,
+									"character": 14
+								}
+							]
+						},
+						{
+							"id": 25,
+							"name": "background",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isPrivate": true,
+								"isStatic": true,
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 26,
+									"name": "background",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Applies the background.",
+										"tags": [
+											{
+												"tag": "since",
+												"text": "0.0.1"
+											}
+										]
+									},
+									"parameters": [
+										{
+											"id": 27,
+											"name": "background",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true,
+												"isOptional": true
+											},
+											"comment": {
+												"text": "the background to apply"
+											},
+											"type": {
+												"type": "reference",
+												"id": 98,
+												"name": "Color"
+											}
+										},
+										{
+											"id": 28,
+											"name": "__namedParameters",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"originalName": "__1",
+											"type": {
+												"type": "reflection",
+												"declaration": {
+													"id": 29,
+													"name": "__type",
+													"kind": 65536,
+													"kindString": "Type literal",
+													"flags": {
+														"isExported": true
+													},
+													"children": [
+														{
+															"id": 31,
+															"name": "closing",
+															"kind": 32,
+															"kindString": "Variable",
+															"flags": {
+																"isExported": true
+															},
+															"sources": [
+																{
+																	"fileName": "src/lib/Colors.ts",
+																	"line": 124,
+																	"character": 70
+																}
+															],
+															"type": {
+																"type": "array",
+																"elementType": {
+																	"type": "intrinsic",
+																	"name": "number"
+																}
+															},
+															"defaultValue": "[]"
+														},
+														{
+															"id": 30,
+															"name": "opening",
+															"kind": 32,
+															"kindString": "Variable",
+															"flags": {
+																"isExported": true
+															},
+															"sources": [
+																{
+																	"fileName": "src/lib/Colors.ts",
+																	"line": 124,
+																	"character": 56
+																}
+															],
+															"type": {
+																"type": "array",
+																"elementType": {
+																	"type": "intrinsic",
+																	"name": "number"
+																}
+															},
+															"defaultValue": "[]"
+														}
+													],
+													"groups": [
+														{
+															"title": "Variables",
+															"kind": 32,
+															"children": [
+																31,
+																30
+															]
+														}
+													],
+													"sources": [
+														{
+															"fileName": "src/lib/Colors.ts",
+															"line": 124,
+															"character": 46
+														}
+													]
+												}
+											},
+											"defaultValue": "{}"
+										}
+									],
+									"type": {
+										"type": "reference",
+										"id": 6,
+										"name": "ColorsFormatData"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "src/lib/Colors.ts",
+									"line": 124,
+									"character": 26
+								}
+							]
+						},
+						{
+							"id": 18,
+							"name": "style",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isPrivate": true,
+								"isStatic": true,
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 19,
+									"name": "style",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Applies the style.",
+										"tags": [
+											{
+												"tag": "since",
+												"text": "0.0.1"
+											}
+										]
+									},
+									"parameters": [
+										{
+											"id": 20,
+											"name": "styles",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true,
+												"isOptional": true
+											},
+											"comment": {
+												"text": "The style or styles to apply"
+											},
+											"type": {
+												"type": "union",
+												"types": [
+													{
+														"type": "reference",
+														"id": 99,
+														"name": "Style"
+													},
+													{
+														"type": "array",
+														"elementType": {
+															"type": "reference",
+															"id": 99,
+															"name": "Style"
+														}
+													}
+												]
+											}
+										},
+										{
+											"id": 21,
+											"name": "__namedParameters",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"originalName": "__1",
+											"type": {
+												"type": "reflection",
+												"declaration": {
+													"id": 22,
+													"name": "__type",
+													"kind": 65536,
+													"kindString": "Type literal",
+													"flags": {
+														"isExported": true
+													},
+													"children": [
+														{
+															"id": 24,
+															"name": "closing",
+															"kind": 32,
+															"kindString": "Variable",
+															"flags": {
+																"isExported": true
+															},
+															"sources": [
+																{
+																	"fileName": "src/lib/Colors.ts",
+																	"line": 105,
+																	"character": 71
+																}
+															],
+															"type": {
+																"type": "array",
+																"elementType": {
+																	"type": "intrinsic",
+																	"name": "number"
+																}
+															},
+															"defaultValue": "[]"
+														},
+														{
+															"id": 23,
+															"name": "opening",
+															"kind": 32,
+															"kindString": "Variable",
+															"flags": {
+																"isExported": true
+															},
+															"sources": [
+																{
+																	"fileName": "src/lib/Colors.ts",
+																	"line": 105,
+																	"character": 57
+																}
+															],
+															"type": {
+																"type": "array",
+																"elementType": {
+																	"type": "intrinsic",
+																	"name": "number"
+																}
+															},
+															"defaultValue": "[]"
+														}
+													],
+													"groups": [
+														{
+															"title": "Variables",
+															"kind": 32,
+															"children": [
+																24,
+																23
+															]
+														}
+													],
+													"sources": [
+														{
+															"fileName": "src/lib/Colors.ts",
+															"line": 105,
+															"character": 47
+														}
+													]
+												}
+											},
+											"defaultValue": "{}"
+										}
+									],
+									"type": {
+										"type": "reference",
+										"id": 6,
+										"name": "ColorsFormatData"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "src/lib/Colors.ts",
+									"line": 105,
+									"character": 21
+								}
+							]
+						},
+						{
+							"id": 32,
+							"name": "text",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isPrivate": true,
+								"isStatic": true,
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 33,
+									"name": "text",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Applies the text format.",
+										"tags": [
+											{
+												"tag": "since",
+												"text": "0.0.1"
+											}
+										]
+									},
+									"parameters": [
+										{
+											"id": 34,
+											"name": "text",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true,
+												"isOptional": true
+											},
+											"comment": {
+												"text": "the text format to apply"
+											},
+											"type": {
+												"type": "reference",
+												"id": 98,
+												"name": "Color"
+											}
+										},
+										{
+											"id": 35,
+											"name": "__namedParameters",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"originalName": "__1",
+											"type": {
+												"type": "reflection",
+												"declaration": {
+													"id": 36,
+													"name": "__type",
+													"kind": 65536,
+													"kindString": "Type literal",
+													"flags": {
+														"isExported": true
+													},
+													"children": [
+														{
+															"id": 38,
+															"name": "closing",
+															"kind": 32,
+															"kindString": "Variable",
+															"flags": {
+																"isExported": true
+															},
+															"sources": [
+																{
+																	"fileName": "src/lib/Colors.ts",
+																	"line": 138,
+																	"character": 58
+																}
+															],
+															"type": {
+																"type": "array",
+																"elementType": {
+																	"type": "intrinsic",
+																	"name": "number"
+																}
+															},
+															"defaultValue": "[]"
+														},
+														{
+															"id": 37,
+															"name": "opening",
+															"kind": 32,
+															"kindString": "Variable",
+															"flags": {
+																"isExported": true
+															},
+															"sources": [
+																{
+																	"fileName": "src/lib/Colors.ts",
+																	"line": 138,
+																	"character": 44
+																}
+															],
+															"type": {
+																"type": "array",
+																"elementType": {
+																	"type": "intrinsic",
+																	"name": "number"
+																}
+															},
+															"defaultValue": "[]"
+														}
+													],
+													"groups": [
+														{
+															"title": "Variables",
+															"kind": 32,
+															"children": [
+																38,
+																37
+															]
+														}
+													],
+													"sources": [
+														{
+															"fileName": "src/lib/Colors.ts",
+															"line": 138,
+															"character": 34
+														}
+													]
+												}
+											},
+											"defaultValue": "{}"
+										}
+									],
+									"type": {
+										"type": "reference",
+										"id": 6,
+										"name": "ColorsFormatData"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "src/lib/Colors.ts",
+									"line": 138,
+									"character": 20
+								}
+							]
+						},
+						{
+							"id": 79,
+							"name": "BACKGROUNDS",
+							"kind": 2097152,
+							"kindString": "Object literal",
+							"flags": {
+								"isPrivate": true,
+								"isStatic": true,
+								"isExported": true
+							},
+							"comment": {
+								"shortText": "The background codes.",
+								"tags": [
+									{
+										"tag": "since",
+										"text": "0.0.1\n"
+									}
+								]
+							},
+							"children": [
+								{
+									"id": 80,
+									"name": "black",
+									"kind": 32,
+									"kindString": "Variable",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "src/lib/Colors.ts",
+											"line": 214,
+											"character": 7
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									},
+									"defaultValue": "40"
+								},
+								{
+									"id": 84,
+									"name": "blue",
+									"kind": 32,
+									"kindString": "Variable",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "src/lib/Colors.ts",
+											"line": 218,
+											"character": 6
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									},
+									"defaultValue": "44"
+								},
+								{
+									"id": 86,
+									"name": "cyan",
+									"kind": 32,
+									"kindString": "Variable",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "src/lib/Colors.ts",
+											"line": 220,
+											"character": 6
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									},
+									"defaultValue": "46"
+								},
+								{
+									"id": 87,
+									"name": "gray",
+									"kind": 32,
+									"kindString": "Variable",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "src/lib/Colors.ts",
+											"line": 221,
+											"character": 6
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									},
+									"defaultValue": "47"
+								},
+								{
+									"id": 82,
+									"name": "green",
+									"kind": 32,
+									"kindString": "Variable",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "src/lib/Colors.ts",
+											"line": 216,
+											"character": 7
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									},
+									"defaultValue": "42"
+								},
+								{
+									"id": 88,
+									"name": "grey",
+									"kind": 32,
+									"kindString": "Variable",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "src/lib/Colors.ts",
+											"line": 222,
+											"character": 6
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									},
+									"defaultValue": "47"
+								},
+								{
+									"id": 94,
+									"name": "lightblue",
+									"kind": 32,
+									"kindString": "Variable",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "src/lib/Colors.ts",
+											"line": 228,
+											"character": 11
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									},
+									"defaultValue": "104"
+								},
+								{
+									"id": 96,
+									"name": "lightcyan",
+									"kind": 32,
+									"kindString": "Variable",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "src/lib/Colors.ts",
+											"line": 230,
+											"character": 11
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									},
+									"defaultValue": "106"
+								},
+								{
+									"id": 89,
+									"name": "lightgray",
+									"kind": 32,
+									"kindString": "Variable",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "src/lib/Colors.ts",
+											"line": 223,
+											"character": 11
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									},
+									"defaultValue": "100"
+								},
+								{
+									"id": 92,
+									"name": "lightgreen",
+									"kind": 32,
+									"kindString": "Variable",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "src/lib/Colors.ts",
+											"line": 226,
+											"character": 12
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									},
+									"defaultValue": "102"
+								},
+								{
+									"id": 90,
+									"name": "lightgrey",
+									"kind": 32,
+									"kindString": "Variable",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "src/lib/Colors.ts",
+											"line": 224,
+											"character": 11
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									},
+									"defaultValue": "100"
+								},
+								{
+									"id": 95,
+									"name": "lightmagenta",
+									"kind": 32,
+									"kindString": "Variable",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "src/lib/Colors.ts",
+											"line": 229,
+											"character": 14
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									},
+									"defaultValue": "105"
+								},
+								{
+									"id": 91,
+									"name": "lightred",
+									"kind": 32,
+									"kindString": "Variable",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "src/lib/Colors.ts",
+											"line": 225,
+											"character": 10
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									},
+									"defaultValue": "101"
+								},
+								{
+									"id": 93,
+									"name": "lightyellow",
+									"kind": 32,
+									"kindString": "Variable",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "src/lib/Colors.ts",
+											"line": 227,
+											"character": 13
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									},
+									"defaultValue": "103"
+								},
+								{
+									"id": 85,
+									"name": "magenta",
+									"kind": 32,
+									"kindString": "Variable",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "src/lib/Colors.ts",
+											"line": 219,
+											"character": 9
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									},
+									"defaultValue": "45"
+								},
+								{
+									"id": 81,
+									"name": "red",
+									"kind": 32,
+									"kindString": "Variable",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "src/lib/Colors.ts",
+											"line": 215,
+											"character": 5
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									},
+									"defaultValue": "41"
+								},
+								{
+									"id": 97,
+									"name": "white",
+									"kind": 32,
+									"kindString": "Variable",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "src/lib/Colors.ts",
+											"line": 231,
+											"character": 7
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									},
+									"defaultValue": "107"
+								},
+								{
+									"id": 83,
+									"name": "yellow",
+									"kind": 32,
+									"kindString": "Variable",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "src/lib/Colors.ts",
+											"line": 217,
+											"character": 8
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									},
+									"defaultValue": "43"
+								}
+							],
+							"groups": [
+								{
+									"title": "Variables",
+									"kind": 32,
+									"children": [
+										80,
+										84,
+										86,
+										87,
+										82,
+										88,
+										94,
+										96,
+										89,
+										92,
+										90,
+										95,
+										91,
+										93,
+										85,
+										81,
+										97,
+										83
+									]
+								}
+							],
+							"sources": [
+								{
+									"fileName": "src/lib/Colors.ts",
+									"line": 213,
+									"character": 27
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "object"
+							}
+						},
+						{
+							"id": 40,
+							"name": "CLOSE",
+							"kind": 2097152,
+							"kindString": "Object literal",
+							"flags": {
+								"isPrivate": true,
+								"isStatic": true,
+								"isExported": true
+							},
+							"comment": {
+								"shortText": "The close codes.",
+								"tags": [
+									{
+										"tag": "since",
+										"text": "0.0.1\n"
+									}
+								]
+							},
+							"children": [
+								{
+									"id": 50,
+									"name": "background",
+									"kind": 32,
+									"kindString": "Variable",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "src/lib/Colors.ts",
+											"line": 166,
+											"character": 12
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									},
+									"defaultValue": "49"
+								},
+								{
+									"id": 42,
+									"name": "bold",
+									"kind": 32,
+									"kindString": "Variable",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "src/lib/Colors.ts",
+											"line": 158,
+											"character": 6
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									},
+									"defaultValue": "22"
+								},
+								{
+									"id": 43,
+									"name": "dim",
+									"kind": 32,
+									"kindString": "Variable",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "src/lib/Colors.ts",
+											"line": 159,
+											"character": 5
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									},
+									"defaultValue": "22"
+								},
+								{
+									"id": 47,
+									"name": "hidden",
+									"kind": 32,
+									"kindString": "Variable",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "src/lib/Colors.ts",
+											"line": 163,
+											"character": 8
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									},
+									"defaultValue": "28"
+								},
+								{
+									"id": 46,
+									"name": "inverse",
+									"kind": 32,
+									"kindString": "Variable",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "src/lib/Colors.ts",
+											"line": 162,
+											"character": 9
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									},
+									"defaultValue": "27"
+								},
+								{
+									"id": 44,
+									"name": "italic",
+									"kind": 32,
+									"kindString": "Variable",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "src/lib/Colors.ts",
+											"line": 160,
+											"character": 8
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									},
+									"defaultValue": "23"
+								},
+								{
+									"id": 41,
+									"name": "normal",
+									"kind": 32,
+									"kindString": "Variable",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "src/lib/Colors.ts",
+											"line": 157,
+											"character": 8
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									},
+									"defaultValue": "0"
+								},
+								{
+									"id": 48,
+									"name": "strikethrough",
+									"kind": 32,
+									"kindString": "Variable",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "src/lib/Colors.ts",
+											"line": 164,
+											"character": 15
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									},
+									"defaultValue": "29"
+								},
+								{
+									"id": 49,
+									"name": "text",
+									"kind": 32,
+									"kindString": "Variable",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "src/lib/Colors.ts",
+											"line": 165,
+											"character": 6
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									},
+									"defaultValue": "39"
+								},
+								{
+									"id": 45,
+									"name": "underline",
+									"kind": 32,
+									"kindString": "Variable",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "src/lib/Colors.ts",
+											"line": 161,
+											"character": 11
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									},
+									"defaultValue": "24"
+								}
+							],
+							"groups": [
+								{
+									"title": "Variables",
+									"kind": 32,
+									"children": [
+										50,
+										42,
+										43,
+										47,
+										46,
+										44,
+										41,
+										48,
+										49,
+										45
+									]
+								}
+							],
+							"sources": [
+								{
+									"fileName": "src/lib/Colors.ts",
+									"line": 156,
+									"character": 21
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "object"
+							}
+						},
+						{
+							"id": 51,
+							"name": "STYLES",
+							"kind": 2097152,
+							"kindString": "Object literal",
+							"flags": {
+								"isPrivate": true,
+								"isStatic": true,
+								"isExported": true
+							},
+							"comment": {
+								"shortText": "The style codes.",
+								"tags": [
+									{
+										"tag": "since",
+										"text": "0.0.1\n"
+									}
+								]
+							},
+							"children": [
+								{
+									"id": 53,
+									"name": "bold",
+									"kind": 32,
+									"kindString": "Variable",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "src/lib/Colors.ts",
+											"line": 175,
+											"character": 6
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									},
+									"defaultValue": "1"
+								},
+								{
+									"id": 54,
+									"name": "dim",
+									"kind": 32,
+									"kindString": "Variable",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "src/lib/Colors.ts",
+											"line": 176,
+											"character": 5
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									},
+									"defaultValue": "2"
+								},
+								{
+									"id": 58,
+									"name": "hidden",
+									"kind": 32,
+									"kindString": "Variable",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "src/lib/Colors.ts",
+											"line": 180,
+											"character": 8
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									},
+									"defaultValue": "8"
+								},
+								{
+									"id": 57,
+									"name": "inverse",
+									"kind": 32,
+									"kindString": "Variable",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "src/lib/Colors.ts",
+											"line": 179,
+											"character": 9
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									},
+									"defaultValue": "7"
+								},
+								{
+									"id": 55,
+									"name": "italic",
+									"kind": 32,
+									"kindString": "Variable",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "src/lib/Colors.ts",
+											"line": 177,
+											"character": 8
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									},
+									"defaultValue": "3"
+								},
+								{
+									"id": 52,
+									"name": "normal",
+									"kind": 32,
+									"kindString": "Variable",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "src/lib/Colors.ts",
+											"line": 174,
+											"character": 8
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									},
+									"defaultValue": "0"
+								},
+								{
+									"id": 59,
+									"name": "strikethrough",
+									"kind": 32,
+									"kindString": "Variable",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "src/lib/Colors.ts",
+											"line": 181,
+											"character": 15
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									},
+									"defaultValue": "9"
+								},
+								{
+									"id": 56,
+									"name": "underline",
+									"kind": 32,
+									"kindString": "Variable",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "src/lib/Colors.ts",
+											"line": 178,
+											"character": 11
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									},
+									"defaultValue": "4"
+								}
+							],
+							"groups": [
+								{
+									"title": "Variables",
+									"kind": 32,
+									"children": [
+										53,
+										54,
+										58,
+										57,
+										55,
+										52,
+										59,
+										56
+									]
+								}
+							],
+							"sources": [
+								{
+									"fileName": "src/lib/Colors.ts",
+									"line": 173,
+									"character": 22
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "object"
+							}
+						},
+						{
+							"id": 60,
+							"name": "TEXTS",
+							"kind": 2097152,
+							"kindString": "Object literal",
+							"flags": {
+								"isPrivate": true,
+								"isStatic": true,
+								"isExported": true
+							},
+							"comment": {
+								"shortText": "The text codes.",
+								"tags": [
+									{
+										"tag": "since",
+										"text": "0.0.1\n"
+									}
+								]
+							},
+							"children": [
+								{
+									"id": 61,
+									"name": "black",
+									"kind": 32,
+									"kindString": "Variable",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "src/lib/Colors.ts",
+											"line": 189,
+											"character": 7
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									},
+									"defaultValue": "30"
+								},
+								{
+									"id": 65,
+									"name": "blue",
+									"kind": 32,
+									"kindString": "Variable",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "src/lib/Colors.ts",
+											"line": 193,
+											"character": 6
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									},
+									"defaultValue": "34"
+								},
+								{
+									"id": 67,
+									"name": "cyan",
+									"kind": 32,
+									"kindString": "Variable",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "src/lib/Colors.ts",
+											"line": 195,
+											"character": 6
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									},
+									"defaultValue": "36"
+								},
+								{
+									"id": 70,
+									"name": "gray",
+									"kind": 32,
+									"kindString": "Variable",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "src/lib/Colors.ts",
+											"line": 198,
+											"character": 6
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									},
+									"defaultValue": "90"
+								},
+								{
+									"id": 63,
+									"name": "green",
+									"kind": 32,
+									"kindString": "Variable",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "src/lib/Colors.ts",
+											"line": 191,
+											"character": 7
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									},
+									"defaultValue": "32"
+								},
+								{
+									"id": 71,
+									"name": "grey",
+									"kind": 32,
+									"kindString": "Variable",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "src/lib/Colors.ts",
+											"line": 199,
+											"character": 6
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									},
+									"defaultValue": "90"
+								},
+								{
+									"id": 75,
+									"name": "lightblue",
+									"kind": 32,
+									"kindString": "Variable",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "src/lib/Colors.ts",
+											"line": 203,
+											"character": 11
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									},
+									"defaultValue": "94"
+								},
+								{
+									"id": 77,
+									"name": "lightcyan",
+									"kind": 32,
+									"kindString": "Variable",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "src/lib/Colors.ts",
+											"line": 205,
+											"character": 11
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									},
+									"defaultValue": "96"
+								},
+								{
+									"id": 68,
+									"name": "lightgray",
+									"kind": 32,
+									"kindString": "Variable",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "src/lib/Colors.ts",
+											"line": 196,
+											"character": 11
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									},
+									"defaultValue": "37"
+								},
+								{
+									"id": 73,
+									"name": "lightgreen",
+									"kind": 32,
+									"kindString": "Variable",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "src/lib/Colors.ts",
+											"line": 201,
+											"character": 12
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									},
+									"defaultValue": "92"
+								},
+								{
+									"id": 69,
+									"name": "lightgrey",
+									"kind": 32,
+									"kindString": "Variable",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "src/lib/Colors.ts",
+											"line": 197,
+											"character": 11
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									},
+									"defaultValue": "37"
+								},
+								{
+									"id": 76,
+									"name": "lightmagenta",
+									"kind": 32,
+									"kindString": "Variable",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "src/lib/Colors.ts",
+											"line": 204,
+											"character": 14
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									},
+									"defaultValue": "95"
+								},
+								{
+									"id": 72,
+									"name": "lightred",
+									"kind": 32,
+									"kindString": "Variable",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "src/lib/Colors.ts",
+											"line": 200,
+											"character": 10
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									},
+									"defaultValue": "91"
+								},
+								{
+									"id": 74,
+									"name": "lightyellow",
+									"kind": 32,
+									"kindString": "Variable",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "src/lib/Colors.ts",
+											"line": 202,
+											"character": 13
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									},
+									"defaultValue": "93"
+								},
+								{
+									"id": 66,
+									"name": "magenta",
+									"kind": 32,
+									"kindString": "Variable",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "src/lib/Colors.ts",
+											"line": 194,
+											"character": 9
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									},
+									"defaultValue": "35"
+								},
+								{
+									"id": 62,
+									"name": "red",
+									"kind": 32,
+									"kindString": "Variable",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "src/lib/Colors.ts",
+											"line": 190,
+											"character": 5
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									},
+									"defaultValue": "31"
+								},
+								{
+									"id": 78,
+									"name": "white",
+									"kind": 32,
+									"kindString": "Variable",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "src/lib/Colors.ts",
+											"line": 206,
+											"character": 7
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									},
+									"defaultValue": "97"
+								},
+								{
+									"id": 64,
+									"name": "yellow",
+									"kind": 32,
+									"kindString": "Variable",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "src/lib/Colors.ts",
+											"line": 192,
+											"character": 8
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									},
+									"defaultValue": "33"
+								}
+							],
+							"groups": [
+								{
+									"title": "Variables",
+									"kind": 32,
+									"children": [
+										61,
+										65,
+										67,
+										70,
+										63,
+										71,
+										75,
+										77,
+										68,
+										73,
+										69,
+										76,
+										72,
+										74,
+										66,
+										62,
+										78,
+										64
+									]
+								}
+							],
+							"sources": [
+								{
+									"fileName": "src/lib/Colors.ts",
+									"line": 188,
+									"character": 21
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "object"
+							}
+						}
+					],
+					"groups": [
+						{
+							"title": "Constructors",
+							"kind": 512,
+							"children": [
+								12
+							]
+						},
+						{
+							"title": "Properties",
+							"kind": 1024,
+							"children": [
+								11,
+								10,
+								39
+							]
+						},
+						{
+							"title": "Methods",
+							"kind": 2048,
+							"children": [
+								15,
+								25,
+								18,
+								32
+							]
+						},
+						{
+							"title": "Object literals",
+							"kind": 2097152,
+							"children": [
+								79,
+								40,
+								51,
+								60
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "src/lib/Colors.ts",
+							"line": 60,
+							"character": 19
+						}
+					]
+				},
+				{
+					"id": 6,
+					"name": "ColorsFormatData",
+					"kind": 256,
+					"kindString": "Interface",
+					"flags": {
+						"isExported": true
+					},
+					"comment": {
+						"shortText": "The format data for Color.",
+						"tags": [
+							{
+								"tag": "since",
+								"text": "0.0.1\n"
+							}
+						]
+					},
+					"children": [
+						{
+							"id": 8,
+							"name": "closing",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true,
+								"isOptional": true
+							},
+							"comment": {
+								"shortText": "The closing format data styles.",
+								"tags": [
+									{
+										"tag": "since",
+										"text": "0.0.1\n"
+									}
+								]
+							},
+							"sources": [
+								{
+									"fileName": "src/lib/Colors.ts",
+									"line": 39,
+									"character": 8
+								}
+							],
+							"type": {
+								"type": "array",
+								"elementType": {
+									"type": "intrinsic",
+									"name": "number"
+								}
+							}
+						},
+						{
+							"id": 7,
+							"name": "opening",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true,
+								"isOptional": true
+							},
+							"comment": {
+								"shortText": "The opening format data styles.",
+								"tags": [
+									{
+										"tag": "since",
+										"text": "0.0.1\n"
+									}
+								]
+							},
+							"sources": [
+								{
+									"fileName": "src/lib/Colors.ts",
+									"line": 34,
+									"character": 8
+								}
+							],
+							"type": {
+								"type": "array",
+								"elementType": {
+									"type": "intrinsic",
+									"name": "number"
+								}
+							}
+						}
+					],
+					"groups": [
+						{
+							"title": "Properties",
+							"kind": 1024,
+							"children": [
+								8,
+								7
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "src/lib/Colors.ts",
+							"line": 29,
+							"character": 33
+						}
+					]
+				},
+				{
+					"id": 2,
+					"name": "ColorsFormatOptions",
+					"kind": 256,
+					"kindString": "Interface",
+					"flags": {
+						"isExported": true
+					},
+					"comment": {
+						"shortText": "The format options for Color.",
+						"tags": [
+							{
+								"tag": "since",
+								"text": "0.0.1\n"
+							}
+						]
+					},
+					"children": [
+						{
+							"id": 3,
+							"name": "background",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true,
+								"isOptional": true
+							},
+							"comment": {
+								"shortText": "The background color. Can be a basic string like \"red\", a hex string, or a RGB array.",
+								"tags": [
+									{
+										"tag": "since",
+										"text": "0.0.1\n"
+									}
+								]
+							},
+							"sources": [
+								{
+									"fileName": "src/lib/Colors.ts",
+									"line": 10,
+									"character": 11
+								}
+							],
+							"type": {
+								"type": "reference",
+								"id": 98,
+								"name": "Color"
+							}
+						},
+						{
+							"id": 4,
+							"name": "style",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true,
+								"isOptional": true
+							},
+							"comment": {
+								"shortText": "Style or Styles to apply.",
+								"tags": [
+									{
+										"tag": "since",
+										"text": "0.0.1\n"
+									}
+								]
+							},
+							"sources": [
+								{
+									"fileName": "src/lib/Colors.ts",
+									"line": 16,
+									"character": 6
+								}
+							],
+							"type": {
+								"type": "union",
+								"types": [
+									{
+										"type": "reference",
+										"id": 99,
+										"name": "Style"
+									},
+									{
+										"type": "array",
+										"elementType": {
+											"type": "reference",
+											"id": 99,
+											"name": "Style"
+										}
+									}
+								]
+							}
+						},
+						{
+							"id": 5,
+							"name": "text",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true,
+								"isOptional": true
+							},
+							"comment": {
+								"shortText": "The text color. Can be a basic string like \"red\", a hex string, a RGB array, or HSL array.",
+								"tags": [
+									{
+										"tag": "since",
+										"text": "0.0.1\n"
+									}
+								]
+							},
+							"sources": [
+								{
+									"fileName": "src/lib/Colors.ts",
+									"line": 22,
+									"character": 5
+								}
+							],
+							"type": {
+								"type": "reference",
+								"id": 98,
+								"name": "Color"
+							}
+						}
+					],
+					"groups": [
+						{
+							"title": "Properties",
+							"kind": 1024,
+							"children": [
+								3,
+								4,
+								5
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "src/lib/Colors.ts",
+							"line": 5,
+							"character": 36
+						}
+					]
+				},
+				{
+					"id": 98,
+					"name": "Color",
+					"kind": 4194304,
+					"kindString": "Type alias",
+					"flags": {
+						"isExported": true
+					},
+					"comment": {
+						"shortText": "The color to apply.",
+						"tags": [
+							{
+								"tag": "since",
+								"text": "0.0.1\n"
+							}
+						]
+					},
+					"sources": [
+						{
+							"fileName": "src/lib/Colors.ts",
+							"line": 46,
+							"character": 17
+						}
+					],
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "stringLiteral",
+								"value": "black"
+							},
+							{
+								"type": "stringLiteral",
+								"value": "green"
+							},
+							{
+								"type": "stringLiteral",
+								"value": "yellow"
+							},
+							{
+								"type": "stringLiteral",
+								"value": "blue"
+							},
+							{
+								"type": "stringLiteral",
+								"value": "red"
+							},
+							{
+								"type": "stringLiteral",
+								"value": "magenta"
+							},
+							{
+								"type": "stringLiteral",
+								"value": "cyan"
+							},
+							{
+								"type": "stringLiteral",
+								"value": "gray"
+							},
+							{
+								"type": "stringLiteral",
+								"value": "grey"
+							},
+							{
+								"type": "stringLiteral",
+								"value": "lightgray"
+							},
+							{
+								"type": "stringLiteral",
+								"value": "lightgrey"
+							},
+							{
+								"type": "stringLiteral",
+								"value": "lightred"
+							},
+							{
+								"type": "stringLiteral",
+								"value": "lightgreen"
+							},
+							{
+								"type": "stringLiteral",
+								"value": "lightyellow"
+							},
+							{
+								"type": "stringLiteral",
+								"value": "lightblue"
+							},
+							{
+								"type": "stringLiteral",
+								"value": "lightmagenta"
+							},
+							{
+								"type": "stringLiteral",
+								"value": "lightcyan"
+							},
+							{
+								"type": "stringLiteral",
+								"value": "white"
+							}
+						]
+					}
+				},
+				{
+					"id": 99,
+					"name": "Style",
+					"kind": 4194304,
+					"kindString": "Type alias",
+					"flags": {
+						"isExported": true
+					},
+					"comment": {
+						"shortText": "The style or styles to apply.",
+						"tags": [
+							{
+								"tag": "since",
+								"text": "0.0.1\n"
+							}
+						]
+					},
+					"sources": [
+						{
+							"fileName": "src/lib/Colors.ts",
+							"line": 54,
+							"character": 17
+						}
+					],
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "stringLiteral",
+								"value": "normal"
+							},
+							{
+								"type": "stringLiteral",
+								"value": "bold"
+							},
+							{
+								"type": "stringLiteral",
+								"value": "dim"
+							},
+							{
+								"type": "stringLiteral",
+								"value": "italic"
+							},
+							{
+								"type": "stringLiteral",
+								"value": "underline"
+							},
+							{
+								"type": "stringLiteral",
+								"value": "inverse"
+							},
+							{
+								"type": "stringLiteral",
+								"value": "hidden"
+							},
+							{
+								"type": "stringLiteral",
+								"value": "strikethrough"
+							}
+						]
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Classes",
+					"kind": 128,
+					"children": [
+						9
+					]
+				},
+				{
+					"title": "Interfaces",
+					"kind": 256,
+					"children": [
+						6,
+						2
+					]
+				},
+				{
+					"title": "Type aliases",
+					"kind": 4194304,
+					"children": [
+						98,
+						99
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "src/lib/Colors.ts",
+					"line": 1,
+					"character": 0
+				}
+			]
+		},
+		{
+			"id": 134,
+			"name": "\"src/lib/KlasaConsole\"",
+			"kind": 1,
+			"kindString": "Module",
+			"flags": {
+				"isExported": true
+			},
+			"originalName": "/home/runner/work/console/console/src/lib/KlasaConsole.ts",
+			"children": [
+				{
+					"id": 155,
+					"name": "KlasaConsole",
+					"kind": 128,
+					"kindString": "Class",
+					"flags": {
+						"isExported": true
+					},
+					"comment": {
+						"shortText": "Klasa's console class, extends NodeJS Console class.",
+						"tags": [
+							{
+								"tag": "since",
+								"text": "0.0.1\n"
+							}
+						]
+					},
+					"children": [
+						{
+							"id": 160,
+							"name": "constructor",
+							"kind": 512,
+							"kindString": "Constructor",
+							"flags": {
+								"isPublic": true,
+								"isExported": true
+							},
+							"comment": {
+								"tags": [
+									{
+										"tag": "since",
+										"text": "0.0.1"
+									}
+								]
+							},
+							"signatures": [
+								{
+									"id": 161,
+									"name": "new KlasaConsole",
+									"kind": 16384,
+									"kindString": "Constructor signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"tags": [
+											{
+												"tag": "since",
+												"text": "0.0.1"
+											}
+										]
+									},
+									"parameters": [
+										{
+											"id": 162,
+											"name": "options",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"comment": {
+												"shortText": "The options for the console.\n"
+											},
+											"type": {
+												"type": "reference",
+												"typeArguments": [
+													{
+														"type": "reference",
+														"id": 135,
+														"name": "ConsoleOptions"
+													}
+												],
+												"name": "Partial"
+											},
+											"defaultValue": "{}"
+										}
+									],
+									"type": {
+										"type": "reference",
+										"id": 155,
+										"name": "KlasaConsole"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "src/lib/KlasaConsole.ts",
+									"line": 154,
+									"character": 36
+								}
+							]
+						},
+						{
+							"id": 190,
+							"name": "Console",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "node_modules/@types/node/globals.d.ts",
+									"line": 3,
+									"character": 11
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "ConsoleConstructor"
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 190,
+								"name": "Console.Console"
+							}
+						},
+						{
+							"id": 157,
+							"name": "colors",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isPublic": true,
+								"isExported": true
+							},
+							"comment": {
+								"shortText": "The colors for this console.",
+								"tags": [
+									{
+										"tag": "since",
+										"text": "0.0.1\n"
+									}
+								]
+							},
+							"sources": [
+								{
+									"fileName": "src/lib/KlasaConsole.ts",
+									"line": 142,
+									"character": 14
+								}
+							],
+							"type": {
+								"type": "reference",
+								"typeArguments": [
+									{
+										"type": "reference",
+										"id": 250,
+										"name": "ConsoleOutputType"
+									},
+									{
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "intrinsic",
+												"name": "string"
+											},
+											{
+												"type": "reference",
+												"id": 9,
+												"name": "Colors"
+											}
+										],
+										"name": "Record"
+									}
+								],
+								"name": "Record"
+							}
+						},
+						{
+							"id": 159,
+							"name": "stdout",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isPrivate": true,
+								"isExported": true
+							},
+							"comment": {
+								"shortText": "The standard output stream for this console, defaulted to process.stderr.",
+								"tags": [
+									{
+										"tag": "since",
+										"text": "0.0.1\n"
+									}
+								]
+							},
+							"sources": [
+								{
+									"fileName": "src/lib/KlasaConsole.ts",
+									"line": 154,
+									"character": 15
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "WriteStream"
+							}
+						},
+						{
+							"id": 156,
+							"name": "template",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isPublic": true,
+								"isExported": true
+							},
+							"comment": {
+								"shortText": "Whether or not timestamps should be enabled for this console.",
+								"tags": [
+									{
+										"tag": "since",
+										"text": "0.0.1\n"
+									}
+								]
+							},
+							"sources": [
+								{
+									"fileName": "src/lib/KlasaConsole.ts",
+									"line": 136,
+									"character": 16
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "Timestamp"
+							}
+						},
+						{
+							"id": 158,
+							"name": "utc",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isPublic": true,
+								"isExported": true
+							},
+							"comment": {
+								"shortText": "Whether the timestamp should be in utc or not.",
+								"tags": [
+									{
+										"tag": "since",
+										"text": "0.0.1\n"
+									}
+								]
+							},
+							"sources": [
+								{
+									"fileName": "src/lib/KlasaConsole.ts",
+									"line": 148,
+									"character": 11
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "boolean"
+							}
+						},
+						{
+							"id": 163,
+							"name": "timestamp",
+							"kind": 262144,
+							"kindString": "Accessor",
+							"flags": {
+								"isPrivate": true,
+								"isExported": true
+							},
+							"comment": {
+								"shortText": "The timestamp to use.",
+								"tags": [
+									{
+										"tag": "since",
+										"text": "0.0.1\n"
+									}
+								]
+							},
+							"getSignature": [
+								{
+									"id": 164,
+									"name": "__get",
+									"kind": 524288,
+									"kindString": "Get signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "The timestamp to use.",
+										"tags": [
+											{
+												"tag": "since",
+												"text": "0.0.1\n"
+											}
+										]
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "src/lib/KlasaConsole.ts",
+									"line": 183,
+									"character": 22
+								}
+							]
+						},
+						{
+							"id": 191,
+							"name": "assert",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 192,
+									"name": "assert",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "A simple assertion test that verifies whether `value` is truthy.\nIf it is not, an `AssertionError` is thrown.\nIf provided, the error `message` is formatted using `util.format()` and used as the error message."
+									},
+									"parameters": [
+										{
+											"id": 193,
+											"name": "value",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "any"
+											}
+										},
+										{
+											"id": 194,
+											"name": "message",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true,
+												"isOptional": true
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											}
+										},
+										{
+											"id": 195,
+											"name": "optionalParams",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true,
+												"isRest": true
+											},
+											"type": {
+												"type": "array",
+												"elementType": {
+													"type": "intrinsic",
+													"name": "any"
+												}
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 191,
+										"name": "Console.assert"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/@types/node/globals.d.ts",
+									"line": 9,
+									"character": 10
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 191,
+								"name": "Console.assert"
+							}
+						},
+						{
+							"id": 196,
+							"name": "clear",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 197,
+									"name": "clear",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "When `stdout` is a TTY, calling `console.clear()` will attempt to clear the TTY.\nWhen `stdout` is not a TTY, this method does nothing."
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 196,
+										"name": "Console.clear"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/@types/node/globals.d.ts",
+									"line": 14,
+									"character": 9
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 196,
+								"name": "Console.clear"
+							}
+						},
+						{
+							"id": 198,
+							"name": "count",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 199,
+									"name": "count",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Maintains an internal counter specific to `label` and outputs to `stdout` the number of times `console.count()` has been called with the given `label`."
+									},
+									"parameters": [
+										{
+											"id": 200,
+											"name": "label",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true,
+												"isOptional": true
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 198,
+										"name": "Console.count"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/@types/node/globals.d.ts",
+									"line": 18,
+									"character": 9
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 198,
+								"name": "Console.count"
+							}
+						},
+						{
+							"id": 201,
+							"name": "countReset",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 202,
+									"name": "countReset",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Resets the internal counter specific to `label`."
+									},
+									"parameters": [
+										{
+											"id": 203,
+											"name": "label",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true,
+												"isOptional": true
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 201,
+										"name": "Console.countReset"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/@types/node/globals.d.ts",
+									"line": 22,
+									"character": 14
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 201,
+								"name": "Console.countReset"
+							}
+						},
+						{
+							"id": 178,
+							"name": "debug",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isPublic": true,
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 179,
+									"name": "debug",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Calls an error write with everything to the console/writable stream.",
+										"tags": [
+											{
+												"tag": "since",
+												"text": "0.0.1"
+											}
+										]
+									},
+									"parameters": [
+										{
+											"id": 180,
+											"name": "data",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true,
+												"isRest": true
+											},
+											"comment": {
+												"text": "The data we want to print\n"
+											},
+											"type": {
+												"type": "typeOperator",
+												"operator": "keyof",
+												"target": {
+													"type": "array",
+													"elementType": {
+														"type": "intrinsic",
+														"name": "unknown"
+													}
+												}
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									},
+									"overwrites": {
+										"type": "reference",
+										"name": "Console.debug"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "src/lib/KlasaConsole.ts",
+									"line": 233,
+									"character": 13
+								}
+							],
+							"overwrites": {
+								"type": "reference",
+								"name": "Console.debug"
+							}
+						},
+						{
+							"id": 204,
+							"name": "dir",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 205,
+									"name": "dir",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Uses {@link util.inspect()} on `obj` and prints the resulting string to `stdout`.\nThis function bypasses any custom `inspect()` function defined on `obj`."
+									},
+									"parameters": [
+										{
+											"id": 206,
+											"name": "obj",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "any"
+											}
+										},
+										{
+											"id": 207,
+											"name": "options",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true,
+												"isOptional": true
+											},
+											"type": {
+												"type": "reference",
+												"name": "InspectOptions"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 204,
+										"name": "Console.dir"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/@types/node/globals.d.ts",
+									"line": 31,
+									"character": 7
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 204,
+								"name": "Console.dir"
+							}
+						},
+						{
+							"id": 208,
+							"name": "dirxml",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 209,
+									"name": "dirxml",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "This method calls {@link console.log()} passing it the arguments received. Please note that this method does not produce any XML formatting"
+									},
+									"parameters": [
+										{
+											"id": 210,
+											"name": "data",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true,
+												"isRest": true
+											},
+											"type": {
+												"type": "array",
+												"elementType": {
+													"type": "intrinsic",
+													"name": "any"
+												}
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 208,
+										"name": "Console.dirxml"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/@types/node/globals.d.ts",
+									"line": 35,
+									"character": 10
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 208,
+								"name": "Console.dirxml"
+							}
+						},
+						{
+							"id": 175,
+							"name": "error",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isPublic": true,
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 176,
+									"name": "error",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Calls an error write with everything to the console/writable stream.",
+										"tags": [
+											{
+												"tag": "since",
+												"text": "0.0.1"
+											}
+										]
+									},
+									"parameters": [
+										{
+											"id": 177,
+											"name": "data",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true,
+												"isRest": true
+											},
+											"comment": {
+												"text": "The data we want to print\n"
+											},
+											"type": {
+												"type": "typeOperator",
+												"operator": "keyof",
+												"target": {
+													"type": "array",
+													"elementType": {
+														"type": "intrinsic",
+														"name": "unknown"
+													}
+												}
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									},
+									"overwrites": {
+										"type": "reference",
+										"name": "Console.error"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "src/lib/KlasaConsole.ts",
+									"line": 224,
+									"character": 13
+								}
+							],
+							"overwrites": {
+								"type": "reference",
+								"name": "Console.error"
+							}
+						},
+						{
+							"id": 211,
+							"name": "group",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 212,
+									"name": "group",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Increases indentation of subsequent lines by two spaces.\nIf one or more `label`s are provided, those are printed first without the additional indentation."
+									},
+									"parameters": [
+										{
+											"id": 213,
+											"name": "label",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true,
+												"isRest": true
+											},
+											"type": {
+												"type": "array",
+												"elementType": {
+													"type": "intrinsic",
+													"name": "any"
+												}
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 211,
+										"name": "Console.group"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/@types/node/globals.d.ts",
+									"line": 44,
+									"character": 9
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 211,
+								"name": "Console.group"
+							}
+						},
+						{
+							"id": 214,
+							"name": "groupCollapsed",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 215,
+									"name": "groupCollapsed",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "The `console.groupCollapsed()` function is an alias for {@link console.group()}."
+									},
+									"parameters": [
+										{
+											"id": 216,
+											"name": "label",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true,
+												"isRest": true
+											},
+											"type": {
+												"type": "array",
+												"elementType": {
+													"type": "intrinsic",
+													"name": "any"
+												}
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 214,
+										"name": "Console.groupCollapsed"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/@types/node/globals.d.ts",
+									"line": 48,
+									"character": 18
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 214,
+								"name": "Console.groupCollapsed"
+							}
+						},
+						{
+							"id": 217,
+							"name": "groupEnd",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 218,
+									"name": "groupEnd",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Decreases indentation of subsequent lines by two spaces."
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 217,
+										"name": "Console.groupEnd"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/@types/node/globals.d.ts",
+									"line": 52,
+									"character": 12
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 217,
+								"name": "Console.groupEnd"
+							}
+						},
+						{
+							"id": 219,
+							"name": "info",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 220,
+									"name": "info",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "The {@link console.info()} function is an alias for {@link console.log()}."
+									},
+									"parameters": [
+										{
+											"id": 221,
+											"name": "message",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true,
+												"isOptional": true
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "any"
+											}
+										},
+										{
+											"id": 222,
+											"name": "optionalParams",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true,
+												"isRest": true
+											},
+											"type": {
+												"type": "array",
+												"elementType": {
+													"type": "intrinsic",
+													"name": "any"
+												}
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 219,
+										"name": "Console.info"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/@types/node/globals.d.ts",
+									"line": 56,
+									"character": 8
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 219,
+								"name": "Console.info"
+							}
+						},
+						{
+							"id": 169,
+							"name": "log",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isPublic": true,
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 170,
+									"name": "log",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Calls a log write with everything to the console/writable stream.",
+										"tags": [
+											{
+												"tag": "since",
+												"text": "0.0.1"
+											}
+										]
+									},
+									"parameters": [
+										{
+											"id": 171,
+											"name": "data",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true,
+												"isRest": true
+											},
+											"comment": {
+												"text": "The data we want to print\n"
+											},
+											"type": {
+												"type": "typeOperator",
+												"operator": "keyof",
+												"target": {
+													"type": "array",
+													"elementType": {
+														"type": "intrinsic",
+														"name": "unknown"
+													}
+												}
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									},
+									"overwrites": {
+										"type": "reference",
+										"name": "Console.log"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "src/lib/KlasaConsole.ts",
+									"line": 206,
+									"character": 11
+								}
+							],
+							"overwrites": {
+								"type": "reference",
+								"name": "Console.log"
+							}
+						},
+						{
+							"id": 241,
+							"name": "profile",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 242,
+									"name": "profile",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "This method does not display anything unless used in the inspector.\n Starts a JavaScript CPU profile with an optional label."
+									},
+									"parameters": [
+										{
+											"id": 243,
+											"name": "label",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true,
+												"isOptional": true
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 241,
+										"name": "Console.profile"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/@types/node/globals.d.ts",
+									"line": 92,
+									"character": 11
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 241,
+								"name": "Console.profile"
+							}
+						},
+						{
+							"id": 244,
+							"name": "profileEnd",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 245,
+									"name": "profileEnd",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "This method does not display anything unless used in the inspector.\n Stops the current JavaScript CPU profiling session if one has been started and prints the report to the Profiles panel of the inspector."
+									},
+									"parameters": [
+										{
+											"id": 246,
+											"name": "label",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true,
+												"isOptional": true
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 244,
+										"name": "Console.profileEnd"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/@types/node/globals.d.ts",
+									"line": 97,
+									"character": 14
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 244,
+								"name": "Console.profileEnd"
+							}
+						},
+						{
+							"id": 223,
+							"name": "table",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 224,
+									"name": "table",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "This method does not display anything unless used in the inspector.\n Prints to `stdout` the array `array` formatted as a table."
+									},
+									"parameters": [
+										{
+											"id": 225,
+											"name": "tabularData",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "any"
+											}
+										},
+										{
+											"id": 226,
+											"name": "properties",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true,
+												"isOptional": true
+											},
+											"type": {
+												"type": "array",
+												"elementType": {
+													"type": "intrinsic",
+													"name": "string"
+												}
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 223,
+										"name": "Console.table"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/@types/node/globals.d.ts",
+									"line": 65,
+									"character": 9
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 223,
+								"name": "Console.table"
+							}
+						},
+						{
+							"id": 227,
+							"name": "time",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 228,
+									"name": "time",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Starts a timer that can be used to compute the duration of an operation. Timers are identified by a unique `label`."
+									},
+									"parameters": [
+										{
+											"id": 229,
+											"name": "label",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true,
+												"isOptional": true
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 227,
+										"name": "Console.time"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/@types/node/globals.d.ts",
+									"line": 69,
+									"character": 8
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 227,
+								"name": "Console.time"
+							}
+						},
+						{
+							"id": 230,
+							"name": "timeEnd",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 231,
+									"name": "timeEnd",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Stops a timer that was previously started by calling {@link console.time()} and prints the result to `stdout`."
+									},
+									"parameters": [
+										{
+											"id": 232,
+											"name": "label",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true,
+												"isOptional": true
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 230,
+										"name": "Console.timeEnd"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/@types/node/globals.d.ts",
+									"line": 73,
+									"character": 11
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 230,
+								"name": "Console.timeEnd"
+							}
+						},
+						{
+							"id": 233,
+							"name": "timeLog",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 234,
+									"name": "timeLog",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "For a timer that was previously started by calling {@link console.time()}, prints the elapsed time and other `data` arguments to `stdout`."
+									},
+									"parameters": [
+										{
+											"id": 235,
+											"name": "label",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true,
+												"isOptional": true
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											}
+										},
+										{
+											"id": 236,
+											"name": "data",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true,
+												"isRest": true
+											},
+											"type": {
+												"type": "array",
+												"elementType": {
+													"type": "intrinsic",
+													"name": "any"
+												}
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 233,
+										"name": "Console.timeLog"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/@types/node/globals.d.ts",
+									"line": 77,
+									"character": 11
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 233,
+								"name": "Console.timeLog"
+							}
+						},
+						{
+							"id": 247,
+							"name": "timeStamp",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 248,
+									"name": "timeStamp",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "This method does not display anything unless used in the inspector.\n Adds an event with the label `label` to the Timeline panel of the inspector."
+									},
+									"parameters": [
+										{
+											"id": 249,
+											"name": "label",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true,
+												"isOptional": true
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 247,
+										"name": "Console.timeStamp"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/@types/node/globals.d.ts",
+									"line": 102,
+									"character": 13
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 247,
+								"name": "Console.timeStamp"
+							}
+						},
+						{
+							"id": 237,
+							"name": "trace",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 238,
+									"name": "trace",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Prints to `stderr` the string 'Trace :', followed by the {@link util.format()} formatted message and stack trace to the current position in the code."
+									},
+									"parameters": [
+										{
+											"id": 239,
+											"name": "message",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true,
+												"isOptional": true
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "any"
+											}
+										},
+										{
+											"id": 240,
+											"name": "optionalParams",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true,
+												"isRest": true
+											},
+											"type": {
+												"type": "array",
+												"elementType": {
+													"type": "intrinsic",
+													"name": "any"
+												}
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 237,
+										"name": "Console.trace"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/@types/node/globals.d.ts",
+									"line": 81,
+									"character": 9
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 237,
+								"name": "Console.trace"
+							}
+						},
+						{
+							"id": 181,
+							"name": "verbose",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isPublic": true,
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 182,
+									"name": "verbose",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Calls a verbose write with everything to the console/writable stream.",
+										"tags": [
+											{
+												"tag": "since",
+												"text": "0.0.1"
+											}
+										]
+									},
+									"parameters": [
+										{
+											"id": 183,
+											"name": "data",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true,
+												"isRest": true
+											},
+											"comment": {
+												"text": "The data we want to print\n"
+											},
+											"type": {
+												"type": "typeOperator",
+												"operator": "keyof",
+												"target": {
+													"type": "array",
+													"elementType": {
+														"type": "intrinsic",
+														"name": "unknown"
+													}
+												}
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "src/lib/KlasaConsole.ts",
+									"line": 242,
+									"character": 15
+								}
+							]
+						},
+						{
+							"id": 172,
+							"name": "warn",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isPublic": true,
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 173,
+									"name": "warn",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Calls a warn write with everything to the console/writable stream.",
+										"tags": [
+											{
+												"tag": "since",
+												"text": "0.0.1"
+											}
+										]
+									},
+									"parameters": [
+										{
+											"id": 174,
+											"name": "data",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true,
+												"isRest": true
+											},
+											"comment": {
+												"text": "The data we want to print\n"
+											},
+											"type": {
+												"type": "typeOperator",
+												"operator": "keyof",
+												"target": {
+													"type": "array",
+													"elementType": {
+														"type": "intrinsic",
+														"name": "unknown"
+													}
+												}
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									},
+									"overwrites": {
+										"type": "reference",
+										"name": "Console.warn"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "src/lib/KlasaConsole.ts",
+									"line": 215,
+									"character": 12
+								}
+							],
+							"overwrites": {
+								"type": "reference",
+								"name": "Console.warn"
+							}
+						},
+						{
+							"id": 165,
+							"name": "write",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isProtected": true,
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 166,
+									"name": "write",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Logs everything to the console/writable stream.",
+										"tags": [
+											{
+												"tag": "since",
+												"text": "0.0.1"
+											}
+										]
+									},
+									"parameters": [
+										{
+											"id": 167,
+											"name": "data",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"comment": {
+												"text": "The data we want to print"
+											},
+											"type": {
+												"type": "typeOperator",
+												"operator": "keyof",
+												"target": {
+													"type": "array",
+													"elementType": {
+														"type": "intrinsic",
+														"name": "unknown"
+													}
+												}
+											}
+										},
+										{
+											"id": 168,
+											"name": "type",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"comment": {
+												"text": "The type of log, particularly useful for coloring\n"
+											},
+											"type": {
+												"type": "reference",
+												"id": 250,
+												"name": "ConsoleOutputType"
+											},
+											"defaultValue": "\"log\""
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "src/lib/KlasaConsole.ts",
+									"line": 193,
+									"character": 16
+								}
+							]
+						},
+						{
+							"id": 184,
+							"name": "wtf",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isPublic": true,
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 185,
+									"name": "wtf",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Calls a wtf (what a terrible failure) write with everything to the console/writable stream.",
+										"tags": [
+											{
+												"tag": "since",
+												"text": "0.0.1"
+											}
+										]
+									},
+									"parameters": [
+										{
+											"id": 186,
+											"name": "data",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true,
+												"isRest": true
+											},
+											"comment": {
+												"text": "The data we want to print\n"
+											},
+											"type": {
+												"type": "typeOperator",
+												"operator": "keyof",
+												"target": {
+													"type": "array",
+													"elementType": {
+														"type": "intrinsic",
+														"name": "unknown"
+													}
+												}
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "src/lib/KlasaConsole.ts",
+									"line": 251,
+									"character": 11
+								}
+							]
+						},
+						{
+							"id": 187,
+							"name": "_flatten",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isPrivate": true,
+								"isStatic": true,
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 188,
+									"name": "_flatten",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Flattens data into a readable string.",
+										"tags": [
+											{
+												"tag": "since",
+												"text": "0.0.1"
+											}
+										]
+									},
+									"parameters": [
+										{
+											"id": 189,
+											"name": "data",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"comment": {
+												"text": "Data to flatten, could be anything\n"
+											},
+											"type": {
+												"type": "union",
+												"types": [
+													{
+														"type": "intrinsic",
+														"name": "unknown"
+													},
+													{
+														"type": "typeOperator",
+														"operator": "keyof",
+														"target": {
+															"type": "array",
+															"elementType": {
+																"type": "intrinsic",
+																"name": "unknown"
+															}
+														}
+													}
+												]
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "src/lib/KlasaConsole.ts",
+									"line": 260,
+									"character": 24
+								}
+							]
+						}
+					],
+					"groups": [
+						{
+							"title": "Constructors",
+							"kind": 512,
+							"children": [
+								160
+							]
+						},
+						{
+							"title": "Properties",
+							"kind": 1024,
+							"children": [
+								190,
+								157,
+								159,
+								156,
+								158
+							]
+						},
+						{
+							"title": "Accessors",
+							"kind": 262144,
+							"children": [
+								163
+							]
+						},
+						{
+							"title": "Methods",
+							"kind": 2048,
+							"children": [
+								191,
+								196,
+								198,
+								201,
+								178,
+								204,
+								208,
+								175,
+								211,
+								214,
+								217,
+								219,
+								169,
+								241,
+								244,
+								223,
+								227,
+								230,
+								233,
+								247,
+								237,
+								181,
+								172,
+								165,
+								184,
+								187
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "src/lib/KlasaConsole.ts",
+							"line": 130,
+							"character": 25
+						}
+					],
+					"extendedTypes": [
+						{
+							"type": "reference",
+							"name": "Console"
+						}
+					]
+				},
+				{
+					"id": 142,
+					"name": "ConsoleColorsOptions",
+					"kind": 256,
+					"kindString": "Interface",
+					"flags": {
+						"isExported": true
+					},
+					"comment": {
+						"shortText": "The console color options.",
+						"tags": [
+							{
+								"tag": "since",
+								"text": "0.0.1\n"
+							}
+						]
+					},
+					"children": [
+						{
+							"id": 143,
+							"name": "debug",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true
+							},
+							"comment": {
+								"shortText": "An object containing a message and time color object.",
+								"tags": [
+									{
+										"tag": "since",
+										"text": "0.0.1\n"
+									}
+								]
+							},
+							"sources": [
+								{
+									"fileName": "src/lib/KlasaConsole.ts",
+									"line": 69,
+									"character": 6
+								}
+							],
+							"type": {
+								"type": "reference",
+								"id": 150,
+								"name": "ConsoleOptionsColor"
+							}
+						},
+						{
+							"id": 144,
+							"name": "error",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true
+							},
+							"comment": {
+								"shortText": "An object containing a message and time color object.",
+								"tags": [
+									{
+										"tag": "since",
+										"text": "0.0.1\n"
+									}
+								]
+							},
+							"sources": [
+								{
+									"fileName": "src/lib/KlasaConsole.ts",
+									"line": 75,
+									"character": 6
+								}
+							],
+							"type": {
+								"type": "reference",
+								"id": 150,
+								"name": "ConsoleOptionsColor"
+							}
+						},
+						{
+							"id": 145,
+							"name": "log",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true
+							},
+							"comment": {
+								"shortText": "An object containing a message and time color object.",
+								"tags": [
+									{
+										"tag": "since",
+										"text": "0.0.1\n"
+									}
+								]
+							},
+							"sources": [
+								{
+									"fileName": "src/lib/KlasaConsole.ts",
+									"line": 81,
+									"character": 4
+								}
+							],
+							"type": {
+								"type": "reference",
+								"id": 150,
+								"name": "ConsoleOptionsColor"
+							}
+						},
+						{
+							"id": 146,
+							"name": "verbose",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true
+							},
+							"comment": {
+								"shortText": "An object containing a message and time color object.",
+								"tags": [
+									{
+										"tag": "since",
+										"text": "0.0.1\n"
+									}
+								]
+							},
+							"sources": [
+								{
+									"fileName": "src/lib/KlasaConsole.ts",
+									"line": 87,
+									"character": 8
+								}
+							],
+							"type": {
+								"type": "reference",
+								"id": 150,
+								"name": "ConsoleOptionsColor"
+							}
+						},
+						{
+							"id": 147,
+							"name": "warn",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true
+							},
+							"comment": {
+								"shortText": "An object containing a message and time color object.",
+								"tags": [
+									{
+										"tag": "since",
+										"text": "0.0.1\n"
+									}
+								]
+							},
+							"sources": [
+								{
+									"fileName": "src/lib/KlasaConsole.ts",
+									"line": 93,
+									"character": 5
+								}
+							],
+							"type": {
+								"type": "reference",
+								"id": 150,
+								"name": "ConsoleOptionsColor"
+							}
+						},
+						{
+							"id": 148,
+							"name": "wtf",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true
+							},
+							"comment": {
+								"shortText": "An object containing a message and time color object.",
+								"tags": [
+									{
+										"tag": "since",
+										"text": "0.0.1\n"
+									}
+								]
+							},
+							"sources": [
+								{
+									"fileName": "src/lib/KlasaConsole.ts",
+									"line": 99,
+									"character": 4
+								}
+							],
+							"type": {
+								"type": "reference",
+								"id": 150,
+								"name": "ConsoleOptionsColor"
+							}
+						}
+					],
+					"groups": [
+						{
+							"title": "Properties",
+							"kind": 1024,
+							"children": [
+								143,
+								144,
+								145,
+								146,
+								147,
+								148
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "src/lib/KlasaConsole.ts",
+							"line": 64,
+							"character": 37
+						}
+					],
+					"extendedTypes": [
+						{
+							"type": "reflection",
+							"declaration": {
+								"id": 149,
+								"name": "__type",
+								"kind": 65536,
+								"kindString": "Type literal",
+								"flags": {
+									"isExported": true
+								},
+								"sources": [
+									{
+										"fileName": "src/lib/KlasaConsole.ts",
+										"line": 64,
+										"character": 45
+									}
+								]
+							}
+						}
+					]
+				},
+				{
+					"id": 135,
+					"name": "ConsoleOptions",
+					"kind": 256,
+					"kindString": "Interface",
+					"flags": {
+						"isExported": true
+					},
+					"comment": {
+						"shortText": "The options for the klasa console.",
+						"tags": [
+							{
+								"tag": "since",
+								"text": "0.0.1\n"
+							}
+						]
+					},
+					"children": [
+						{
+							"id": 141,
+							"name": "colors",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true
+							},
+							"comment": {
+								"shortText": "The console color styles.",
+								"tags": [
+									{
+										"tag": "since",
+										"text": "0.0.1\n"
+									}
+								]
+							},
+							"sources": [
+								{
+									"fileName": "src/lib/KlasaConsole.ts",
+									"line": 51,
+									"character": 7
+								}
+							],
+							"type": {
+								"type": "reference",
+								"id": 142,
+								"name": "ConsoleColorsOptions"
+							}
+						},
+						{
+							"id": 138,
+							"name": "stderr",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true
+							},
+							"comment": {
+								"shortText": "The WritableStream for the error logs.",
+								"tags": [
+									{
+										"tag": "since",
+										"text": "0.0.1"
+									},
+									{
+										"tag": "default",
+										"text": "process.stderr\n"
+									}
+								]
+							},
+							"sources": [
+								{
+									"fileName": "src/lib/KlasaConsole.ts",
+									"line": 31,
+									"character": 7
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "WriteStream"
+							}
+						},
+						{
+							"id": 137,
+							"name": "stdout",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true
+							},
+							"comment": {
+								"shortText": "The WritableStream for the output logs.",
+								"tags": [
+									{
+										"tag": "since",
+										"text": "0.0.1"
+									},
+									{
+										"tag": "default",
+										"text": "process.stdout\n"
+									}
+								]
+							},
+							"sources": [
+								{
+									"fileName": "src/lib/KlasaConsole.ts",
+									"line": 24,
+									"character": 7
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "WriteStream"
+							}
+						},
+						{
+							"id": 139,
+							"name": "timestamps",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true
+							},
+							"comment": {
+								"shortText": "If false, it won't use timestamps. Otherwise it will use 'YYYY-MM-DD HH:mm:ss' if true or custom if string is given.",
+								"tags": [
+									{
+										"tag": "since",
+										"text": "0.0.1"
+									},
+									{
+										"tag": "default",
+										"text": "true\n"
+									}
+								]
+							},
+							"sources": [
+								{
+									"fileName": "src/lib/KlasaConsole.ts",
+									"line": 38,
+									"character": 11
+								}
+							],
+							"type": {
+								"type": "union",
+								"types": [
+									{
+										"type": "intrinsic",
+										"name": "boolean"
+									},
+									{
+										"type": "intrinsic",
+										"name": "string"
+									}
+								]
+							}
+						},
+						{
+							"id": 136,
+							"name": "useColor",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true,
+								"isOptional": true
+							},
+							"comment": {
+								"shortText": "Whether the timestamps should use colours.",
+								"tags": [
+									{
+										"tag": "since",
+										"text": "0.0.1\n"
+									}
+								]
+							},
+							"sources": [
+								{
+									"fileName": "src/lib/KlasaConsole.ts",
+									"line": 17,
+									"character": 9
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "boolean"
+							}
+						},
+						{
+							"id": 140,
+							"name": "utc",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true
+							},
+							"comment": {
+								"shortText": "If the timestamps should be in utc.",
+								"tags": [
+									{
+										"tag": "since",
+										"text": "0.0.1"
+									},
+									{
+										"tag": "default",
+										"text": "false\n"
+									}
+								]
+							},
+							"sources": [
+								{
+									"fileName": "src/lib/KlasaConsole.ts",
+									"line": 45,
+									"character": 4
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "boolean"
+							}
+						}
+					],
+					"groups": [
+						{
+							"title": "Properties",
+							"kind": 1024,
+							"children": [
+								141,
+								138,
+								137,
+								139,
+								136,
+								140
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "src/lib/KlasaConsole.ts",
+							"line": 12,
+							"character": 31
+						}
+					]
+				},
+				{
+					"id": 150,
+					"name": "ConsoleOptionsColor",
+					"kind": 256,
+					"kindString": "Interface",
+					"flags": {
+						"isExported": true
+					},
+					"comment": {
+						"shortText": "Time is for the timestamp of the log, message is for the actual output.",
+						"tags": [
+							{
+								"tag": "since",
+								"text": "0.0.1\n"
+							}
+						]
+					},
+					"children": [
+						{
+							"id": 152,
+							"name": "message",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true
+							},
+							"comment": {
+								"shortText": "A message object containing colors and styles.",
+								"tags": [
+									{
+										"tag": "since",
+										"text": "0.0.1\n"
+									}
+								]
+							},
+							"sources": [
+								{
+									"fileName": "src/lib/KlasaConsole.ts",
+									"line": 117,
+									"character": 8
+								}
+							],
+							"type": {
+								"type": "reference",
+								"id": 2,
+								"name": "ColorsFormatOptions"
+							}
+						},
+						{
+							"id": 153,
+							"name": "shard",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true
+							},
+							"comment": {
+								"shortText": "A shard object containing colors and styles.",
+								"tags": [
+									{
+										"tag": "since",
+										"text": "0.0.1\n"
+									}
+								]
+							},
+							"sources": [
+								{
+									"fileName": "src/lib/KlasaConsole.ts",
+									"line": 123,
+									"character": 6
+								}
+							],
+							"type": {
+								"type": "reference",
+								"id": 2,
+								"name": "ColorsFormatOptions"
+							}
+						},
+						{
+							"id": 151,
+							"name": "time",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true
+							},
+							"comment": {
+								"shortText": "A time object containing colors and styles.",
+								"tags": [
+									{
+										"tag": "since",
+										"text": "0.0.1\n"
+									}
+								]
+							},
+							"sources": [
+								{
+									"fileName": "src/lib/KlasaConsole.ts",
+									"line": 111,
+									"character": 5
+								}
+							],
+							"type": {
+								"type": "reference",
+								"id": 2,
+								"name": "ColorsFormatOptions"
+							}
+						}
+					],
+					"groups": [
+						{
+							"title": "Properties",
+							"kind": 1024,
+							"children": [
+								152,
+								153,
+								151
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "src/lib/KlasaConsole.ts",
+							"line": 106,
+							"character": 36
+						}
+					],
+					"extendedTypes": [
+						{
+							"type": "reflection",
+							"declaration": {
+								"id": 154,
+								"name": "__type",
+								"kind": 65536,
+								"kindString": "Type literal",
+								"flags": {
+									"isExported": true
+								},
+								"sources": [
+									{
+										"fileName": "src/lib/KlasaConsole.ts",
+										"line": 106,
+										"character": 44
+									}
+								]
+							}
+						}
+					]
+				},
+				{
+					"id": 250,
+					"name": "ConsoleOutputType",
+					"kind": 4194304,
+					"kindString": "Type alias",
+					"flags": {
+						"isExported": true
+					},
+					"comment": {
+						"shortText": "The console output types.",
+						"tags": [
+							{
+								"tag": "since",
+								"text": "0.0.1\n"
+							}
+						]
+					},
+					"sources": [
+						{
+							"fileName": "src/lib/KlasaConsole.ts",
+							"line": 58,
+							"character": 29
+						}
+					],
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "stringLiteral",
+								"value": "debug"
+							},
+							{
+								"type": "stringLiteral",
+								"value": "error"
+							},
+							{
+								"type": "stringLiteral",
+								"value": "log"
+							},
+							{
+								"type": "stringLiteral",
+								"value": "verbose"
+							},
+							{
+								"type": "stringLiteral",
+								"value": "warn"
+							},
+							{
+								"type": "stringLiteral",
+								"value": "wtf"
+							}
+						]
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Classes",
+					"kind": 128,
+					"children": [
+						155
+					]
+				},
+				{
+					"title": "Interfaces",
+					"kind": 256,
+					"children": [
+						142,
+						135,
+						150
+					]
+				},
+				{
+					"title": "Type aliases",
+					"kind": 4194304,
+					"children": [
+						250
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "src/lib/KlasaConsole.ts",
+					"line": 1,
+					"character": 0
+				}
+			]
+		},
+		{
+			"id": 100,
+			"name": "\"src/lib/util/constants\"",
+			"kind": 1,
+			"kindString": "Module",
+			"flags": {
+				"isExported": true
+			},
+			"originalName": "/home/runner/work/console/console/src/lib/util/constants.ts",
+			"children": [
+				{
+					"id": 109,
+					"name": "ConsoleDefaults",
+					"kind": 2097152,
+					"kindString": "Object literal",
+					"flags": {
+						"isExported": true,
+						"isConst": true
+					},
+					"children": [
+						{
+							"id": 111,
+							"name": "stderr",
+							"kind": 32,
+							"kindString": "Variable",
+							"flags": {
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "src/lib/util/constants.ts",
+									"line": 13,
+									"character": 7
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "WriteStream"
+							},
+							"defaultValue": "process.stderr"
+						},
+						{
+							"id": 110,
+							"name": "stdout",
+							"kind": 32,
+							"kindString": "Variable",
+							"flags": {
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "src/lib/util/constants.ts",
+									"line": 12,
+									"character": 7
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "WriteStream"
+							},
+							"defaultValue": "process.stdout"
+						},
+						{
+							"id": 112,
+							"name": "timestamps",
+							"kind": 32,
+							"kindString": "Variable",
+							"flags": {
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "src/lib/util/constants.ts",
+									"line": 14,
+									"character": 11
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "true"
+							},
+							"defaultValue": "true"
+						},
+						{
+							"id": 113,
+							"name": "utc",
+							"kind": 32,
+							"kindString": "Variable",
+							"flags": {
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "src/lib/util/constants.ts",
+									"line": 15,
+									"character": 4
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "false"
+							},
+							"defaultValue": "false"
+						},
+						{
+							"id": 114,
+							"name": "colors",
+							"kind": 2097152,
+							"kindString": "Object literal",
+							"flags": {
+								"isExported": true
+							},
+							"children": [
+								{
+									"id": 115,
+									"name": "debug",
+									"kind": 32,
+									"kindString": "Variable",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "src/lib/util/constants.ts",
+											"line": 17,
+											"character": 7
+										}
+									],
+									"type": {
+										"type": "reflection",
+										"declaration": {
+											"id": 116,
+											"name": "__type",
+											"kind": 65536,
+											"kindString": "Type literal",
+											"flags": {
+												"isExported": true
+											}
+										}
+									},
+									"defaultValue": "mergeDefault(colorBase, { time: { background: 'magenta' } })"
+								},
+								{
+									"id": 117,
+									"name": "error",
+									"kind": 32,
+									"kindString": "Variable",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "src/lib/util/constants.ts",
+											"line": 18,
+											"character": 7
+										}
+									],
+									"type": {
+										"type": "reflection",
+										"declaration": {
+											"id": 118,
+											"name": "__type",
+											"kind": 65536,
+											"kindString": "Type literal",
+											"flags": {
+												"isExported": true
+											}
+										}
+									},
+									"defaultValue": "mergeDefault(colorBase, { time: { background: 'red' } })"
+								},
+								{
+									"id": 119,
+									"name": "log",
+									"kind": 32,
+									"kindString": "Variable",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "src/lib/util/constants.ts",
+											"line": 19,
+											"character": 5
+										}
+									],
+									"type": {
+										"type": "reflection",
+										"declaration": {
+											"id": 120,
+											"name": "__type",
+											"kind": 65536,
+											"kindString": "Type literal",
+											"flags": {
+												"isExported": true
+											}
+										}
+									},
+									"defaultValue": "mergeDefault(colorBase, { time: { background: 'blue' } })"
+								},
+								{
+									"id": 121,
+									"name": "verbose",
+									"kind": 32,
+									"kindString": "Variable",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "src/lib/util/constants.ts",
+											"line": 20,
+											"character": 9
+										}
+									],
+									"type": {
+										"type": "reflection",
+										"declaration": {
+											"id": 122,
+											"name": "__type",
+											"kind": 65536,
+											"kindString": "Type literal",
+											"flags": {
+												"isExported": true
+											}
+										}
+									},
+									"defaultValue": "mergeDefault(colorBase, { time: { text: 'gray' } })"
+								},
+								{
+									"id": 123,
+									"name": "warn",
+									"kind": 32,
+									"kindString": "Variable",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "src/lib/util/constants.ts",
+											"line": 21,
+											"character": 6
+										}
+									],
+									"type": {
+										"type": "reflection",
+										"declaration": {
+											"id": 124,
+											"name": "__type",
+											"kind": 65536,
+											"kindString": "Type literal",
+											"flags": {
+												"isExported": true
+											}
+										}
+									},
+									"defaultValue": "mergeDefault(colorBase, { time: { background: 'lightyellow', text: 'black' } })"
+								},
+								{
+									"id": 125,
+									"name": "wtf",
+									"kind": 32,
+									"kindString": "Variable",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "src/lib/util/constants.ts",
+											"line": 22,
+											"character": 5
+										}
+									],
+									"type": {
+										"type": "reflection",
+										"declaration": {
+											"id": 126,
+											"name": "__type",
+											"kind": 65536,
+											"kindString": "Type literal",
+											"flags": {
+												"isExported": true
+											}
+										}
+									},
+									"defaultValue": "mergeDefault(colorBase, { message: { text: 'red' }, time: { background: 'red' } })"
+								}
+							],
+							"groups": [
+								{
+									"title": "Variables",
+									"kind": 32,
+									"children": [
+										115,
+										117,
+										119,
+										121,
+										123,
+										125
+									]
+								}
+							],
+							"sources": [
+								{
+									"fileName": "src/lib/util/constants.ts",
+									"line": 16,
+									"character": 7
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "object"
+							}
+						}
+					],
+					"groups": [
+						{
+							"title": "Variables",
+							"kind": 32,
+							"children": [
+								111,
+								110,
+								112,
+								113
+							]
+						},
+						{
+							"title": "Object literals",
+							"kind": 2097152,
+							"children": [
+								114
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "src/lib/util/constants.ts",
+							"line": 11,
+							"character": 28
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "object"
+					}
+				},
+				{
+					"id": 127,
+					"name": "ConsoleTypes",
+					"kind": 2097152,
+					"kindString": "Object literal",
+					"flags": {
+						"isExported": true,
+						"isConst": true
+					},
+					"children": [
+						{
+							"id": 128,
+							"name": "debug",
+							"kind": 32,
+							"kindString": "Variable",
+							"flags": {
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "src/lib/util/constants.ts",
+									"line": 27,
+									"character": 6
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "string"
+							},
+							"defaultValue": "\"debug\""
+						},
+						{
+							"id": 129,
+							"name": "error",
+							"kind": 32,
+							"kindString": "Variable",
+							"flags": {
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "src/lib/util/constants.ts",
+									"line": 28,
+									"character": 6
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "string"
+							},
+							"defaultValue": "\"error\""
+						},
+						{
+							"id": 130,
+							"name": "log",
+							"kind": 32,
+							"kindString": "Variable",
+							"flags": {
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "src/lib/util/constants.ts",
+									"line": 29,
+									"character": 4
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "string"
+							},
+							"defaultValue": "\"log\""
+						},
+						{
+							"id": 131,
+							"name": "verbose",
+							"kind": 32,
+							"kindString": "Variable",
+							"flags": {
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "src/lib/util/constants.ts",
+									"line": 30,
+									"character": 8
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "string"
+							},
+							"defaultValue": "\"log\""
+						},
+						{
+							"id": 132,
+							"name": "warn",
+							"kind": 32,
+							"kindString": "Variable",
+							"flags": {
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "src/lib/util/constants.ts",
+									"line": 31,
+									"character": 5
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "string"
+							},
+							"defaultValue": "\"warn\""
+						},
+						{
+							"id": 133,
+							"name": "wtf",
+							"kind": 32,
+							"kindString": "Variable",
+							"flags": {
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "src/lib/util/constants.ts",
+									"line": 32,
+									"character": 4
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "string"
+							},
+							"defaultValue": "\"error\""
+						}
+					],
+					"groups": [
+						{
+							"title": "Variables",
+							"kind": 32,
+							"children": [
+								128,
+								129,
+								130,
+								131,
+								132,
+								133
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "src/lib/util/constants.ts",
+							"line": 26,
+							"character": 25
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "object"
+					}
+				},
+				{
+					"id": 101,
+					"name": "colorBase",
+					"kind": 2097152,
+					"kindString": "Object literal",
+					"flags": {
+						"isConst": true
+					},
+					"children": [
+						{
+							"id": 105,
+							"name": "message",
+							"kind": 32,
+							"kindString": "Variable",
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "src/lib/util/constants.ts",
+									"line": 7,
+									"character": 8
+								}
+							],
+							"type": {
+								"type": "reflection",
+								"declaration": {
+									"id": 106,
+									"name": "__type",
+									"kind": 65536,
+									"kindString": "Type literal",
+									"flags": {}
+								}
+							}
+						},
+						{
+							"id": 107,
+							"name": "time",
+							"kind": 32,
+							"kindString": "Variable",
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "src/lib/util/constants.ts",
+									"line": 8,
+									"character": 5
+								}
+							],
+							"type": {
+								"type": "reflection",
+								"declaration": {
+									"id": 108,
+									"name": "__type",
+									"kind": 65536,
+									"kindString": "Type literal",
+									"flags": {}
+								}
+							}
+						},
+						{
+							"id": 102,
+							"name": "shard",
+							"kind": 2097152,
+							"kindString": "Object literal",
+							"flags": {},
+							"children": [
+								{
+									"id": 103,
+									"name": "background",
+									"kind": 32,
+									"kindString": "Variable",
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "src/lib/util/constants.ts",
+											"line": 6,
+											"character": 20
+										}
+									],
+									"type": {
+										"type": "stringLiteral",
+										"value": "cyan"
+									},
+									"defaultValue": "\"cyan\""
+								},
+								{
+									"id": 104,
+									"name": "text",
+									"kind": 32,
+									"kindString": "Variable",
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "src/lib/util/constants.ts",
+											"line": 6,
+											"character": 34
+										}
+									],
+									"type": {
+										"type": "stringLiteral",
+										"value": "black"
+									},
+									"defaultValue": "\"black\""
+								}
+							],
+							"groups": [
+								{
+									"title": "Variables",
+									"kind": 32,
+									"children": [
+										103,
+										104
+									]
+								}
+							],
+							"sources": [
+								{
+									"fileName": "src/lib/util/constants.ts",
+									"line": 6,
+									"character": 6
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "object"
+							}
+						}
+					],
+					"groups": [
+						{
+							"title": "Variables",
+							"kind": 32,
+							"children": [
+								105,
+								107
+							]
+						},
+						{
+							"title": "Object literals",
+							"kind": 2097152,
+							"children": [
+								102
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "src/lib/util/constants.ts",
+							"line": 5,
+							"character": 15
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "object"
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Object literals",
+					"kind": 2097152,
+					"children": [
+						109,
+						127,
+						101
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "src/lib/util/constants.ts",
+					"line": 1,
+					"character": 0
+				}
+			]
+		},
+		{
+			"id": 264,
 			"name": "\"test/Util\"",
 			"kind": 1,
 			"kindString": "Module",
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "/home/runner/work/util-ts-template/util-ts-template/test/Util.ts",
+			"originalName": "/home/runner/work/console/console/test/Util.ts",
 			"sources": [
 				{
 					"fileName": "test/Util.ts",
@@ -90,8 +6321,11 @@
 			"title": "Modules",
 			"kind": 1,
 			"children": [
+				251,
 				1,
-				4
+				134,
+				100,
+				264
 			]
 		}
 	]
