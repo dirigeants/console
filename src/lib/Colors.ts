@@ -81,7 +81,7 @@ export class Colors {
 	 */
 	public constructor(options: ColorsFormatOptions = {}) {
 		const Constructor = this.constructor as typeof Colors;
-		const { opening, closing } = Colors.text(options.text, Constructor.background(options.background, Constructor.style(options.style)));
+		const { opening, closing } = Constructor.text(options.text, Constructor.background(options.background, Constructor.style(options.style)));
 
 		this.opening = Constructor.useColors && opening ? `\u001B[${opening.join(';')}m` : '';
 		this.closing = Constructor.useColors && closing ? `\u001B[${closing.join(';')}m` : '';
