@@ -102,7 +102,7 @@ export class KlasaConsole extends Console {
 	 */
 	private stdout: NodeJS.WriteStream;
 
-	constructor(options: Partial<ConsoleOptions> = {}) {
+	public constructor(options: Partial<ConsoleOptions> = {}) {
 		options = mergeDefault(ConsoleDefaults, options) as Required<ConsoleOptions>;
 		super(options.stdout, options.stderr);
 
