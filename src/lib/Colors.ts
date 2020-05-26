@@ -55,7 +55,7 @@ export class Colors {
 	/**
 	 * the closing tags
 	 */
-	public closing: string;
+	public readonly closing: string;
 
 	public constructor(options: ColorsFormatOptions = {}) {
 		const { opening, closing } = Colors.text(options.text, (this.constructor as typeof Colors).background(options.background, (this.constructor as typeof Colors).style(options.style)));
