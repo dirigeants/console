@@ -199,7 +199,8 @@ export class KlasaConsole extends Console {
 		if (typeof data === 'object') {
 			const isArray = Array.isArray(data);
 			if (isArray && (data as []).every(datum => typeof datum === 'string')) return (data as string[]).join('\n');
-			return (data as any).stack || (data as any).message || inspect(data, { depth: Number(isArray), colors: Colors.useColors });
+			// eslint-disable-next-line dot-notation
+			return (data as any).stack || (data as any).message || inspect(data, { depth: Number(isArray), colors: Colors['useColors'] });
 		}
 		return String(data);
 	}
