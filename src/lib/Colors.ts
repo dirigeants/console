@@ -77,7 +77,7 @@ export class Colors {
 		* @param styles The style or styles to apply
 		* @param FormatData the format data
 		*/
-	static style(styles?: Style | Style[], { opening = [], closing = [] }: ColorsFormatData = {}): ColorsFormatData {
+	private static style(styles?: Style | Style[], { opening = [], closing = [] }: ColorsFormatData = {}): ColorsFormatData {
 		if (styles) {
 			if (!Array.isArray(styles)) styles = [styles];
 			for (let style of styles) {
