@@ -80,10 +80,11 @@ export class Colors {
 	 * // A 'Hello World' string will be printed red.
 	 */
 	public constructor(options: ColorsFormatOptions = {}) {
-		const { opening, closing } = Colors.text(options.text, (this.constructor as typeof Colors).background(options.background, (this.constructor as typeof Colors).style(options.style)));
+		const Constructor = this.constructor as typeof Colors;
+		const { opening, closing } = Colors.text(options.text, Constructor.background(options.background, Constructor.style(options.style)));
 
-		this.opening = (this.constructor as typeof Colors).useColors && opening ? `\u001B[${opening.join(';')}m` : '';
-		this.closing = (this.constructor as typeof Colors).useColors && closing ? `\u001B[${closing.join(';')}m` : '';
+		this.opening = Constructor.useColors && opening ? `\u001B[${opening.join(';')}m` : '';
+		this.closing = Constructor.useColors && closing ? `\u001B[${closing.join(';')}m` : '';
 	}
 
 	/**
