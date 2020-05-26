@@ -120,8 +120,6 @@ export class KlasaConsole extends Console {
 
 		this.utc = options.utc;
 	}
-
-
 	/**
 	 * The timestamp to use
 	 */
