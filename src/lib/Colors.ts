@@ -106,7 +106,7 @@ export class Colors {
 			if (!Array.isArray(styles)) styles = [styles];
 			for (let style of styles) {
 				style = style.toLowerCase() as Style;
-				if (!(style in this.STYLES)) continue;
+				if (!Reflect.has(this.STYLES, style)) continue;
 				opening.push(this.STYLES[style]);
 				closing.push(this.CLOSE[style]);
 			}
@@ -121,7 +121,7 @@ export class Colors {
 	 * @param FormatData the format data
 	 */
 	private static background(background?: Color, { opening = [], closing = [] }: ColorsFormatData = {}): ColorsFormatData {
-		if (background && background.toLowerCase() in this.BACKGROUNDS) {
+		if (background && Reflect.has(this.BACKGROUNDS, background.toLowerCase())) {
 			opening.push(this.BACKGROUNDS[background.toLowerCase()]);
 			closing.push(this.CLOSE.background);
 		}
@@ -135,7 +135,7 @@ export class Colors {
 	 * @param FormatData the format data
 	 */
 	private static text(text?: Color, { opening = [], closing = [] }: ColorsFormatData = {}): ColorsFormatData {
-		if (text && text.toLowerCase() in this.TEXTS) {
+		if (text && Reflect.has(this.TEXTS, text.toLowerCase())) {
 			opening.push(this.TEXTS[text.toLowerCase()]);
 			closing.push(this.CLOSE.text);
 		}

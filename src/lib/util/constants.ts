@@ -1,5 +1,6 @@
 import { mergeDefault } from '@klasa/utils';
-import { ConsoleOptions, ConsoleOptionsColor } from '../KlasaConsole';
+
+import type { ConsoleOptions, ConsoleOptionsColor } from '../KlasaConsole';
 
 const colorBase: ConsoleOptionsColor = {
 	shard: { background: 'cyan', text: 'black' },
