@@ -109,7 +109,8 @@ export class KlasaConsole extends Console {
 		Object.defineProperty(this, 'stdout', { value: options.stdout });
 		Object.defineProperty(this, 'stderr', { value: options.stderr });
 
-		Colors.useColors = typeof options.useColor === 'undefined' ? this.stdout.isTTY || false : options.useColor;
+		// eslint-disable-next-line dot-notation
+		Colors['useColors'] = typeof options.useColor === 'undefined' ? this.stdout.isTTY || false : options.useColor;
 
 		this.template = options.timestamps !== false ? new Timestamp(options.timestamps === true ? 'YYYY-MM-DD HH:mm:ss' : options.timestamps) : null;
 
