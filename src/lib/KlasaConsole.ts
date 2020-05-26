@@ -162,7 +162,7 @@ export class KlasaConsole extends Console {
 	 * Calls an error write with everything to the console/writable stream.
 	 * @param data The data we want to print
 	 */
-	error(...data: any[]): void {
+	public error(...data: any[]): void {
 		this.write(data, 'error');
 	}
 
