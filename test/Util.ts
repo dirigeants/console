@@ -1,5 +1,4 @@
-// import ava from 'ava';
-// import util from '../src';
+import ava from 'ava';
 
 // ava('sample test', (test): void => {
 // 	test.is(util(), 'bar');
