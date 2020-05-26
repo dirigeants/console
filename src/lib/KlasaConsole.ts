@@ -146,7 +146,7 @@ export class KlasaConsole extends Console {
 	 * Calls a log write with everything to the console/writable stream.
 	 * @param data The data we want to print
 	 */
-	log(...data: any[]): void {
+	public log(...data: any[]): void {
 		this.write(data, 'log');
 	}
 
