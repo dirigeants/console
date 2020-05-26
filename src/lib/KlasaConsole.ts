@@ -188,7 +188,7 @@ export class KlasaConsole extends Console {
 	 * Calls a wtf (what a terrible failure) write with everything to the console/writable stream.
 	 * @param data The data we want to print
 	 */
-	wtf(...data: any[]): void {
+	public wtf(...data: any[]): void {
 		this.write(data, 'wtf');
 	}
 
