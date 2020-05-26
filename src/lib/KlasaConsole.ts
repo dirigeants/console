@@ -169,6 +169,8 @@ export class KlasaConsole extends Console {
 
 		this.template = options.timestamps !== false ? new Timestamp(options.timestamps === true ? 'YYYY-MM-DD HH:mm:ss' : options.timestamps) : null;
 
+		this.colors = {} as Record<ConsoleOutputType, Record<string, Colors>>;
+
 		for (const [name, formats] of Object.entries(options.colors)) {
 			this.colors[name] = {};
 			for (const [type, format] of Object.entries(formats)) this.colors[name][type] = new Colors(format);
