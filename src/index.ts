@@ -1,6 +1,3 @@
-/**
- * The mythical function
- */
-export default function foo(): string {
-	return 'bar';
-}
+export * from './lib/KlasaConsole';
+export * from './lib/Colors';
+export * from './lib/util/constants';

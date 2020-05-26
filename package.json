@@ -1,14 +1,14 @@
 {
-  "name": "@klasa/util",
+  "name": "@klasa/console",
   "version": "0.0.1",
-  "description": "some util thing.",
+  "description": "The Console implementation for the @klasa/framework project",
   "main": "dist/src/index.js",
   "scripts": {
     "prepublishOnly": "yarn build",
     "build": "tsc",
     "test": "ava",
     "test:lint": "eslint --ext ts src test",
-    "test:coverage": "npx nyc check-coverage --lines 90 --functions 90 --branches 90",
+    "test:coverage": "npx nyc check-coverage --lines 0 --functions 0 --branches 0",
     "coverage": "npx nyc --require source-map-support/register npm test",
     "coverage:report": "npx nyc report --reporter=html",
     "lint": "eslint --fix --ext ts src test",
@@ -23,19 +23,19 @@
   "devDependencies": {
     "@ava/typescript": "^1.1.1",
     "@types/node": "^14.0.5",
-    "@typescript-eslint/eslint-plugin": "2.34.0",
-    "@typescript-eslint/parser": "2.34.0",
+    "@typescript-eslint/eslint-plugin": "3.0.1",
+    "@typescript-eslint/parser": "3.0.1",
     "ava": "^3.8.2",
-    "eslint": "^6.8.0",
+    "eslint": "^7.1.0",
     "eslint-config-klasa": "dirigeants/klasa-lint",
     "nyc": "^15.0.1",
     "source-map-support": "^0.5.19",
-    "typescript": "^3.9.3",
-    "typedoc": "^0.17.7"
+    "typedoc": "^0.17.7",
+    "typescript": "^3.9.3"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/dirigeants/util"
+    "url": "https://github.com/dirigeants/console"
   },
   "ava": {
     "files": [
@@ -50,5 +50,12 @@
         "test/": "dist/test/"
       }
     }
-  }
+  },
+  "dependencies": {
+    "@klasa/timestamp": "^0.0.1",
+    "@klasa/utils": "^0.0.8"
+  },
+  "files": [
+    "dist/src/"
+  ]
 }
