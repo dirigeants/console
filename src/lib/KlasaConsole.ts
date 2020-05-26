@@ -180,7 +180,7 @@ export class KlasaConsole extends Console {
 	 * Calls a verbose write with everything to the console/writable stream.
 	 * @param data The data we want to print
 	 */
-	verbose(...data: any[]): void {
+	public verbose(...data: any[]): void {
 		this.write(data, 'verbose');
 	}
 
