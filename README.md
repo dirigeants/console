@@ -1,3 +1,3 @@
 # @klasa/console
 
-The Console implementation for the @klasa/framework repo
+The Console implementation for the @klasa/framework project
