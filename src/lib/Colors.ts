@@ -50,7 +50,7 @@ export class Colors {
 	/**
 	 * The opening tags
 	 */
-	public opening: string;
+	public readonly opening: string;
 
 	/**
 	 * the closing tags
