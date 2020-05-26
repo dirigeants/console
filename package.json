@@ -1,7 +1,7 @@
 {
-  "name": "@klasa/util",
+  "name": "@klasa/console",
   "version": "0.0.1",
-  "description": "some util thing.",
+  "description": "The Console implementation for the @klasa/framework project",
   "main": "dist/src/index.js",
   "scripts": {
     "prepublishOnly": "yarn build",
@@ -35,7 +35,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/dirigeants/util"
+    "url": "https://github.com/dirigeants/console"
   },
   "ava": {
     "files": [

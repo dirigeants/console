@@ -1,1 +1,3 @@
-Typescript Boilerplate
+# @klasa/console
+
+The Console implementation for the @klasa/framework repo
