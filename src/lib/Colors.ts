@@ -3,15 +3,15 @@
  */
 export interface ColorsFormatOptions {
 	/**
-	 * The format for the background
+	 * The background color. Can be a basic string like "red", a hex string, or a RGB array
 	 */
 	background?: Color;
 	/**
-	 * The style or styles to apply
+	 * Style or Styles to apply
 	 */
 	style?: Style | Style[];
 	/**
-	 * The format for the text
+	 * The text color. Can be a basic string like "red", a hex string, a RGB array, or HSL array
 	 */
 	text?: Color;
 }

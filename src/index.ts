@@ -1,3 +1,3 @@
-export * from './KlasaConsole';
-export * from './Colors';
-export * from './lib/constants';
+export * from './lib/KlasaConsole';
+export * from './lib/Colors';
+export * from './lib/util/constants';

@@ -12,14 +12,6 @@ export const ConsoleDefaults: Partial<ConsoleOptions> = {
 	stderr: process.stderr,
 	timestamps: true,
 	utc: false,
-	types: {
-		debug: 'log',
-		error: 'error',
-		log: 'log',
-		verbose: 'log',
-		warn: 'warn',
-		wtf: 'error'
-	},
 	colors: {
 		debug: mergeDefault(colorBase, { time: { background: 'magenta' } }),
 		error: mergeDefault(colorBase, { time: { background: 'red' } }),
@@ -28,4 +20,13 @@ export const ConsoleDefaults: Partial<ConsoleOptions> = {
 		warn: mergeDefault(colorBase, { time: { background: 'lightyellow', text: 'black' } }),
 		wtf: mergeDefault(colorBase, { message: { text: 'red' }, time: { background: 'red' } })
 	}
+};
+
+export const ConsoleTypes = {
+	debug: 'debug',
+	error: 'error',
+	log: 'log',
+	verbose: 'log',
+	warn: 'warn',
+	wtf: 'error'
 };
