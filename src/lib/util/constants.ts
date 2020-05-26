@@ -1,7 +1,7 @@
 import { mergeDefault } from '@klasa/utils';
-import { ConsoleOptions } from '../KlasaConsole';
+import { ConsoleOptions, ConsoleOptionsColor } from '../KlasaConsole';
 
-const colorBase = {
+const colorBase: ConsoleOptionsColor = {
 	shard: { background: 'cyan', text: 'black' },
 	message: {},
 	time: {}
