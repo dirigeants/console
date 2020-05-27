@@ -11,7 +11,8 @@
         "declaration": true,
         "noUnusedLocals": true,
         "removeComments": false,
-        "target": "es2019"
+		"target": "es2019",
+		"strict": true
 	},
 	"exclude": [
 		"node_modules",

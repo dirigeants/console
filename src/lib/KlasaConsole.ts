@@ -133,7 +133,7 @@ export class KlasaConsole extends Console {
 	 * Whether or not timestamps should be enabled for this console.
 	 * @since 0.0.1
 	 */
-	public template: Timestamp;
+	public template: Timestamp | null;
 
 	/**
 	 * The colors for this console.
@@ -151,39 +151,39 @@ export class KlasaConsole extends Console {
 	 * The standard output stream for this console, defaulted to process.stderr.
 	 * @since 0.0.1
 	 */
-	private stdout: NodeJS.WriteStream;
+	private stdout!: NodeJS.WriteStream;
 
 	/**
 	 * @since 0.0.1
 	 * @param options The options for the console.
 	 */
 	public constructor(options: Partial<ConsoleOptions> = {}) {
-		options = mergeDefault(ConsoleDefaults, options) as Required<ConsoleOptions>;
-		super(options.stdout, options.stderr);
+		const castedOptions = mergeDefault(ConsoleDefaults, options) as Required<ConsoleOptions>;
+		super(castedOptions.stdout, options.stderr);
 
-		Object.defineProperty(this, 'stdout', { value: options.stdout });
-		Object.defineProperty(this, 'stderr', { value: options.stderr });
+		Object.defineProperty(this, 'stdout', { value: castedOptions.stdout });
+		Object.defineProperty(this, 'stderr', { value: castedOptions.stderr });
 
 		// eslint-disable-next-line dot-notation
-		Colors['useColors'] = options.useColor ?? (this.stdout.isTTY || false);
+		Colors['useColors'] = castedOptions.useColor ?? (this.stdout.isTTY || false);
 
-		this.template = options.timestamps !== false ? new Timestamp(options.timestamps === true ? 'YYYY-MM-DD HH:mm:ss' : options.timestamps) : null;
+		this.template = castedOptions.timestamps !== false ? new Timestamp(castedOptions.timestamps === true ? 'YYYY-MM-DD HH:mm:ss' : castedOptions.timestamps) : null;
 
 		this.colors = {} as Record<ConsoleOutputType, Record<string, Colors>>;
 
-		for (const [name, formats] of Object.entries(options.colors)) {
-			this.colors[name] = {};
-			for (const [type, format] of Object.entries(formats)) this.colors[name][type] = new Colors(format);
+		for (const [name, formats] of Object.entries(castedOptions.colors)) {
+			this.colors[name as ConsoleOutputType] = {};
+			for (const [type, format] of Object.entries(formats)) this.colors[name as ConsoleOutputType][type] = new Colors(format as ColorsFormatOptions);
 		}
 
-		this.utc = options.utc;
+		this.utc = castedOptions.utc;
 	}
 	/**
 	 * The timestamp to use.
 	 * @since 0.0.1
 	 */
 	private get timestamp(): string {
-		return this.utc ? this.template.displayUTC(new Date()) : this.template.display();
+		return (this.utc ? this.template?.displayUTC(new Date()) : this.template?.display()) ?? '';
 	}
 
 	/**
@@ -197,6 +197,7 @@ export class KlasaConsole extends Console {
 		const content = data.map((this.constructor as typeof KlasaConsole)._flatten).join('\n');
 		const { time, message } = this.colors[type];
 		const timestamp = this.template ? time.format(`[${this.timestamp}]`) : '';
+		// @ts-expect-error
 		super[ConsoleTypes[type] || 'log'](content.split('\n').map(str => `${timestamp} ${message.format(str)}`).join('\n'));
 	}
 
