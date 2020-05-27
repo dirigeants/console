@@ -1,6 +1,7 @@
 import ava from 'ava';
 import { KlasaConsole } from '../src';
 
+/* eslint-disable dot-notation */
 ava('Default stdout is process.stdout', (test): void => {
 	const console = new KlasaConsole();
 	test.is(console['stdout'], process.stdout);
@@ -12,6 +13,7 @@ ava('Options set properly', (test): void => {
 	console.utc = true;
 	test.true(typeof console['timestamp'] === 'string');
 
-	const console2 = new KlasaConsole({timestamps: false});
+	const console2 = new KlasaConsole({ timestamps: false });
 	test.true(typeof console2['timestamp'] !== 'string');
-})
+});
+/* eslint-enable dot-notation */

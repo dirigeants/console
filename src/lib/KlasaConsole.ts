@@ -182,8 +182,8 @@ export class KlasaConsole extends Console {
 	 * The timestamp to use.
 	 * @since 0.0.1
 	 */
-	private get timestamp(): string {
-		return (this.utc ? this.template?.displayUTC(new Date()) : this.template?.display()) ?? '';
+	private get timestamp(): string | null {
+		return (this.utc ? this.template?.displayUTC(new Date()) : this.template?.display()) ?? null;
 	}
 
 	/**
@@ -196,7 +196,8 @@ export class KlasaConsole extends Console {
 		type = type.toLowerCase() as ConsoleOutputType;
 		const content = data.map((this.constructor as typeof KlasaConsole)._flatten).join('\n');
 		const { time, message } = this.colors[type];
-		const timestamp = this.template ? time.format(`[${this.timestamp}]`) : '';
+		const timestamp = this.template ? time.format(`[${this.timestamp as string}]`) : '';
+		// eslint-disable-next-line @typescript-eslint/ban-ts-comment
 		// @ts-expect-error
 		super[ConsoleTypes[type] || 'log'](content.split('\n').map(str => `${timestamp} ${message.format(str)}`).join('\n'));
 	}
