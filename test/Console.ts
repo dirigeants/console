@@ -42,6 +42,6 @@ ava('Flattening different things works properly', (test): void => {
 	test.is(flatten('Hello, world!'), 'Hello, world!');
 	test.is(flatten({ a: 1, b: 2 }), '{ a: 1, b: 2 }');
 	test.is(flatten(['1', '2', '3']), '1\n2\n3');
-	test.is(flatten(Symbol('foo')), 'Symbo(foo)');
+	test.is(flatten(Symbol('foo')), 'Symbol(foo)');
 });
 /* eslint-enable dot-notation */
