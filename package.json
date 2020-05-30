@@ -9,7 +9,7 @@
     "test": "ava",
     "test:lint": "eslint --ext ts src test",
     "test:coverage": "npx nyc check-coverage --lines 0 --functions 0 --branches 0",
-    "coverage": "npx nyc --require source-map-support/register yarn test",
+    "coverage": "npx nyc --require source-map-support/register npm test",
     "coverage:report": "npx nyc report --reporter=html",
     "lint": "eslint --fix --ext ts src test",
     "docs": "typedoc"
