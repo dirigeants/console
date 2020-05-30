@@ -183,7 +183,7 @@ export class KlasaConsole extends Console {
 	 * @since 0.0.1
 	 */
 	private get timestamp(): string | null {
-		return (this.utc ? this.template?.displayUTC(new Date()) : this.template?.display()) ?? null;
+		return this.template ? this.utc ? this.template.displayUTC(new Date()) : this.template.display() : null;
 	}
 
 	/**
@@ -197,6 +197,7 @@ export class KlasaConsole extends Console {
 		const content = data.map((this.constructor as typeof KlasaConsole)._flatten).join('\n');
 		const { time, message } = this.colors[type];
 		const timestamp = this.template ? time.format(`[${this.timestamp as string}]`) : '';
+		/* istanbul ignore next */
 		// eslint-disable-next-line @typescript-eslint/ban-ts-comment
 		// @ts-expect-error
 		super[ConsoleTypes[type] || 'log'](content.split('\n').map(str => `${timestamp} ${message.format(str)}`).join('\n'));

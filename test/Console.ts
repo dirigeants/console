@@ -4,31 +4,44 @@ import { makeWritable } from './lib';
 
 /* eslint-disable dot-notation */
 ava('Default stdout is process.stdout', (test): void => {
-	const console = new KlasaConsole();
-	test.is(console['stdout'], process.stdout);
+	const kConsole = new KlasaConsole();
+	test.is(kConsole['stdout'], process.stdout);
 });
 
 ava('Options set properly', (test): void => {
-	const console = new KlasaConsole({ useColor: true, timestamps: 'HH:mm:ss' });
-	test.is(typeof console['timestamp'], 'string');
-	console.utc = true;
-	test.is(typeof console['timestamp'], 'string');
+	const kConsole = new KlasaConsole({ useColor: true, timestamps: 'HH:mm:ss' });
+	test.is(typeof kConsole['timestamp'], 'string');
+	kConsole.utc = true;
+	test.is(typeof kConsole['timestamp'], 'string');
 
 	const console2 = new KlasaConsole({ timestamps: false });
 	test.is(console2['timestamp'], null);
 });
 
 ava('Writing to console works properly', (test): void => {
+	test.plan(7);
 	// Need to do 1 with the timestamp for branches.
-	const consoleWithTimestamp = new KlasaConsole({ stdout: makeWritable(1) });
-	test.notThrows((): void => consoleWithTimestamp['write'](['Hello']));
+	const consoleWithTs = new KlasaConsole({ stdout: makeWritable(1) });
+	test.is(consoleWithTs['write'](['Hello, world!']), undefined);
 
 	const stdout = makeWritable(6);
-	const console = new KlasaConsole({ stdout, timestamps: false });
+	const kConsole = new KlasaConsole({ stdout, timestamps: false });
 	for (const type of ['log', 'warn', 'error', 'debug', 'verbose', 'wtf'] as const) {
-		console[type]('Hello, world!');
+		test.notThrows((): void => kConsole[type]('Hello, world!'));
 	}
+});
 
-	global.console.log(stdout.writtenData);
-})
+ava('Flattening different things works properly', (test): void => {
+	// eslint-disable-next-line dot-notation
+	const flatten = KlasaConsole['_flatten'];
+
+	test.is(flatten(1), '1');
+	test.is(flatten(null), 'null');
+	test.is(flatten(undefined), 'undefined');
+
+	test.is(flatten('Hello, world!'), 'Hello, world!');
+	test.is(flatten({ a: 1, b: 2 }), '{ a: 1, b: 2 }');
+	test.is(flatten(['1', '2', '3']), '1\n2\n3');
+	test.is(flatten(Symbol('foo')), 'Symbo(foo)');
+});
 /* eslint-enable dot-notation */
