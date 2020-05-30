@@ -6,11 +6,11 @@
   "scripts": {
     "prepublishOnly": "yarn build",
     "build": "tsc",
-    "test": "ava --timeout=2m",
+    "test": "ava",
     "test:lint": "eslint --ext ts src test",
     "test:coverage": "npx nyc check-coverage --lines 0 --functions 0 --branches 0",
-    "coverage": "nyc --require source-map-support/register yarn test",
-    "coverage:report": "nyc report --reporter=html",
+    "coverage": "npx nyc --require source-map-support/register yarn test",
+    "coverage:report": "npx nyc report --reporter=html",
     "lint": "eslint --fix --ext ts src test",
     "docs": "typedoc"
   },
