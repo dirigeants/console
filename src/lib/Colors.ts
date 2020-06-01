@@ -123,7 +123,7 @@ export class Colors {
 	 */
 	private static background(background?: Color, { opening = [], closing = [] }: ColorsFormatData = {}): ColorsFormatData {
 		if (background && Reflect.has(this.BACKGROUNDS, background.toLowerCase())) {
-			opening.push(this.BACKGROUNDS[background.toLowerCase()]);
+			opening.push(this.BACKGROUNDS[background.toLowerCase() as Color]);
 			closing.push(this.CLOSE.background);
 		}
 		return { opening, closing };
@@ -137,7 +137,7 @@ export class Colors {
 	 */
 	private static text(text?: Color, { opening = [], closing = [] }: ColorsFormatData = {}): ColorsFormatData {
 		if (text && Reflect.has(this.TEXTS, text.toLowerCase())) {
-			opening.push(this.TEXTS[text.toLowerCase()]);
+			opening.push(this.TEXTS[text.toLowerCase() as Color]);
 			closing.push(this.CLOSE.text);
 		}
 		return { opening, closing };
