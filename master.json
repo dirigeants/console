@@ -2837,7 +2837,7 @@
 								{
 									"fileName": "src/lib/KlasaConsole.ts",
 									"line": 154,
-									"character": 36
+									"character": 37
 								}
 							]
 						},
@@ -2974,8 +2974,17 @@
 								}
 							],
 							"type": {
-								"type": "reference",
-								"name": "Timestamp"
+								"type": "union",
+								"types": [
+									{
+										"type": "reference",
+										"name": "Timestamp"
+									},
+									{
+										"type": "intrinsic",
+										"name": "null"
+									}
+								]
 							}
 						},
 						{
@@ -3045,8 +3054,17 @@
 										]
 									},
 									"type": {
-										"type": "intrinsic",
-										"name": "string"
+										"type": "union",
+										"types": [
+											{
+												"type": "intrinsic",
+												"name": "string"
+											},
+											{
+												"type": "intrinsic",
+												"name": "null"
+											}
+										]
 									}
 								}
 							],
@@ -3102,8 +3120,17 @@
 												"isOptional": true
 											},
 											"type": {
-												"type": "intrinsic",
-												"name": "string"
+												"type": "union",
+												"types": [
+													{
+														"type": "intrinsic",
+														"name": "undefined"
+													},
+													{
+														"type": "intrinsic",
+														"name": "string"
+													}
+												]
 											}
 										},
 										{
@@ -3223,8 +3250,17 @@
 												"isOptional": true
 											},
 											"type": {
-												"type": "intrinsic",
-												"name": "string"
+												"type": "union",
+												"types": [
+													{
+														"type": "intrinsic",
+														"name": "undefined"
+													},
+													{
+														"type": "intrinsic",
+														"name": "string"
+													}
+												]
 											}
 										}
 									],
@@ -3283,8 +3319,17 @@
 												"isOptional": true
 											},
 											"type": {
-												"type": "intrinsic",
-												"name": "string"
+												"type": "union",
+												"types": [
+													{
+														"type": "intrinsic",
+														"name": "undefined"
+													},
+													{
+														"type": "intrinsic",
+														"name": "string"
+													}
+												]
 											}
 										}
 									],
@@ -3378,7 +3423,7 @@
 							"sources": [
 								{
 									"fileName": "src/lib/KlasaConsole.ts",
-									"line": 235,
+									"line": 238,
 									"character": 13
 								}
 							],
@@ -3432,7 +3477,7 @@
 											},
 											"type": {
 												"type": "reference",
-												"name": "InspectOptions"
+												"name": "NodeJS.InspectOptions"
 											}
 										}
 									],
@@ -3589,7 +3634,7 @@
 							"sources": [
 								{
 									"fileName": "src/lib/KlasaConsole.ts",
-									"line": 226,
+									"line": 229,
 									"character": 13
 								}
 							],
@@ -3911,7 +3956,7 @@
 							"sources": [
 								{
 									"fileName": "src/lib/KlasaConsole.ts",
-									"line": 208,
+									"line": 211,
 									"character": 11
 								}
 							],
@@ -3951,8 +3996,17 @@
 												"isOptional": true
 											},
 											"type": {
-												"type": "intrinsic",
-												"name": "string"
+												"type": "union",
+												"types": [
+													{
+														"type": "intrinsic",
+														"name": "undefined"
+													},
+													{
+														"type": "intrinsic",
+														"name": "string"
+													}
+												]
 											}
 										}
 									],
@@ -4011,8 +4065,17 @@
 												"isOptional": true
 											},
 											"type": {
-												"type": "intrinsic",
-												"name": "string"
+												"type": "union",
+												"types": [
+													{
+														"type": "intrinsic",
+														"name": "undefined"
+													},
+													{
+														"type": "intrinsic",
+														"name": "string"
+													}
+												]
 											}
 										}
 									],
@@ -4147,8 +4210,17 @@
 												"isOptional": true
 											},
 											"type": {
-												"type": "intrinsic",
-												"name": "string"
+												"type": "union",
+												"types": [
+													{
+														"type": "intrinsic",
+														"name": "undefined"
+													},
+													{
+														"type": "intrinsic",
+														"name": "string"
+													}
+												]
 											}
 										}
 									],
@@ -4207,8 +4279,17 @@
 												"isOptional": true
 											},
 											"type": {
-												"type": "intrinsic",
-												"name": "string"
+												"type": "union",
+												"types": [
+													{
+														"type": "intrinsic",
+														"name": "undefined"
+													},
+													{
+														"type": "intrinsic",
+														"name": "string"
+													}
+												]
 											}
 										}
 									],
@@ -4267,8 +4348,17 @@
 												"isOptional": true
 											},
 											"type": {
-												"type": "intrinsic",
-												"name": "string"
+												"type": "union",
+												"types": [
+													{
+														"type": "intrinsic",
+														"name": "undefined"
+													},
+													{
+														"type": "intrinsic",
+														"name": "string"
+													}
+												]
 											}
 										},
 										{
@@ -4344,8 +4434,17 @@
 												"isOptional": true
 											},
 											"type": {
-												"type": "intrinsic",
-												"name": "string"
+												"type": "union",
+												"types": [
+													{
+														"type": "intrinsic",
+														"name": "undefined"
+													},
+													{
+														"type": "intrinsic",
+														"name": "string"
+													}
+												]
 											}
 										}
 									],
@@ -4512,7 +4611,7 @@
 							"sources": [
 								{
 									"fileName": "src/lib/KlasaConsole.ts",
-									"line": 244,
+									"line": 247,
 									"character": 15
 								}
 							]
@@ -4583,7 +4682,7 @@
 							"sources": [
 								{
 									"fileName": "src/lib/KlasaConsole.ts",
-									"line": 217,
+									"line": 220,
 									"character": 12
 								}
 							],
@@ -4738,7 +4837,7 @@
 							"sources": [
 								{
 									"fileName": "src/lib/KlasaConsole.ts",
-									"line": 253,
+									"line": 256,
 									"character": 11
 								}
 							]
@@ -4814,7 +4913,7 @@
 							"sources": [
 								{
 									"fileName": "src/lib/KlasaConsole.ts",
-									"line": 262,
+									"line": 265,
 									"character": 24
 								}
 							]
@@ -5317,8 +5416,21 @@
 								}
 							],
 							"type": {
-								"type": "intrinsic",
-								"name": "boolean"
+								"type": "union",
+								"types": [
+									{
+										"type": "intrinsic",
+										"name": "undefined"
+									},
+									{
+										"type": "intrinsic",
+										"name": "false"
+									},
+									{
+										"type": "intrinsic",
+										"name": "true"
+									}
+								]
 							}
 						},
 						{
@@ -6300,16 +6412,6342 @@
 		},
 		{
 			"id": 264,
-			"name": "\"test/Util\"",
+			"name": "\"test/Colors\"",
 			"kind": 1,
 			"kindString": "Module",
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "/home/runner/work/console/console/test/Util.ts",
+			"originalName": "/home/runner/work/console/console/test/Colors.ts",
 			"sources": [
 				{
-					"fileName": "test/Util.ts",
+					"fileName": "test/Colors.ts",
+					"line": 1,
+					"character": 0
+				}
+			]
+		},
+		{
+			"id": 646,
+			"name": "\"test/Console\"",
+			"kind": 1,
+			"kindString": "Module",
+			"flags": {
+				"isExported": true
+			},
+			"originalName": "/home/runner/work/console/console/test/Console.ts",
+			"sources": [
+				{
+					"fileName": "test/Console.ts",
+					"line": 1,
+					"character": 0
+				}
+			]
+		},
+		{
+			"id": 265,
+			"name": "\"test/lib/index\"",
+			"kind": 1,
+			"kindString": "Module",
+			"flags": {
+				"isExported": true
+			},
+			"originalName": "/home/runner/work/console/console/test/lib/index.ts",
+			"children": [
+				{
+					"id": 266,
+					"name": "MockWritable",
+					"kind": 128,
+					"kindString": "Class",
+					"flags": {},
+					"children": [
+						{
+							"id": 269,
+							"name": "constructor",
+							"kind": 512,
+							"kindString": "Constructor",
+							"flags": {
+								"isPublic": true
+							},
+							"signatures": [
+								{
+									"id": 271,
+									"name": "new MockWritable",
+									"kind": 16384,
+									"kindString": "Constructor signature",
+									"flags": {},
+									"parameters": [
+										{
+											"id": 272,
+											"name": "amountToWrite",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "intrinsic",
+												"name": "number"
+											},
+											"defaultValue": "Infinity"
+										}
+									],
+									"type": {
+										"type": "reference",
+										"id": 266,
+										"name": "MockWritable"
+									},
+									"overwrites": {
+										"type": "reference",
+										"name": "Writable.__constructor"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "test/lib/index.ts",
+									"line": 7,
+									"character": 21
+								}
+							],
+							"overwrites": {
+								"type": "reference",
+								"name": "Writable.__constructor"
+							}
+						},
+						{
+							"id": 270,
+							"name": "amountToWrite",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isPrivate": true,
+								"isConstructorProperty": true
+							},
+							"sources": [
+								{
+									"fileName": "test/lib/index.ts",
+									"line": 9,
+									"character": 41
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							}
+						},
+						{
+							"id": 287,
+							"name": "destroyed",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "node_modules/@types/node/stream.d.ts",
+									"line": 145,
+									"character": 21
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "boolean"
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 287,
+								"name": "Writable.destroyed"
+							}
+						},
+						{
+							"id": 280,
+							"name": "writable",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isReadonly": true
+							},
+							"sources": [
+								{
+									"fileName": "node_modules/@types/node/stream.d.ts",
+									"line": 138,
+									"character": 29
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "boolean"
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 280,
+								"name": "Writable.writable"
+							}
+						},
+						{
+							"id": 286,
+							"name": "writableCorked",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isReadonly": true
+							},
+							"sources": [
+								{
+									"fileName": "node_modules/@types/node/stream.d.ts",
+									"line": 144,
+									"character": 35
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 286,
+								"name": "Writable.writableCorked"
+							}
+						},
+						{
+							"id": 281,
+							"name": "writableEnded",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isReadonly": true
+							},
+							"sources": [
+								{
+									"fileName": "node_modules/@types/node/stream.d.ts",
+									"line": 139,
+									"character": 34
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "boolean"
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 281,
+								"name": "Writable.writableEnded"
+							}
+						},
+						{
+							"id": 282,
+							"name": "writableFinished",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isReadonly": true
+							},
+							"sources": [
+								{
+									"fileName": "node_modules/@types/node/stream.d.ts",
+									"line": 140,
+									"character": 37
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "boolean"
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 282,
+								"name": "Writable.writableFinished"
+							}
+						},
+						{
+							"id": 283,
+							"name": "writableHighWaterMark",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isReadonly": true
+							},
+							"sources": [
+								{
+									"fileName": "node_modules/@types/node/stream.d.ts",
+									"line": 141,
+									"character": 42
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 283,
+								"name": "Writable.writableHighWaterMark"
+							}
+						},
+						{
+							"id": 284,
+							"name": "writableLength",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isReadonly": true
+							},
+							"sources": [
+								{
+									"fileName": "node_modules/@types/node/stream.d.ts",
+									"line": 142,
+									"character": 35
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 284,
+								"name": "Writable.writableLength"
+							}
+						},
+						{
+							"id": 285,
+							"name": "writableObjectMode",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isReadonly": true
+							},
+							"sources": [
+								{
+									"fileName": "node_modules/@types/node/stream.d.ts",
+									"line": 143,
+									"character": 39
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "boolean"
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 285,
+								"name": "Writable.writableObjectMode"
+							}
+						},
+						{
+							"id": 268,
+							"name": "written",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isPrivate": true
+							},
+							"sources": [
+								{
+									"fileName": "test/lib/index.ts",
+									"line": 7,
+									"character": 16
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							},
+							"defaultValue": "0"
+						},
+						{
+							"id": 267,
+							"name": "writtenData",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isPublic": true
+							},
+							"sources": [
+								{
+									"fileName": "test/lib/index.ts",
+									"line": 5,
+									"character": 19
+								}
+							],
+							"type": {
+								"type": "array",
+								"elementType": {
+									"type": "intrinsic",
+									"name": "string"
+								}
+							},
+							"defaultValue": "[]"
+						},
+						{
+							"id": 298,
+							"name": "_destroy",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {},
+							"signatures": [
+								{
+									"id": 299,
+									"name": "_destroy",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"parameters": [
+										{
+											"id": 300,
+											"name": "error",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "union",
+												"types": [
+													{
+														"type": "reference",
+														"name": "Error"
+													},
+													{
+														"type": "intrinsic",
+														"name": "null"
+													}
+												]
+											}
+										},
+										{
+											"id": 301,
+											"name": "callback",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "reflection",
+												"declaration": {
+													"id": 302,
+													"name": "__type",
+													"kind": 65536,
+													"kindString": "Type literal",
+													"flags": {},
+													"signatures": [
+														{
+															"id": 303,
+															"name": "__call",
+															"kind": 4096,
+															"kindString": "Call signature",
+															"flags": {},
+															"parameters": [
+																{
+																	"id": 304,
+																	"name": "error",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isOptional": true
+																	},
+																	"type": {
+																		"type": "union",
+																		"types": [
+																			{
+																				"type": "reference",
+																				"name": "Error"
+																			},
+																			{
+																				"type": "intrinsic",
+																				"name": "null"
+																			}
+																		]
+																	}
+																}
+															],
+															"type": {
+																"type": "intrinsic",
+																"name": "void"
+															}
+														}
+													],
+													"sources": [
+														{
+															"fileName": "node_modules/@types/node/stream.d.ts",
+															"line": 149,
+															"character": 51
+														}
+													]
+												}
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 298,
+										"name": "Writable._destroy"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/@types/node/stream.d.ts",
+									"line": 149,
+									"character": 20
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 298,
+								"name": "Writable._destroy"
+							}
+						},
+						{
+							"id": 305,
+							"name": "_final",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {},
+							"signatures": [
+								{
+									"id": 306,
+									"name": "_final",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"parameters": [
+										{
+											"id": 307,
+											"name": "callback",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "reflection",
+												"declaration": {
+													"id": 308,
+													"name": "__type",
+													"kind": 65536,
+													"kindString": "Type literal",
+													"flags": {},
+													"signatures": [
+														{
+															"id": 309,
+															"name": "__call",
+															"kind": 4096,
+															"kindString": "Call signature",
+															"flags": {},
+															"parameters": [
+																{
+																	"id": 310,
+																	"name": "error",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isOptional": true
+																	},
+																	"type": {
+																		"type": "union",
+																		"types": [
+																			{
+																				"type": "reference",
+																				"name": "Error"
+																			},
+																			{
+																				"type": "intrinsic",
+																				"name": "null"
+																			}
+																		]
+																	}
+																}
+															],
+															"type": {
+																"type": "intrinsic",
+																"name": "void"
+															}
+														}
+													],
+													"sources": [
+														{
+															"fileName": "node_modules/@types/node/stream.d.ts",
+															"line": 150,
+															"character": 28
+														}
+													]
+												}
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 305,
+										"name": "Writable._final"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/@types/node/stream.d.ts",
+									"line": 150,
+									"character": 18
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 305,
+								"name": "Writable._final"
+							}
+						},
+						{
+							"id": 273,
+							"name": "_write",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isPublic": true
+							},
+							"signatures": [
+								{
+									"id": 274,
+									"name": "_write",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"parameters": [
+										{
+											"id": 275,
+											"name": "chunk",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "union",
+												"types": [
+													{
+														"type": "reference",
+														"name": "Buffer"
+													},
+													{
+														"type": "intrinsic",
+														"name": "string"
+													}
+												]
+											}
+										},
+										{
+											"id": 276,
+											"name": "_encoding",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											}
+										},
+										{
+											"id": 277,
+											"name": "next",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "reflection",
+												"declaration": {
+													"id": 278,
+													"name": "__type",
+													"kind": 65536,
+													"kindString": "Type literal",
+													"flags": {},
+													"signatures": [
+														{
+															"id": 279,
+															"name": "__call",
+															"kind": 4096,
+															"kindString": "Call signature",
+															"flags": {},
+															"type": {
+																"type": "intrinsic",
+																"name": "void"
+															}
+														}
+													],
+													"sources": [
+														{
+															"fileName": "test/lib/index.ts",
+															"line": 13,
+															"character": 63
+														}
+													]
+												}
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									},
+									"overwrites": {
+										"type": "reference",
+										"name": "Writable._write"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "test/lib/index.ts",
+									"line": 13,
+									"character": 14
+								}
+							],
+							"overwrites": {
+								"type": "reference",
+								"name": "Writable._write"
+							}
+						},
+						{
+							"id": 288,
+							"name": "_writev",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isOptional": true
+							},
+							"signatures": [
+								{
+									"id": 289,
+									"name": "_writev",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"parameters": [
+										{
+											"id": 290,
+											"name": "chunks",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "reference",
+												"typeArguments": [
+													{
+														"type": "reflection",
+														"declaration": {
+															"id": 291,
+															"name": "__type",
+															"kind": 65536,
+															"kindString": "Type literal",
+															"flags": {},
+															"children": [
+																{
+																	"id": 292,
+																	"name": "chunk",
+																	"kind": 32,
+																	"kindString": "Variable",
+																	"flags": {},
+																	"sources": [
+																		{
+																			"fileName": "node_modules/@types/node/stream.d.ts",
+																			"line": 148,
+																			"character": 42
+																		}
+																	],
+																	"type": {
+																		"type": "intrinsic",
+																		"name": "any"
+																	}
+																},
+																{
+																	"id": 293,
+																	"name": "encoding",
+																	"kind": 32,
+																	"kindString": "Variable",
+																	"flags": {},
+																	"sources": [
+																		{
+																			"fileName": "node_modules/@types/node/stream.d.ts",
+																			"line": 148,
+																			"character": 57
+																		}
+																	],
+																	"type": {
+																		"type": "reference",
+																		"name": "BufferEncoding"
+																	}
+																}
+															],
+															"groups": [
+																{
+																	"title": "Variables",
+																	"kind": 32,
+																	"children": [
+																		292,
+																		293
+																	]
+																}
+															],
+															"sources": [
+																{
+																	"fileName": "node_modules/@types/node/stream.d.ts",
+																	"line": 148,
+																	"character": 35
+																}
+															]
+														}
+													}
+												],
+												"name": "Array"
+											}
+										},
+										{
+											"id": 294,
+											"name": "callback",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "reflection",
+												"declaration": {
+													"id": 295,
+													"name": "__type",
+													"kind": 65536,
+													"kindString": "Type literal",
+													"flags": {},
+													"signatures": [
+														{
+															"id": 296,
+															"name": "__call",
+															"kind": 4096,
+															"kindString": "Call signature",
+															"flags": {},
+															"parameters": [
+																{
+																	"id": 297,
+																	"name": "error",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isOptional": true
+																	},
+																	"type": {
+																		"type": "union",
+																		"types": [
+																			{
+																				"type": "reference",
+																				"name": "Error"
+																			},
+																			{
+																				"type": "intrinsic",
+																				"name": "null"
+																			}
+																		]
+																	}
+																}
+															],
+															"type": {
+																"type": "intrinsic",
+																"name": "void"
+															}
+														}
+													],
+													"sources": [
+														{
+															"fileName": "node_modules/@types/node/stream.d.ts",
+															"line": 148,
+															"character": 87
+														}
+													]
+												}
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 288,
+										"name": "Writable._writev"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/@types/node/stream.d.ts",
+									"line": 148,
+									"character": 19
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 288,
+								"name": "Writable._writev"
+							}
+						},
+						{
+							"id": 351,
+							"name": "addListener",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {},
+							"signatures": [
+								{
+									"id": 352,
+									"name": "addListener",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"comment": {
+										"shortText": "Event emitter\nThe defined events on documents including:\n1. close\n2. drain\n3. error\n4. finish\n5. pipe\n6. unpipe"
+									},
+									"parameters": [
+										{
+											"id": 353,
+											"name": "event",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "stringLiteral",
+												"value": "close"
+											}
+										},
+										{
+											"id": 354,
+											"name": "listener",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "reflection",
+												"declaration": {
+													"id": 355,
+													"name": "__type",
+													"kind": 65536,
+													"kindString": "Type literal",
+													"flags": {},
+													"signatures": [
+														{
+															"id": 356,
+															"name": "__call",
+															"kind": 4096,
+															"kindString": "Call signature",
+															"flags": {},
+															"type": {
+																"type": "intrinsic",
+																"name": "void"
+															}
+														}
+													],
+													"sources": [
+														{
+															"fileName": "node_modules/@types/node/stream.d.ts",
+															"line": 171,
+															"character": 49
+														}
+													]
+												}
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "this"
+									},
+									"overwrites": {
+										"type": "reference",
+										"name": "EventEmitter.addListener"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 351,
+										"name": "Writable.addListener"
+									}
+								},
+								{
+									"id": 357,
+									"name": "addListener",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"parameters": [
+										{
+											"id": 358,
+											"name": "event",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "stringLiteral",
+												"value": "drain"
+											}
+										},
+										{
+											"id": 359,
+											"name": "listener",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "reflection",
+												"declaration": {
+													"id": 360,
+													"name": "__type",
+													"kind": 65536,
+													"kindString": "Type literal",
+													"flags": {},
+													"signatures": [
+														{
+															"id": 361,
+															"name": "__call",
+															"kind": 4096,
+															"kindString": "Call signature",
+															"flags": {},
+															"type": {
+																"type": "intrinsic",
+																"name": "void"
+															}
+														}
+													],
+													"sources": [
+														{
+															"fileName": "node_modules/@types/node/stream.d.ts",
+															"line": 172,
+															"character": 49
+														}
+													]
+												}
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "this"
+									},
+									"overwrites": {
+										"type": "reference",
+										"name": "EventEmitter.addListener"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 351,
+										"name": "Writable.addListener"
+									}
+								},
+								{
+									"id": 362,
+									"name": "addListener",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"parameters": [
+										{
+											"id": 363,
+											"name": "event",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "stringLiteral",
+												"value": "error"
+											}
+										},
+										{
+											"id": 364,
+											"name": "listener",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "reflection",
+												"declaration": {
+													"id": 365,
+													"name": "__type",
+													"kind": 65536,
+													"kindString": "Type literal",
+													"flags": {},
+													"signatures": [
+														{
+															"id": 366,
+															"name": "__call",
+															"kind": 4096,
+															"kindString": "Call signature",
+															"flags": {},
+															"parameters": [
+																{
+																	"id": 367,
+																	"name": "err",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {},
+																	"type": {
+																		"type": "reference",
+																		"name": "Error"
+																	}
+																}
+															],
+															"type": {
+																"type": "intrinsic",
+																"name": "void"
+															}
+														}
+													],
+													"sources": [
+														{
+															"fileName": "node_modules/@types/node/stream.d.ts",
+															"line": 173,
+															"character": 49
+														}
+													]
+												}
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "this"
+									},
+									"overwrites": {
+										"type": "reference",
+										"name": "EventEmitter.addListener"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 351,
+										"name": "Writable.addListener"
+									}
+								},
+								{
+									"id": 368,
+									"name": "addListener",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"parameters": [
+										{
+											"id": 369,
+											"name": "event",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "stringLiteral",
+												"value": "finish"
+											}
+										},
+										{
+											"id": 370,
+											"name": "listener",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "reflection",
+												"declaration": {
+													"id": 371,
+													"name": "__type",
+													"kind": 65536,
+													"kindString": "Type literal",
+													"flags": {},
+													"signatures": [
+														{
+															"id": 372,
+															"name": "__call",
+															"kind": 4096,
+															"kindString": "Call signature",
+															"flags": {},
+															"type": {
+																"type": "intrinsic",
+																"name": "void"
+															}
+														}
+													],
+													"sources": [
+														{
+															"fileName": "node_modules/@types/node/stream.d.ts",
+															"line": 174,
+															"character": 50
+														}
+													]
+												}
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "this"
+									},
+									"overwrites": {
+										"type": "reference",
+										"name": "EventEmitter.addListener"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 351,
+										"name": "Writable.addListener"
+									}
+								},
+								{
+									"id": 373,
+									"name": "addListener",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"parameters": [
+										{
+											"id": 374,
+											"name": "event",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "stringLiteral",
+												"value": "pipe"
+											}
+										},
+										{
+											"id": 375,
+											"name": "listener",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "reflection",
+												"declaration": {
+													"id": 376,
+													"name": "__type",
+													"kind": 65536,
+													"kindString": "Type literal",
+													"flags": {},
+													"signatures": [
+														{
+															"id": 377,
+															"name": "__call",
+															"kind": 4096,
+															"kindString": "Call signature",
+															"flags": {},
+															"parameters": [
+																{
+																	"id": 378,
+																	"name": "src",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {},
+																	"type": {
+																		"type": "reference",
+																		"name": "Readable"
+																	}
+																}
+															],
+															"type": {
+																"type": "intrinsic",
+																"name": "void"
+															}
+														}
+													],
+													"sources": [
+														{
+															"fileName": "node_modules/@types/node/stream.d.ts",
+															"line": 175,
+															"character": 48
+														}
+													]
+												}
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "this"
+									},
+									"overwrites": {
+										"type": "reference",
+										"name": "EventEmitter.addListener"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 351,
+										"name": "Writable.addListener"
+									}
+								},
+								{
+									"id": 379,
+									"name": "addListener",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"parameters": [
+										{
+											"id": 380,
+											"name": "event",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "stringLiteral",
+												"value": "unpipe"
+											}
+										},
+										{
+											"id": 381,
+											"name": "listener",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "reflection",
+												"declaration": {
+													"id": 382,
+													"name": "__type",
+													"kind": 65536,
+													"kindString": "Type literal",
+													"flags": {},
+													"signatures": [
+														{
+															"id": 383,
+															"name": "__call",
+															"kind": 4096,
+															"kindString": "Call signature",
+															"flags": {},
+															"parameters": [
+																{
+																	"id": 384,
+																	"name": "src",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {},
+																	"type": {
+																		"type": "reference",
+																		"name": "Readable"
+																	}
+																}
+															],
+															"type": {
+																"type": "intrinsic",
+																"name": "void"
+															}
+														}
+													],
+													"sources": [
+														{
+															"fileName": "node_modules/@types/node/stream.d.ts",
+															"line": 176,
+															"character": 50
+														}
+													]
+												}
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "this"
+									},
+									"overwrites": {
+										"type": "reference",
+										"name": "EventEmitter.addListener"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 351,
+										"name": "Writable.addListener"
+									}
+								},
+								{
+									"id": 385,
+									"name": "addListener",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"parameters": [
+										{
+											"id": 386,
+											"name": "event",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "union",
+												"types": [
+													{
+														"type": "intrinsic",
+														"name": "string"
+													},
+													{
+														"type": "intrinsic",
+														"name": "symbol"
+													}
+												]
+											}
+										},
+										{
+											"id": 387,
+											"name": "listener",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "reflection",
+												"declaration": {
+													"id": 388,
+													"name": "__type",
+													"kind": 65536,
+													"kindString": "Type literal",
+													"flags": {},
+													"signatures": [
+														{
+															"id": 389,
+															"name": "__call",
+															"kind": 4096,
+															"kindString": "Call signature",
+															"flags": {},
+															"parameters": [
+																{
+																	"id": 390,
+																	"name": "args",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isRest": true
+																	},
+																	"type": {
+																		"type": "array",
+																		"elementType": {
+																			"type": "intrinsic",
+																			"name": "any"
+																		}
+																	}
+																}
+															],
+															"type": {
+																"type": "intrinsic",
+																"name": "void"
+															}
+														}
+													],
+													"sources": [
+														{
+															"fileName": "node_modules/@types/node/stream.d.ts",
+															"line": 177,
+															"character": 57
+														}
+													]
+												}
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "this"
+									},
+									"overwrites": {
+										"type": "reference",
+										"name": "EventEmitter.addListener"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 351,
+										"name": "Writable.addListener"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/@types/node/stream.d.ts",
+									"line": 171,
+									"character": 23
+								},
+								{
+									"fileName": "node_modules/@types/node/stream.d.ts",
+									"line": 172,
+									"character": 23
+								},
+								{
+									"fileName": "node_modules/@types/node/stream.d.ts",
+									"line": 173,
+									"character": 23
+								},
+								{
+									"fileName": "node_modules/@types/node/stream.d.ts",
+									"line": 174,
+									"character": 23
+								},
+								{
+									"fileName": "node_modules/@types/node/stream.d.ts",
+									"line": 175,
+									"character": 23
+								},
+								{
+									"fileName": "node_modules/@types/node/stream.d.ts",
+									"line": 176,
+									"character": 23
+								},
+								{
+									"fileName": "node_modules/@types/node/stream.d.ts",
+									"line": 177,
+									"character": 23
+								}
+							],
+							"overwrites": {
+								"type": "reference",
+								"name": "EventEmitter.addListener"
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 351,
+								"name": "Writable.addListener"
+							}
+						},
+						{
+							"id": 344,
+							"name": "cork",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {},
+							"signatures": [
+								{
+									"id": 345,
+									"name": "cork",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 344,
+										"name": "Writable.cork"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/@types/node/stream.d.ts",
+									"line": 157,
+									"character": 16
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 344,
+								"name": "Writable.cork"
+							}
+						},
+						{
+							"id": 348,
+							"name": "destroy",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {},
+							"signatures": [
+								{
+									"id": 349,
+									"name": "destroy",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"parameters": [
+										{
+											"id": 350,
+											"name": "error",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isOptional": true
+											},
+											"type": {
+												"type": "reference",
+												"name": "Error"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 348,
+										"name": "Writable.destroy"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/@types/node/stream.d.ts",
+									"line": 159,
+									"character": 19
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 348,
+								"name": "Writable.destroy"
+							}
+						},
+						{
+							"id": 391,
+							"name": "emit",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {},
+							"signatures": [
+								{
+									"id": 392,
+									"name": "emit",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"parameters": [
+										{
+											"id": 393,
+											"name": "event",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "stringLiteral",
+												"value": "close"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "boolean"
+									},
+									"overwrites": {
+										"type": "reference",
+										"name": "EventEmitter.emit"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 391,
+										"name": "Writable.emit"
+									}
+								},
+								{
+									"id": 394,
+									"name": "emit",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"parameters": [
+										{
+											"id": 395,
+											"name": "event",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "stringLiteral",
+												"value": "drain"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "boolean"
+									},
+									"overwrites": {
+										"type": "reference",
+										"name": "EventEmitter.emit"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 391,
+										"name": "Writable.emit"
+									}
+								},
+								{
+									"id": 396,
+									"name": "emit",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"parameters": [
+										{
+											"id": 397,
+											"name": "event",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "stringLiteral",
+												"value": "error"
+											}
+										},
+										{
+											"id": 398,
+											"name": "err",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "reference",
+												"name": "Error"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "boolean"
+									},
+									"overwrites": {
+										"type": "reference",
+										"name": "EventEmitter.emit"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 391,
+										"name": "Writable.emit"
+									}
+								},
+								{
+									"id": 399,
+									"name": "emit",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"parameters": [
+										{
+											"id": 400,
+											"name": "event",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "stringLiteral",
+												"value": "finish"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "boolean"
+									},
+									"overwrites": {
+										"type": "reference",
+										"name": "EventEmitter.emit"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 391,
+										"name": "Writable.emit"
+									}
+								},
+								{
+									"id": 401,
+									"name": "emit",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"parameters": [
+										{
+											"id": 402,
+											"name": "event",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "stringLiteral",
+												"value": "pipe"
+											}
+										},
+										{
+											"id": 403,
+											"name": "src",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "reference",
+												"name": "Readable"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "boolean"
+									},
+									"overwrites": {
+										"type": "reference",
+										"name": "EventEmitter.emit"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 391,
+										"name": "Writable.emit"
+									}
+								},
+								{
+									"id": 404,
+									"name": "emit",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"parameters": [
+										{
+											"id": 405,
+											"name": "event",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "stringLiteral",
+												"value": "unpipe"
+											}
+										},
+										{
+											"id": 406,
+											"name": "src",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "reference",
+												"name": "Readable"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "boolean"
+									},
+									"overwrites": {
+										"type": "reference",
+										"name": "EventEmitter.emit"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 391,
+										"name": "Writable.emit"
+									}
+								},
+								{
+									"id": 407,
+									"name": "emit",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"parameters": [
+										{
+											"id": 408,
+											"name": "event",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "union",
+												"types": [
+													{
+														"type": "intrinsic",
+														"name": "string"
+													},
+													{
+														"type": "intrinsic",
+														"name": "symbol"
+													}
+												]
+											}
+										},
+										{
+											"id": 409,
+											"name": "args",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isRest": true
+											},
+											"type": {
+												"type": "array",
+												"elementType": {
+													"type": "intrinsic",
+													"name": "any"
+												}
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "boolean"
+									},
+									"overwrites": {
+										"type": "reference",
+										"name": "EventEmitter.emit"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 391,
+										"name": "Writable.emit"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/@types/node/stream.d.ts",
+									"line": 179,
+									"character": 16
+								},
+								{
+									"fileName": "node_modules/@types/node/stream.d.ts",
+									"line": 180,
+									"character": 16
+								},
+								{
+									"fileName": "node_modules/@types/node/stream.d.ts",
+									"line": 181,
+									"character": 16
+								},
+								{
+									"fileName": "node_modules/@types/node/stream.d.ts",
+									"line": 182,
+									"character": 16
+								},
+								{
+									"fileName": "node_modules/@types/node/stream.d.ts",
+									"line": 183,
+									"character": 16
+								},
+								{
+									"fileName": "node_modules/@types/node/stream.d.ts",
+									"line": 184,
+									"character": 16
+								},
+								{
+									"fileName": "node_modules/@types/node/stream.d.ts",
+									"line": 185,
+									"character": 16
+								}
+							],
+							"overwrites": {
+								"type": "reference",
+								"name": "EventEmitter.emit"
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 391,
+								"name": "Writable.emit"
+							}
+						},
+						{
+							"id": 328,
+							"name": "end",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {},
+							"signatures": [
+								{
+									"id": 329,
+									"name": "end",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"parameters": [
+										{
+											"id": 330,
+											"name": "cb",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isOptional": true
+											},
+											"type": {
+												"type": "union",
+												"types": [
+													{
+														"type": "intrinsic",
+														"name": "undefined"
+													},
+													{
+														"type": "reflection",
+														"declaration": {
+															"id": 331,
+															"name": "__type",
+															"kind": 65536,
+															"kindString": "Type literal",
+															"flags": {},
+															"signatures": [
+																{
+																	"id": 332,
+																	"name": "__call",
+																	"kind": 4096,
+																	"kindString": "Call signature",
+																	"flags": {},
+																	"type": {
+																		"type": "intrinsic",
+																		"name": "void"
+																	}
+																}
+															]
+														}
+													}
+												]
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 328,
+										"name": "Writable.end"
+									}
+								},
+								{
+									"id": 333,
+									"name": "end",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"parameters": [
+										{
+											"id": 334,
+											"name": "chunk",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "intrinsic",
+												"name": "any"
+											}
+										},
+										{
+											"id": 335,
+											"name": "cb",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isOptional": true
+											},
+											"type": {
+												"type": "union",
+												"types": [
+													{
+														"type": "intrinsic",
+														"name": "undefined"
+													},
+													{
+														"type": "reflection",
+														"declaration": {
+															"id": 336,
+															"name": "__type",
+															"kind": 65536,
+															"kindString": "Type literal",
+															"flags": {},
+															"signatures": [
+																{
+																	"id": 337,
+																	"name": "__call",
+																	"kind": 4096,
+																	"kindString": "Call signature",
+																	"flags": {},
+																	"type": {
+																		"type": "intrinsic",
+																		"name": "void"
+																	}
+																}
+															]
+														}
+													}
+												]
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 328,
+										"name": "Writable.end"
+									}
+								},
+								{
+									"id": 338,
+									"name": "end",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"parameters": [
+										{
+											"id": 339,
+											"name": "chunk",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "intrinsic",
+												"name": "any"
+											}
+										},
+										{
+											"id": 340,
+											"name": "encoding",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "reference",
+												"name": "BufferEncoding"
+											}
+										},
+										{
+											"id": 341,
+											"name": "cb",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isOptional": true
+											},
+											"type": {
+												"type": "union",
+												"types": [
+													{
+														"type": "intrinsic",
+														"name": "undefined"
+													},
+													{
+														"type": "reflection",
+														"declaration": {
+															"id": 342,
+															"name": "__type",
+															"kind": 65536,
+															"kindString": "Type literal",
+															"flags": {},
+															"signatures": [
+																{
+																	"id": 343,
+																	"name": "__call",
+																	"kind": 4096,
+																	"kindString": "Call signature",
+																	"flags": {},
+																	"type": {
+																		"type": "intrinsic",
+																		"name": "void"
+																	}
+																}
+															]
+														}
+													}
+												]
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 328,
+										"name": "Writable.end"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/@types/node/stream.d.ts",
+									"line": 154,
+									"character": 15
+								},
+								{
+									"fileName": "node_modules/@types/node/stream.d.ts",
+									"line": 155,
+									"character": 15
+								},
+								{
+									"fileName": "node_modules/@types/node/stream.d.ts",
+									"line": 156,
+									"character": 15
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 328,
+								"name": "Writable.end"
+							}
+						},
+						{
+							"id": 641,
+							"name": "eventNames",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {},
+							"signatures": [
+								{
+									"id": 642,
+									"name": "eventNames",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "union",
+												"types": [
+													{
+														"type": "intrinsic",
+														"name": "string"
+													},
+													{
+														"type": "intrinsic",
+														"name": "symbol"
+													}
+												]
+											}
+										],
+										"name": "Array"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 641,
+										"name": "EventEmitter.eventNames"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/@types/node/globals.d.ts",
+									"line": 568,
+									"character": 18
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 641,
+								"name": "EventEmitter.eventNames"
+							}
+						},
+						{
+							"id": 630,
+							"name": "getMaxListeners",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {},
+							"signatures": [
+								{
+									"id": 631,
+									"name": "getMaxListeners",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 630,
+										"name": "EventEmitter.getMaxListeners"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/@types/node/globals.d.ts",
+									"line": 560,
+									"character": 23
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 630,
+								"name": "EventEmitter.getMaxListeners"
+							}
+						},
+						{
+							"id": 638,
+							"name": "listenerCount",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {},
+							"signatures": [
+								{
+									"id": 639,
+									"name": "listenerCount",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"parameters": [
+										{
+											"id": 640,
+											"name": "type",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "union",
+												"types": [
+													{
+														"type": "intrinsic",
+														"name": "string"
+													},
+													{
+														"type": "intrinsic",
+														"name": "symbol"
+													}
+												]
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 638,
+										"name": "EventEmitter.listenerCount"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/@types/node/globals.d.ts",
+									"line": 564,
+									"character": 21
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 638,
+								"name": "EventEmitter.listenerCount"
+							}
+						},
+						{
+							"id": 632,
+							"name": "listeners",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {},
+							"signatures": [
+								{
+									"id": 633,
+									"name": "listeners",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"parameters": [
+										{
+											"id": 634,
+											"name": "event",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "union",
+												"types": [
+													{
+														"type": "intrinsic",
+														"name": "string"
+													},
+													{
+														"type": "intrinsic",
+														"name": "symbol"
+													}
+												]
+											}
+										}
+									],
+									"type": {
+										"type": "array",
+										"elementType": {
+											"type": "reference",
+											"name": "Function"
+										}
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 632,
+										"name": "EventEmitter.listeners"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/@types/node/globals.d.ts",
+									"line": 561,
+									"character": 17
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 632,
+								"name": "EventEmitter.listeners"
+							}
+						},
+						{
+							"id": 617,
+							"name": "off",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {},
+							"signatures": [
+								{
+									"id": 618,
+									"name": "off",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"parameters": [
+										{
+											"id": 619,
+											"name": "event",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "union",
+												"types": [
+													{
+														"type": "intrinsic",
+														"name": "string"
+													},
+													{
+														"type": "intrinsic",
+														"name": "symbol"
+													}
+												]
+											}
+										},
+										{
+											"id": 620,
+											"name": "listener",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "reflection",
+												"declaration": {
+													"id": 621,
+													"name": "__type",
+													"kind": 65536,
+													"kindString": "Type literal",
+													"flags": {},
+													"signatures": [
+														{
+															"id": 622,
+															"name": "__call",
+															"kind": 4096,
+															"kindString": "Call signature",
+															"flags": {},
+															"parameters": [
+																{
+																	"id": 623,
+																	"name": "args",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isRest": true
+																	},
+																	"type": {
+																		"type": "array",
+																		"elementType": {
+																			"type": "intrinsic",
+																			"name": "any"
+																		}
+																	}
+																}
+															],
+															"type": {
+																"type": "intrinsic",
+																"name": "void"
+															}
+														}
+													],
+													"sources": [
+														{
+															"fileName": "node_modules/@types/node/globals.d.ts",
+															"line": 557,
+															"character": 45
+														}
+													]
+												}
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "this"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 617,
+										"name": "EventEmitter.off"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/@types/node/globals.d.ts",
+									"line": 557,
+									"character": 11
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 617,
+								"name": "EventEmitter.off"
+							}
+						},
+						{
+							"id": 410,
+							"name": "on",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {},
+							"signatures": [
+								{
+									"id": 411,
+									"name": "on",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"parameters": [
+										{
+											"id": 412,
+											"name": "event",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "stringLiteral",
+												"value": "close"
+											}
+										},
+										{
+											"id": 413,
+											"name": "listener",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "reflection",
+												"declaration": {
+													"id": 414,
+													"name": "__type",
+													"kind": 65536,
+													"kindString": "Type literal",
+													"flags": {},
+													"signatures": [
+														{
+															"id": 415,
+															"name": "__call",
+															"kind": 4096,
+															"kindString": "Call signature",
+															"flags": {},
+															"type": {
+																"type": "intrinsic",
+																"name": "void"
+															}
+														}
+													],
+													"sources": [
+														{
+															"fileName": "node_modules/@types/node/stream.d.ts",
+															"line": 187,
+															"character": 40
+														}
+													]
+												}
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "this"
+									},
+									"overwrites": {
+										"type": "reference",
+										"name": "EventEmitter.on"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 410,
+										"name": "Writable.on"
+									}
+								},
+								{
+									"id": 416,
+									"name": "on",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"parameters": [
+										{
+											"id": 417,
+											"name": "event",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "stringLiteral",
+												"value": "drain"
+											}
+										},
+										{
+											"id": 418,
+											"name": "listener",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "reflection",
+												"declaration": {
+													"id": 419,
+													"name": "__type",
+													"kind": 65536,
+													"kindString": "Type literal",
+													"flags": {},
+													"signatures": [
+														{
+															"id": 420,
+															"name": "__call",
+															"kind": 4096,
+															"kindString": "Call signature",
+															"flags": {},
+															"type": {
+																"type": "intrinsic",
+																"name": "void"
+															}
+														}
+													],
+													"sources": [
+														{
+															"fileName": "node_modules/@types/node/stream.d.ts",
+															"line": 188,
+															"character": 40
+														}
+													]
+												}
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "this"
+									},
+									"overwrites": {
+										"type": "reference",
+										"name": "EventEmitter.on"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 410,
+										"name": "Writable.on"
+									}
+								},
+								{
+									"id": 421,
+									"name": "on",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"parameters": [
+										{
+											"id": 422,
+											"name": "event",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "stringLiteral",
+												"value": "error"
+											}
+										},
+										{
+											"id": 423,
+											"name": "listener",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "reflection",
+												"declaration": {
+													"id": 424,
+													"name": "__type",
+													"kind": 65536,
+													"kindString": "Type literal",
+													"flags": {},
+													"signatures": [
+														{
+															"id": 425,
+															"name": "__call",
+															"kind": 4096,
+															"kindString": "Call signature",
+															"flags": {},
+															"parameters": [
+																{
+																	"id": 426,
+																	"name": "err",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {},
+																	"type": {
+																		"type": "reference",
+																		"name": "Error"
+																	}
+																}
+															],
+															"type": {
+																"type": "intrinsic",
+																"name": "void"
+															}
+														}
+													],
+													"sources": [
+														{
+															"fileName": "node_modules/@types/node/stream.d.ts",
+															"line": 189,
+															"character": 40
+														}
+													]
+												}
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "this"
+									},
+									"overwrites": {
+										"type": "reference",
+										"name": "EventEmitter.on"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 410,
+										"name": "Writable.on"
+									}
+								},
+								{
+									"id": 427,
+									"name": "on",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"parameters": [
+										{
+											"id": 428,
+											"name": "event",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "stringLiteral",
+												"value": "finish"
+											}
+										},
+										{
+											"id": 429,
+											"name": "listener",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "reflection",
+												"declaration": {
+													"id": 430,
+													"name": "__type",
+													"kind": 65536,
+													"kindString": "Type literal",
+													"flags": {},
+													"signatures": [
+														{
+															"id": 431,
+															"name": "__call",
+															"kind": 4096,
+															"kindString": "Call signature",
+															"flags": {},
+															"type": {
+																"type": "intrinsic",
+																"name": "void"
+															}
+														}
+													],
+													"sources": [
+														{
+															"fileName": "node_modules/@types/node/stream.d.ts",
+															"line": 190,
+															"character": 41
+														}
+													]
+												}
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "this"
+									},
+									"overwrites": {
+										"type": "reference",
+										"name": "EventEmitter.on"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 410,
+										"name": "Writable.on"
+									}
+								},
+								{
+									"id": 432,
+									"name": "on",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"parameters": [
+										{
+											"id": 433,
+											"name": "event",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "stringLiteral",
+												"value": "pipe"
+											}
+										},
+										{
+											"id": 434,
+											"name": "listener",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "reflection",
+												"declaration": {
+													"id": 435,
+													"name": "__type",
+													"kind": 65536,
+													"kindString": "Type literal",
+													"flags": {},
+													"signatures": [
+														{
+															"id": 436,
+															"name": "__call",
+															"kind": 4096,
+															"kindString": "Call signature",
+															"flags": {},
+															"parameters": [
+																{
+																	"id": 437,
+																	"name": "src",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {},
+																	"type": {
+																		"type": "reference",
+																		"name": "Readable"
+																	}
+																}
+															],
+															"type": {
+																"type": "intrinsic",
+																"name": "void"
+															}
+														}
+													],
+													"sources": [
+														{
+															"fileName": "node_modules/@types/node/stream.d.ts",
+															"line": 191,
+															"character": 39
+														}
+													]
+												}
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "this"
+									},
+									"overwrites": {
+										"type": "reference",
+										"name": "EventEmitter.on"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 410,
+										"name": "Writable.on"
+									}
+								},
+								{
+									"id": 438,
+									"name": "on",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"parameters": [
+										{
+											"id": 439,
+											"name": "event",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "stringLiteral",
+												"value": "unpipe"
+											}
+										},
+										{
+											"id": 440,
+											"name": "listener",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "reflection",
+												"declaration": {
+													"id": 441,
+													"name": "__type",
+													"kind": 65536,
+													"kindString": "Type literal",
+													"flags": {},
+													"signatures": [
+														{
+															"id": 442,
+															"name": "__call",
+															"kind": 4096,
+															"kindString": "Call signature",
+															"flags": {},
+															"parameters": [
+																{
+																	"id": 443,
+																	"name": "src",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {},
+																	"type": {
+																		"type": "reference",
+																		"name": "Readable"
+																	}
+																}
+															],
+															"type": {
+																"type": "intrinsic",
+																"name": "void"
+															}
+														}
+													],
+													"sources": [
+														{
+															"fileName": "node_modules/@types/node/stream.d.ts",
+															"line": 192,
+															"character": 41
+														}
+													]
+												}
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "this"
+									},
+									"overwrites": {
+										"type": "reference",
+										"name": "EventEmitter.on"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 410,
+										"name": "Writable.on"
+									}
+								},
+								{
+									"id": 444,
+									"name": "on",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"parameters": [
+										{
+											"id": 445,
+											"name": "event",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "union",
+												"types": [
+													{
+														"type": "intrinsic",
+														"name": "string"
+													},
+													{
+														"type": "intrinsic",
+														"name": "symbol"
+													}
+												]
+											}
+										},
+										{
+											"id": 446,
+											"name": "listener",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "reflection",
+												"declaration": {
+													"id": 447,
+													"name": "__type",
+													"kind": 65536,
+													"kindString": "Type literal",
+													"flags": {},
+													"signatures": [
+														{
+															"id": 448,
+															"name": "__call",
+															"kind": 4096,
+															"kindString": "Call signature",
+															"flags": {},
+															"parameters": [
+																{
+																	"id": 449,
+																	"name": "args",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isRest": true
+																	},
+																	"type": {
+																		"type": "array",
+																		"elementType": {
+																			"type": "intrinsic",
+																			"name": "any"
+																		}
+																	}
+																}
+															],
+															"type": {
+																"type": "intrinsic",
+																"name": "void"
+															}
+														}
+													],
+													"sources": [
+														{
+															"fileName": "node_modules/@types/node/stream.d.ts",
+															"line": 193,
+															"character": 48
+														}
+													]
+												}
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "this"
+									},
+									"overwrites": {
+										"type": "reference",
+										"name": "EventEmitter.on"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 410,
+										"name": "Writable.on"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/@types/node/stream.d.ts",
+									"line": 187,
+									"character": 14
+								},
+								{
+									"fileName": "node_modules/@types/node/stream.d.ts",
+									"line": 188,
+									"character": 14
+								},
+								{
+									"fileName": "node_modules/@types/node/stream.d.ts",
+									"line": 189,
+									"character": 14
+								},
+								{
+									"fileName": "node_modules/@types/node/stream.d.ts",
+									"line": 190,
+									"character": 14
+								},
+								{
+									"fileName": "node_modules/@types/node/stream.d.ts",
+									"line": 191,
+									"character": 14
+								},
+								{
+									"fileName": "node_modules/@types/node/stream.d.ts",
+									"line": 192,
+									"character": 14
+								},
+								{
+									"fileName": "node_modules/@types/node/stream.d.ts",
+									"line": 193,
+									"character": 14
+								}
+							],
+							"overwrites": {
+								"type": "reference",
+								"name": "EventEmitter.on"
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 410,
+								"name": "Writable.on"
+							}
+						},
+						{
+							"id": 450,
+							"name": "once",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {},
+							"signatures": [
+								{
+									"id": 451,
+									"name": "once",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"parameters": [
+										{
+											"id": 452,
+											"name": "event",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "stringLiteral",
+												"value": "close"
+											}
+										},
+										{
+											"id": 453,
+											"name": "listener",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "reflection",
+												"declaration": {
+													"id": 454,
+													"name": "__type",
+													"kind": 65536,
+													"kindString": "Type literal",
+													"flags": {},
+													"signatures": [
+														{
+															"id": 455,
+															"name": "__call",
+															"kind": 4096,
+															"kindString": "Call signature",
+															"flags": {},
+															"type": {
+																"type": "intrinsic",
+																"name": "void"
+															}
+														}
+													],
+													"sources": [
+														{
+															"fileName": "node_modules/@types/node/stream.d.ts",
+															"line": 195,
+															"character": 42
+														}
+													]
+												}
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "this"
+									},
+									"overwrites": {
+										"type": "reference",
+										"name": "EventEmitter.once"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 450,
+										"name": "Writable.once"
+									}
+								},
+								{
+									"id": 456,
+									"name": "once",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"parameters": [
+										{
+											"id": 457,
+											"name": "event",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "stringLiteral",
+												"value": "drain"
+											}
+										},
+										{
+											"id": 458,
+											"name": "listener",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "reflection",
+												"declaration": {
+													"id": 459,
+													"name": "__type",
+													"kind": 65536,
+													"kindString": "Type literal",
+													"flags": {},
+													"signatures": [
+														{
+															"id": 460,
+															"name": "__call",
+															"kind": 4096,
+															"kindString": "Call signature",
+															"flags": {},
+															"type": {
+																"type": "intrinsic",
+																"name": "void"
+															}
+														}
+													],
+													"sources": [
+														{
+															"fileName": "node_modules/@types/node/stream.d.ts",
+															"line": 196,
+															"character": 42
+														}
+													]
+												}
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "this"
+									},
+									"overwrites": {
+										"type": "reference",
+										"name": "EventEmitter.once"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 450,
+										"name": "Writable.once"
+									}
+								},
+								{
+									"id": 461,
+									"name": "once",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"parameters": [
+										{
+											"id": 462,
+											"name": "event",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "stringLiteral",
+												"value": "error"
+											}
+										},
+										{
+											"id": 463,
+											"name": "listener",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "reflection",
+												"declaration": {
+													"id": 464,
+													"name": "__type",
+													"kind": 65536,
+													"kindString": "Type literal",
+													"flags": {},
+													"signatures": [
+														{
+															"id": 465,
+															"name": "__call",
+															"kind": 4096,
+															"kindString": "Call signature",
+															"flags": {},
+															"parameters": [
+																{
+																	"id": 466,
+																	"name": "err",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {},
+																	"type": {
+																		"type": "reference",
+																		"name": "Error"
+																	}
+																}
+															],
+															"type": {
+																"type": "intrinsic",
+																"name": "void"
+															}
+														}
+													],
+													"sources": [
+														{
+															"fileName": "node_modules/@types/node/stream.d.ts",
+															"line": 197,
+															"character": 42
+														}
+													]
+												}
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "this"
+									},
+									"overwrites": {
+										"type": "reference",
+										"name": "EventEmitter.once"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 450,
+										"name": "Writable.once"
+									}
+								},
+								{
+									"id": 467,
+									"name": "once",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"parameters": [
+										{
+											"id": 468,
+											"name": "event",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "stringLiteral",
+												"value": "finish"
+											}
+										},
+										{
+											"id": 469,
+											"name": "listener",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "reflection",
+												"declaration": {
+													"id": 470,
+													"name": "__type",
+													"kind": 65536,
+													"kindString": "Type literal",
+													"flags": {},
+													"signatures": [
+														{
+															"id": 471,
+															"name": "__call",
+															"kind": 4096,
+															"kindString": "Call signature",
+															"flags": {},
+															"type": {
+																"type": "intrinsic",
+																"name": "void"
+															}
+														}
+													],
+													"sources": [
+														{
+															"fileName": "node_modules/@types/node/stream.d.ts",
+															"line": 198,
+															"character": 43
+														}
+													]
+												}
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "this"
+									},
+									"overwrites": {
+										"type": "reference",
+										"name": "EventEmitter.once"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 450,
+										"name": "Writable.once"
+									}
+								},
+								{
+									"id": 472,
+									"name": "once",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"parameters": [
+										{
+											"id": 473,
+											"name": "event",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "stringLiteral",
+												"value": "pipe"
+											}
+										},
+										{
+											"id": 474,
+											"name": "listener",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "reflection",
+												"declaration": {
+													"id": 475,
+													"name": "__type",
+													"kind": 65536,
+													"kindString": "Type literal",
+													"flags": {},
+													"signatures": [
+														{
+															"id": 476,
+															"name": "__call",
+															"kind": 4096,
+															"kindString": "Call signature",
+															"flags": {},
+															"parameters": [
+																{
+																	"id": 477,
+																	"name": "src",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {},
+																	"type": {
+																		"type": "reference",
+																		"name": "Readable"
+																	}
+																}
+															],
+															"type": {
+																"type": "intrinsic",
+																"name": "void"
+															}
+														}
+													],
+													"sources": [
+														{
+															"fileName": "node_modules/@types/node/stream.d.ts",
+															"line": 199,
+															"character": 41
+														}
+													]
+												}
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "this"
+									},
+									"overwrites": {
+										"type": "reference",
+										"name": "EventEmitter.once"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 450,
+										"name": "Writable.once"
+									}
+								},
+								{
+									"id": 478,
+									"name": "once",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"parameters": [
+										{
+											"id": 479,
+											"name": "event",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "stringLiteral",
+												"value": "unpipe"
+											}
+										},
+										{
+											"id": 480,
+											"name": "listener",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "reflection",
+												"declaration": {
+													"id": 481,
+													"name": "__type",
+													"kind": 65536,
+													"kindString": "Type literal",
+													"flags": {},
+													"signatures": [
+														{
+															"id": 482,
+															"name": "__call",
+															"kind": 4096,
+															"kindString": "Call signature",
+															"flags": {},
+															"parameters": [
+																{
+																	"id": 483,
+																	"name": "src",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {},
+																	"type": {
+																		"type": "reference",
+																		"name": "Readable"
+																	}
+																}
+															],
+															"type": {
+																"type": "intrinsic",
+																"name": "void"
+															}
+														}
+													],
+													"sources": [
+														{
+															"fileName": "node_modules/@types/node/stream.d.ts",
+															"line": 200,
+															"character": 43
+														}
+													]
+												}
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "this"
+									},
+									"overwrites": {
+										"type": "reference",
+										"name": "EventEmitter.once"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 450,
+										"name": "Writable.once"
+									}
+								},
+								{
+									"id": 484,
+									"name": "once",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"parameters": [
+										{
+											"id": 485,
+											"name": "event",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "union",
+												"types": [
+													{
+														"type": "intrinsic",
+														"name": "string"
+													},
+													{
+														"type": "intrinsic",
+														"name": "symbol"
+													}
+												]
+											}
+										},
+										{
+											"id": 486,
+											"name": "listener",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "reflection",
+												"declaration": {
+													"id": 487,
+													"name": "__type",
+													"kind": 65536,
+													"kindString": "Type literal",
+													"flags": {},
+													"signatures": [
+														{
+															"id": 488,
+															"name": "__call",
+															"kind": 4096,
+															"kindString": "Call signature",
+															"flags": {},
+															"parameters": [
+																{
+																	"id": 489,
+																	"name": "args",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isRest": true
+																	},
+																	"type": {
+																		"type": "array",
+																		"elementType": {
+																			"type": "intrinsic",
+																			"name": "any"
+																		}
+																	}
+																}
+															],
+															"type": {
+																"type": "intrinsic",
+																"name": "void"
+															}
+														}
+													],
+													"sources": [
+														{
+															"fileName": "node_modules/@types/node/stream.d.ts",
+															"line": 201,
+															"character": 50
+														}
+													]
+												}
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "this"
+									},
+									"overwrites": {
+										"type": "reference",
+										"name": "EventEmitter.once"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 450,
+										"name": "Writable.once"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/@types/node/stream.d.ts",
+									"line": 195,
+									"character": 16
+								},
+								{
+									"fileName": "node_modules/@types/node/stream.d.ts",
+									"line": 196,
+									"character": 16
+								},
+								{
+									"fileName": "node_modules/@types/node/stream.d.ts",
+									"line": 197,
+									"character": 16
+								},
+								{
+									"fileName": "node_modules/@types/node/stream.d.ts",
+									"line": 198,
+									"character": 16
+								},
+								{
+									"fileName": "node_modules/@types/node/stream.d.ts",
+									"line": 199,
+									"character": 16
+								},
+								{
+									"fileName": "node_modules/@types/node/stream.d.ts",
+									"line": 200,
+									"character": 16
+								},
+								{
+									"fileName": "node_modules/@types/node/stream.d.ts",
+									"line": 201,
+									"character": 16
+								}
+							],
+							"overwrites": {
+								"type": "reference",
+								"name": "EventEmitter.once"
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 450,
+								"name": "Writable.once"
+							}
+						},
+						{
+							"id": 610,
+							"name": "pipe",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {},
+							"signatures": [
+								{
+									"id": 611,
+									"name": "pipe",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"typeParameter": [
+										{
+											"id": 612,
+											"name": "T",
+											"kind": 131072,
+											"kindString": "Type parameter",
+											"flags": {},
+											"type": {
+												"type": "reference",
+												"name": "WritableStream"
+											}
+										}
+									],
+									"parameters": [
+										{
+											"id": 613,
+											"name": "destination",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "typeParameter",
+												"name": "T",
+												"constraint": {
+													"type": "reference",
+													"name": "WritableStream"
+												}
+											}
+										},
+										{
+											"id": 614,
+											"name": "options",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isOptional": true
+											},
+											"type": {
+												"type": "union",
+												"types": [
+													{
+														"type": "intrinsic",
+														"name": "undefined"
+													},
+													{
+														"type": "reflection",
+														"declaration": {
+															"id": 615,
+															"name": "__type",
+															"kind": 65536,
+															"kindString": "Type literal",
+															"flags": {},
+															"children": [
+																{
+																	"id": 616,
+																	"name": "end",
+																	"kind": 32,
+																	"kindString": "Variable",
+																	"flags": {
+																		"isOptional": true
+																	},
+																	"sources": [
+																		{
+																			"fileName": "node_modules/@types/node/stream.d.ts",
+																			"line": 5,
+																			"character": 77
+																		}
+																	],
+																	"type": {
+																		"type": "union",
+																		"types": [
+																			{
+																				"type": "intrinsic",
+																				"name": "undefined"
+																			},
+																			{
+																				"type": "intrinsic",
+																				"name": "false"
+																			},
+																			{
+																				"type": "intrinsic",
+																				"name": "true"
+																			}
+																		]
+																	}
+																}
+															],
+															"groups": [
+																{
+																	"title": "Variables",
+																	"kind": 32,
+																	"children": [
+																		616
+																	]
+																}
+															]
+														}
+													}
+												]
+											}
+										}
+									],
+									"type": {
+										"type": "typeParameter",
+										"name": "T",
+										"constraint": {
+											"type": "reference",
+											"name": "WritableStream"
+										}
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 610,
+										"name": "internal.pipe"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/@types/node/stream.d.ts",
+									"line": 5,
+									"character": 12
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 610,
+								"name": "internal.pipe"
+							}
+						},
+						{
+							"id": 490,
+							"name": "prependListener",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {},
+							"signatures": [
+								{
+									"id": 491,
+									"name": "prependListener",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"parameters": [
+										{
+											"id": 492,
+											"name": "event",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "stringLiteral",
+												"value": "close"
+											}
+										},
+										{
+											"id": 493,
+											"name": "listener",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "reflection",
+												"declaration": {
+													"id": 494,
+													"name": "__type",
+													"kind": 65536,
+													"kindString": "Type literal",
+													"flags": {},
+													"signatures": [
+														{
+															"id": 495,
+															"name": "__call",
+															"kind": 4096,
+															"kindString": "Call signature",
+															"flags": {},
+															"type": {
+																"type": "intrinsic",
+																"name": "void"
+															}
+														}
+													],
+													"sources": [
+														{
+															"fileName": "node_modules/@types/node/stream.d.ts",
+															"line": 203,
+															"character": 53
+														}
+													]
+												}
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "this"
+									},
+									"overwrites": {
+										"type": "reference",
+										"name": "EventEmitter.prependListener"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 490,
+										"name": "Writable.prependListener"
+									}
+								},
+								{
+									"id": 496,
+									"name": "prependListener",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"parameters": [
+										{
+											"id": 497,
+											"name": "event",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "stringLiteral",
+												"value": "drain"
+											}
+										},
+										{
+											"id": 498,
+											"name": "listener",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "reflection",
+												"declaration": {
+													"id": 499,
+													"name": "__type",
+													"kind": 65536,
+													"kindString": "Type literal",
+													"flags": {},
+													"signatures": [
+														{
+															"id": 500,
+															"name": "__call",
+															"kind": 4096,
+															"kindString": "Call signature",
+															"flags": {},
+															"type": {
+																"type": "intrinsic",
+																"name": "void"
+															}
+														}
+													],
+													"sources": [
+														{
+															"fileName": "node_modules/@types/node/stream.d.ts",
+															"line": 204,
+															"character": 53
+														}
+													]
+												}
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "this"
+									},
+									"overwrites": {
+										"type": "reference",
+										"name": "EventEmitter.prependListener"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 490,
+										"name": "Writable.prependListener"
+									}
+								},
+								{
+									"id": 501,
+									"name": "prependListener",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"parameters": [
+										{
+											"id": 502,
+											"name": "event",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "stringLiteral",
+												"value": "error"
+											}
+										},
+										{
+											"id": 503,
+											"name": "listener",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "reflection",
+												"declaration": {
+													"id": 504,
+													"name": "__type",
+													"kind": 65536,
+													"kindString": "Type literal",
+													"flags": {},
+													"signatures": [
+														{
+															"id": 505,
+															"name": "__call",
+															"kind": 4096,
+															"kindString": "Call signature",
+															"flags": {},
+															"parameters": [
+																{
+																	"id": 506,
+																	"name": "err",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {},
+																	"type": {
+																		"type": "reference",
+																		"name": "Error"
+																	}
+																}
+															],
+															"type": {
+																"type": "intrinsic",
+																"name": "void"
+															}
+														}
+													],
+													"sources": [
+														{
+															"fileName": "node_modules/@types/node/stream.d.ts",
+															"line": 205,
+															"character": 53
+														}
+													]
+												}
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "this"
+									},
+									"overwrites": {
+										"type": "reference",
+										"name": "EventEmitter.prependListener"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 490,
+										"name": "Writable.prependListener"
+									}
+								},
+								{
+									"id": 507,
+									"name": "prependListener",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"parameters": [
+										{
+											"id": 508,
+											"name": "event",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "stringLiteral",
+												"value": "finish"
+											}
+										},
+										{
+											"id": 509,
+											"name": "listener",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "reflection",
+												"declaration": {
+													"id": 510,
+													"name": "__type",
+													"kind": 65536,
+													"kindString": "Type literal",
+													"flags": {},
+													"signatures": [
+														{
+															"id": 511,
+															"name": "__call",
+															"kind": 4096,
+															"kindString": "Call signature",
+															"flags": {},
+															"type": {
+																"type": "intrinsic",
+																"name": "void"
+															}
+														}
+													],
+													"sources": [
+														{
+															"fileName": "node_modules/@types/node/stream.d.ts",
+															"line": 206,
+															"character": 54
+														}
+													]
+												}
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "this"
+									},
+									"overwrites": {
+										"type": "reference",
+										"name": "EventEmitter.prependListener"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 490,
+										"name": "Writable.prependListener"
+									}
+								},
+								{
+									"id": 512,
+									"name": "prependListener",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"parameters": [
+										{
+											"id": 513,
+											"name": "event",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "stringLiteral",
+												"value": "pipe"
+											}
+										},
+										{
+											"id": 514,
+											"name": "listener",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "reflection",
+												"declaration": {
+													"id": 515,
+													"name": "__type",
+													"kind": 65536,
+													"kindString": "Type literal",
+													"flags": {},
+													"signatures": [
+														{
+															"id": 516,
+															"name": "__call",
+															"kind": 4096,
+															"kindString": "Call signature",
+															"flags": {},
+															"parameters": [
+																{
+																	"id": 517,
+																	"name": "src",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {},
+																	"type": {
+																		"type": "reference",
+																		"name": "Readable"
+																	}
+																}
+															],
+															"type": {
+																"type": "intrinsic",
+																"name": "void"
+															}
+														}
+													],
+													"sources": [
+														{
+															"fileName": "node_modules/@types/node/stream.d.ts",
+															"line": 207,
+															"character": 52
+														}
+													]
+												}
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "this"
+									},
+									"overwrites": {
+										"type": "reference",
+										"name": "EventEmitter.prependListener"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 490,
+										"name": "Writable.prependListener"
+									}
+								},
+								{
+									"id": 518,
+									"name": "prependListener",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"parameters": [
+										{
+											"id": 519,
+											"name": "event",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "stringLiteral",
+												"value": "unpipe"
+											}
+										},
+										{
+											"id": 520,
+											"name": "listener",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "reflection",
+												"declaration": {
+													"id": 521,
+													"name": "__type",
+													"kind": 65536,
+													"kindString": "Type literal",
+													"flags": {},
+													"signatures": [
+														{
+															"id": 522,
+															"name": "__call",
+															"kind": 4096,
+															"kindString": "Call signature",
+															"flags": {},
+															"parameters": [
+																{
+																	"id": 523,
+																	"name": "src",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {},
+																	"type": {
+																		"type": "reference",
+																		"name": "Readable"
+																	}
+																}
+															],
+															"type": {
+																"type": "intrinsic",
+																"name": "void"
+															}
+														}
+													],
+													"sources": [
+														{
+															"fileName": "node_modules/@types/node/stream.d.ts",
+															"line": 208,
+															"character": 54
+														}
+													]
+												}
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "this"
+									},
+									"overwrites": {
+										"type": "reference",
+										"name": "EventEmitter.prependListener"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 490,
+										"name": "Writable.prependListener"
+									}
+								},
+								{
+									"id": 524,
+									"name": "prependListener",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"parameters": [
+										{
+											"id": 525,
+											"name": "event",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "union",
+												"types": [
+													{
+														"type": "intrinsic",
+														"name": "string"
+													},
+													{
+														"type": "intrinsic",
+														"name": "symbol"
+													}
+												]
+											}
+										},
+										{
+											"id": 526,
+											"name": "listener",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "reflection",
+												"declaration": {
+													"id": 527,
+													"name": "__type",
+													"kind": 65536,
+													"kindString": "Type literal",
+													"flags": {},
+													"signatures": [
+														{
+															"id": 528,
+															"name": "__call",
+															"kind": 4096,
+															"kindString": "Call signature",
+															"flags": {},
+															"parameters": [
+																{
+																	"id": 529,
+																	"name": "args",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isRest": true
+																	},
+																	"type": {
+																		"type": "array",
+																		"elementType": {
+																			"type": "intrinsic",
+																			"name": "any"
+																		}
+																	}
+																}
+															],
+															"type": {
+																"type": "intrinsic",
+																"name": "void"
+															}
+														}
+													],
+													"sources": [
+														{
+															"fileName": "node_modules/@types/node/stream.d.ts",
+															"line": 209,
+															"character": 61
+														}
+													]
+												}
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "this"
+									},
+									"overwrites": {
+										"type": "reference",
+										"name": "EventEmitter.prependListener"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 490,
+										"name": "Writable.prependListener"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/@types/node/stream.d.ts",
+									"line": 203,
+									"character": 27
+								},
+								{
+									"fileName": "node_modules/@types/node/stream.d.ts",
+									"line": 204,
+									"character": 27
+								},
+								{
+									"fileName": "node_modules/@types/node/stream.d.ts",
+									"line": 205,
+									"character": 27
+								},
+								{
+									"fileName": "node_modules/@types/node/stream.d.ts",
+									"line": 206,
+									"character": 27
+								},
+								{
+									"fileName": "node_modules/@types/node/stream.d.ts",
+									"line": 207,
+									"character": 27
+								},
+								{
+									"fileName": "node_modules/@types/node/stream.d.ts",
+									"line": 208,
+									"character": 27
+								},
+								{
+									"fileName": "node_modules/@types/node/stream.d.ts",
+									"line": 209,
+									"character": 27
+								}
+							],
+							"overwrites": {
+								"type": "reference",
+								"name": "EventEmitter.prependListener"
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 490,
+								"name": "Writable.prependListener"
+							}
+						},
+						{
+							"id": 530,
+							"name": "prependOnceListener",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {},
+							"signatures": [
+								{
+									"id": 531,
+									"name": "prependOnceListener",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"parameters": [
+										{
+											"id": 532,
+											"name": "event",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "stringLiteral",
+												"value": "close"
+											}
+										},
+										{
+											"id": 533,
+											"name": "listener",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "reflection",
+												"declaration": {
+													"id": 534,
+													"name": "__type",
+													"kind": 65536,
+													"kindString": "Type literal",
+													"flags": {},
+													"signatures": [
+														{
+															"id": 535,
+															"name": "__call",
+															"kind": 4096,
+															"kindString": "Call signature",
+															"flags": {},
+															"type": {
+																"type": "intrinsic",
+																"name": "void"
+															}
+														}
+													],
+													"sources": [
+														{
+															"fileName": "node_modules/@types/node/stream.d.ts",
+															"line": 211,
+															"character": 57
+														}
+													]
+												}
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "this"
+									},
+									"overwrites": {
+										"type": "reference",
+										"name": "EventEmitter.prependOnceListener"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 530,
+										"name": "Writable.prependOnceListener"
+									}
+								},
+								{
+									"id": 536,
+									"name": "prependOnceListener",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"parameters": [
+										{
+											"id": 537,
+											"name": "event",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "stringLiteral",
+												"value": "drain"
+											}
+										},
+										{
+											"id": 538,
+											"name": "listener",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "reflection",
+												"declaration": {
+													"id": 539,
+													"name": "__type",
+													"kind": 65536,
+													"kindString": "Type literal",
+													"flags": {},
+													"signatures": [
+														{
+															"id": 540,
+															"name": "__call",
+															"kind": 4096,
+															"kindString": "Call signature",
+															"flags": {},
+															"type": {
+																"type": "intrinsic",
+																"name": "void"
+															}
+														}
+													],
+													"sources": [
+														{
+															"fileName": "node_modules/@types/node/stream.d.ts",
+															"line": 212,
+															"character": 57
+														}
+													]
+												}
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "this"
+									},
+									"overwrites": {
+										"type": "reference",
+										"name": "EventEmitter.prependOnceListener"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 530,
+										"name": "Writable.prependOnceListener"
+									}
+								},
+								{
+									"id": 541,
+									"name": "prependOnceListener",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"parameters": [
+										{
+											"id": 542,
+											"name": "event",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "stringLiteral",
+												"value": "error"
+											}
+										},
+										{
+											"id": 543,
+											"name": "listener",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "reflection",
+												"declaration": {
+													"id": 544,
+													"name": "__type",
+													"kind": 65536,
+													"kindString": "Type literal",
+													"flags": {},
+													"signatures": [
+														{
+															"id": 545,
+															"name": "__call",
+															"kind": 4096,
+															"kindString": "Call signature",
+															"flags": {},
+															"parameters": [
+																{
+																	"id": 546,
+																	"name": "err",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {},
+																	"type": {
+																		"type": "reference",
+																		"name": "Error"
+																	}
+																}
+															],
+															"type": {
+																"type": "intrinsic",
+																"name": "void"
+															}
+														}
+													],
+													"sources": [
+														{
+															"fileName": "node_modules/@types/node/stream.d.ts",
+															"line": 213,
+															"character": 57
+														}
+													]
+												}
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "this"
+									},
+									"overwrites": {
+										"type": "reference",
+										"name": "EventEmitter.prependOnceListener"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 530,
+										"name": "Writable.prependOnceListener"
+									}
+								},
+								{
+									"id": 547,
+									"name": "prependOnceListener",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"parameters": [
+										{
+											"id": 548,
+											"name": "event",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "stringLiteral",
+												"value": "finish"
+											}
+										},
+										{
+											"id": 549,
+											"name": "listener",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "reflection",
+												"declaration": {
+													"id": 550,
+													"name": "__type",
+													"kind": 65536,
+													"kindString": "Type literal",
+													"flags": {},
+													"signatures": [
+														{
+															"id": 551,
+															"name": "__call",
+															"kind": 4096,
+															"kindString": "Call signature",
+															"flags": {},
+															"type": {
+																"type": "intrinsic",
+																"name": "void"
+															}
+														}
+													],
+													"sources": [
+														{
+															"fileName": "node_modules/@types/node/stream.d.ts",
+															"line": 214,
+															"character": 58
+														}
+													]
+												}
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "this"
+									},
+									"overwrites": {
+										"type": "reference",
+										"name": "EventEmitter.prependOnceListener"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 530,
+										"name": "Writable.prependOnceListener"
+									}
+								},
+								{
+									"id": 552,
+									"name": "prependOnceListener",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"parameters": [
+										{
+											"id": 553,
+											"name": "event",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "stringLiteral",
+												"value": "pipe"
+											}
+										},
+										{
+											"id": 554,
+											"name": "listener",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "reflection",
+												"declaration": {
+													"id": 555,
+													"name": "__type",
+													"kind": 65536,
+													"kindString": "Type literal",
+													"flags": {},
+													"signatures": [
+														{
+															"id": 556,
+															"name": "__call",
+															"kind": 4096,
+															"kindString": "Call signature",
+															"flags": {},
+															"parameters": [
+																{
+																	"id": 557,
+																	"name": "src",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {},
+																	"type": {
+																		"type": "reference",
+																		"name": "Readable"
+																	}
+																}
+															],
+															"type": {
+																"type": "intrinsic",
+																"name": "void"
+															}
+														}
+													],
+													"sources": [
+														{
+															"fileName": "node_modules/@types/node/stream.d.ts",
+															"line": 215,
+															"character": 56
+														}
+													]
+												}
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "this"
+									},
+									"overwrites": {
+										"type": "reference",
+										"name": "EventEmitter.prependOnceListener"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 530,
+										"name": "Writable.prependOnceListener"
+									}
+								},
+								{
+									"id": 558,
+									"name": "prependOnceListener",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"parameters": [
+										{
+											"id": 559,
+											"name": "event",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "stringLiteral",
+												"value": "unpipe"
+											}
+										},
+										{
+											"id": 560,
+											"name": "listener",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "reflection",
+												"declaration": {
+													"id": 561,
+													"name": "__type",
+													"kind": 65536,
+													"kindString": "Type literal",
+													"flags": {},
+													"signatures": [
+														{
+															"id": 562,
+															"name": "__call",
+															"kind": 4096,
+															"kindString": "Call signature",
+															"flags": {},
+															"parameters": [
+																{
+																	"id": 563,
+																	"name": "src",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {},
+																	"type": {
+																		"type": "reference",
+																		"name": "Readable"
+																	}
+																}
+															],
+															"type": {
+																"type": "intrinsic",
+																"name": "void"
+															}
+														}
+													],
+													"sources": [
+														{
+															"fileName": "node_modules/@types/node/stream.d.ts",
+															"line": 216,
+															"character": 58
+														}
+													]
+												}
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "this"
+									},
+									"overwrites": {
+										"type": "reference",
+										"name": "EventEmitter.prependOnceListener"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 530,
+										"name": "Writable.prependOnceListener"
+									}
+								},
+								{
+									"id": 564,
+									"name": "prependOnceListener",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"parameters": [
+										{
+											"id": 565,
+											"name": "event",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "union",
+												"types": [
+													{
+														"type": "intrinsic",
+														"name": "string"
+													},
+													{
+														"type": "intrinsic",
+														"name": "symbol"
+													}
+												]
+											}
+										},
+										{
+											"id": 566,
+											"name": "listener",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "reflection",
+												"declaration": {
+													"id": 567,
+													"name": "__type",
+													"kind": 65536,
+													"kindString": "Type literal",
+													"flags": {},
+													"signatures": [
+														{
+															"id": 568,
+															"name": "__call",
+															"kind": 4096,
+															"kindString": "Call signature",
+															"flags": {},
+															"parameters": [
+																{
+																	"id": 569,
+																	"name": "args",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isRest": true
+																	},
+																	"type": {
+																		"type": "array",
+																		"elementType": {
+																			"type": "intrinsic",
+																			"name": "any"
+																		}
+																	}
+																}
+															],
+															"type": {
+																"type": "intrinsic",
+																"name": "void"
+															}
+														}
+													],
+													"sources": [
+														{
+															"fileName": "node_modules/@types/node/stream.d.ts",
+															"line": 217,
+															"character": 65
+														}
+													]
+												}
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "this"
+									},
+									"overwrites": {
+										"type": "reference",
+										"name": "EventEmitter.prependOnceListener"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 530,
+										"name": "Writable.prependOnceListener"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/@types/node/stream.d.ts",
+									"line": 211,
+									"character": 31
+								},
+								{
+									"fileName": "node_modules/@types/node/stream.d.ts",
+									"line": 212,
+									"character": 31
+								},
+								{
+									"fileName": "node_modules/@types/node/stream.d.ts",
+									"line": 213,
+									"character": 31
+								},
+								{
+									"fileName": "node_modules/@types/node/stream.d.ts",
+									"line": 214,
+									"character": 31
+								},
+								{
+									"fileName": "node_modules/@types/node/stream.d.ts",
+									"line": 215,
+									"character": 31
+								},
+								{
+									"fileName": "node_modules/@types/node/stream.d.ts",
+									"line": 216,
+									"character": 31
+								},
+								{
+									"fileName": "node_modules/@types/node/stream.d.ts",
+									"line": 217,
+									"character": 31
+								}
+							],
+							"overwrites": {
+								"type": "reference",
+								"name": "EventEmitter.prependOnceListener"
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 530,
+								"name": "Writable.prependOnceListener"
+							}
+						},
+						{
+							"id": 635,
+							"name": "rawListeners",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {},
+							"signatures": [
+								{
+									"id": 636,
+									"name": "rawListeners",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"parameters": [
+										{
+											"id": 637,
+											"name": "event",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "union",
+												"types": [
+													{
+														"type": "intrinsic",
+														"name": "string"
+													},
+													{
+														"type": "intrinsic",
+														"name": "symbol"
+													}
+												]
+											}
+										}
+									],
+									"type": {
+										"type": "array",
+										"elementType": {
+											"type": "reference",
+											"name": "Function"
+										}
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 635,
+										"name": "EventEmitter.rawListeners"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/@types/node/globals.d.ts",
+									"line": 562,
+									"character": 20
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 635,
+								"name": "EventEmitter.rawListeners"
+							}
+						},
+						{
+							"id": 624,
+							"name": "removeAllListeners",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {},
+							"signatures": [
+								{
+									"id": 625,
+									"name": "removeAllListeners",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"parameters": [
+										{
+											"id": 626,
+											"name": "event",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isOptional": true
+											},
+											"type": {
+												"type": "union",
+												"types": [
+													{
+														"type": "intrinsic",
+														"name": "string"
+													},
+													{
+														"type": "intrinsic",
+														"name": "symbol"
+													}
+												]
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "this"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 624,
+										"name": "EventEmitter.removeAllListeners"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/@types/node/globals.d.ts",
+									"line": 558,
+									"character": 26
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 624,
+								"name": "EventEmitter.removeAllListeners"
+							}
+						},
+						{
+							"id": 570,
+							"name": "removeListener",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {},
+							"signatures": [
+								{
+									"id": 571,
+									"name": "removeListener",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"parameters": [
+										{
+											"id": 572,
+											"name": "event",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "stringLiteral",
+												"value": "close"
+											}
+										},
+										{
+											"id": 573,
+											"name": "listener",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "reflection",
+												"declaration": {
+													"id": 574,
+													"name": "__type",
+													"kind": 65536,
+													"kindString": "Type literal",
+													"flags": {},
+													"signatures": [
+														{
+															"id": 575,
+															"name": "__call",
+															"kind": 4096,
+															"kindString": "Call signature",
+															"flags": {},
+															"type": {
+																"type": "intrinsic",
+																"name": "void"
+															}
+														}
+													],
+													"sources": [
+														{
+															"fileName": "node_modules/@types/node/stream.d.ts",
+															"line": 219,
+															"character": 52
+														}
+													]
+												}
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "this"
+									},
+									"overwrites": {
+										"type": "reference",
+										"name": "EventEmitter.removeListener"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 570,
+										"name": "Writable.removeListener"
+									}
+								},
+								{
+									"id": 576,
+									"name": "removeListener",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"parameters": [
+										{
+											"id": 577,
+											"name": "event",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "stringLiteral",
+												"value": "drain"
+											}
+										},
+										{
+											"id": 578,
+											"name": "listener",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "reflection",
+												"declaration": {
+													"id": 579,
+													"name": "__type",
+													"kind": 65536,
+													"kindString": "Type literal",
+													"flags": {},
+													"signatures": [
+														{
+															"id": 580,
+															"name": "__call",
+															"kind": 4096,
+															"kindString": "Call signature",
+															"flags": {},
+															"type": {
+																"type": "intrinsic",
+																"name": "void"
+															}
+														}
+													],
+													"sources": [
+														{
+															"fileName": "node_modules/@types/node/stream.d.ts",
+															"line": 220,
+															"character": 52
+														}
+													]
+												}
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "this"
+									},
+									"overwrites": {
+										"type": "reference",
+										"name": "EventEmitter.removeListener"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 570,
+										"name": "Writable.removeListener"
+									}
+								},
+								{
+									"id": 581,
+									"name": "removeListener",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"parameters": [
+										{
+											"id": 582,
+											"name": "event",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "stringLiteral",
+												"value": "error"
+											}
+										},
+										{
+											"id": 583,
+											"name": "listener",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "reflection",
+												"declaration": {
+													"id": 584,
+													"name": "__type",
+													"kind": 65536,
+													"kindString": "Type literal",
+													"flags": {},
+													"signatures": [
+														{
+															"id": 585,
+															"name": "__call",
+															"kind": 4096,
+															"kindString": "Call signature",
+															"flags": {},
+															"parameters": [
+																{
+																	"id": 586,
+																	"name": "err",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {},
+																	"type": {
+																		"type": "reference",
+																		"name": "Error"
+																	}
+																}
+															],
+															"type": {
+																"type": "intrinsic",
+																"name": "void"
+															}
+														}
+													],
+													"sources": [
+														{
+															"fileName": "node_modules/@types/node/stream.d.ts",
+															"line": 221,
+															"character": 52
+														}
+													]
+												}
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "this"
+									},
+									"overwrites": {
+										"type": "reference",
+										"name": "EventEmitter.removeListener"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 570,
+										"name": "Writable.removeListener"
+									}
+								},
+								{
+									"id": 587,
+									"name": "removeListener",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"parameters": [
+										{
+											"id": 588,
+											"name": "event",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "stringLiteral",
+												"value": "finish"
+											}
+										},
+										{
+											"id": 589,
+											"name": "listener",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "reflection",
+												"declaration": {
+													"id": 590,
+													"name": "__type",
+													"kind": 65536,
+													"kindString": "Type literal",
+													"flags": {},
+													"signatures": [
+														{
+															"id": 591,
+															"name": "__call",
+															"kind": 4096,
+															"kindString": "Call signature",
+															"flags": {},
+															"type": {
+																"type": "intrinsic",
+																"name": "void"
+															}
+														}
+													],
+													"sources": [
+														{
+															"fileName": "node_modules/@types/node/stream.d.ts",
+															"line": 222,
+															"character": 53
+														}
+													]
+												}
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "this"
+									},
+									"overwrites": {
+										"type": "reference",
+										"name": "EventEmitter.removeListener"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 570,
+										"name": "Writable.removeListener"
+									}
+								},
+								{
+									"id": 592,
+									"name": "removeListener",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"parameters": [
+										{
+											"id": 593,
+											"name": "event",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "stringLiteral",
+												"value": "pipe"
+											}
+										},
+										{
+											"id": 594,
+											"name": "listener",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "reflection",
+												"declaration": {
+													"id": 595,
+													"name": "__type",
+													"kind": 65536,
+													"kindString": "Type literal",
+													"flags": {},
+													"signatures": [
+														{
+															"id": 596,
+															"name": "__call",
+															"kind": 4096,
+															"kindString": "Call signature",
+															"flags": {},
+															"parameters": [
+																{
+																	"id": 597,
+																	"name": "src",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {},
+																	"type": {
+																		"type": "reference",
+																		"name": "Readable"
+																	}
+																}
+															],
+															"type": {
+																"type": "intrinsic",
+																"name": "void"
+															}
+														}
+													],
+													"sources": [
+														{
+															"fileName": "node_modules/@types/node/stream.d.ts",
+															"line": 223,
+															"character": 51
+														}
+													]
+												}
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "this"
+									},
+									"overwrites": {
+										"type": "reference",
+										"name": "EventEmitter.removeListener"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 570,
+										"name": "Writable.removeListener"
+									}
+								},
+								{
+									"id": 598,
+									"name": "removeListener",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"parameters": [
+										{
+											"id": 599,
+											"name": "event",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "stringLiteral",
+												"value": "unpipe"
+											}
+										},
+										{
+											"id": 600,
+											"name": "listener",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "reflection",
+												"declaration": {
+													"id": 601,
+													"name": "__type",
+													"kind": 65536,
+													"kindString": "Type literal",
+													"flags": {},
+													"signatures": [
+														{
+															"id": 602,
+															"name": "__call",
+															"kind": 4096,
+															"kindString": "Call signature",
+															"flags": {},
+															"parameters": [
+																{
+																	"id": 603,
+																	"name": "src",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {},
+																	"type": {
+																		"type": "reference",
+																		"name": "Readable"
+																	}
+																}
+															],
+															"type": {
+																"type": "intrinsic",
+																"name": "void"
+															}
+														}
+													],
+													"sources": [
+														{
+															"fileName": "node_modules/@types/node/stream.d.ts",
+															"line": 224,
+															"character": 53
+														}
+													]
+												}
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "this"
+									},
+									"overwrites": {
+										"type": "reference",
+										"name": "EventEmitter.removeListener"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 570,
+										"name": "Writable.removeListener"
+									}
+								},
+								{
+									"id": 604,
+									"name": "removeListener",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"parameters": [
+										{
+											"id": 605,
+											"name": "event",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "union",
+												"types": [
+													{
+														"type": "intrinsic",
+														"name": "string"
+													},
+													{
+														"type": "intrinsic",
+														"name": "symbol"
+													}
+												]
+											}
+										},
+										{
+											"id": 606,
+											"name": "listener",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "reflection",
+												"declaration": {
+													"id": 607,
+													"name": "__type",
+													"kind": 65536,
+													"kindString": "Type literal",
+													"flags": {},
+													"signatures": [
+														{
+															"id": 608,
+															"name": "__call",
+															"kind": 4096,
+															"kindString": "Call signature",
+															"flags": {},
+															"parameters": [
+																{
+																	"id": 609,
+																	"name": "args",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isRest": true
+																	},
+																	"type": {
+																		"type": "array",
+																		"elementType": {
+																			"type": "intrinsic",
+																			"name": "any"
+																		}
+																	}
+																}
+															],
+															"type": {
+																"type": "intrinsic",
+																"name": "void"
+															}
+														}
+													],
+													"sources": [
+														{
+															"fileName": "node_modules/@types/node/stream.d.ts",
+															"line": 225,
+															"character": 60
+														}
+													]
+												}
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "this"
+									},
+									"overwrites": {
+										"type": "reference",
+										"name": "EventEmitter.removeListener"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 570,
+										"name": "Writable.removeListener"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/@types/node/stream.d.ts",
+									"line": 219,
+									"character": 26
+								},
+								{
+									"fileName": "node_modules/@types/node/stream.d.ts",
+									"line": 220,
+									"character": 26
+								},
+								{
+									"fileName": "node_modules/@types/node/stream.d.ts",
+									"line": 221,
+									"character": 26
+								},
+								{
+									"fileName": "node_modules/@types/node/stream.d.ts",
+									"line": 222,
+									"character": 26
+								},
+								{
+									"fileName": "node_modules/@types/node/stream.d.ts",
+									"line": 223,
+									"character": 26
+								},
+								{
+									"fileName": "node_modules/@types/node/stream.d.ts",
+									"line": 224,
+									"character": 26
+								},
+								{
+									"fileName": "node_modules/@types/node/stream.d.ts",
+									"line": 225,
+									"character": 26
+								}
+							],
+							"overwrites": {
+								"type": "reference",
+								"name": "EventEmitter.removeListener"
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 570,
+								"name": "Writable.removeListener"
+							}
+						},
+						{
+							"id": 325,
+							"name": "setDefaultEncoding",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {},
+							"signatures": [
+								{
+									"id": 326,
+									"name": "setDefaultEncoding",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"parameters": [
+										{
+											"id": 327,
+											"name": "encoding",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "reference",
+												"name": "BufferEncoding"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "this"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 325,
+										"name": "Writable.setDefaultEncoding"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/@types/node/stream.d.ts",
+									"line": 153,
+									"character": 30
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 325,
+								"name": "Writable.setDefaultEncoding"
+							}
+						},
+						{
+							"id": 627,
+							"name": "setMaxListeners",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {},
+							"signatures": [
+								{
+									"id": 628,
+									"name": "setMaxListeners",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"parameters": [
+										{
+											"id": 629,
+											"name": "n",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "intrinsic",
+												"name": "number"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "this"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 627,
+										"name": "EventEmitter.setMaxListeners"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/@types/node/globals.d.ts",
+									"line": 559,
+									"character": 23
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 627,
+								"name": "EventEmitter.setMaxListeners"
+							}
+						},
+						{
+							"id": 346,
+							"name": "uncork",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {},
+							"signatures": [
+								{
+									"id": 347,
+									"name": "uncork",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 346,
+										"name": "Writable.uncork"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/@types/node/stream.d.ts",
+									"line": 158,
+									"character": 18
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 346,
+								"name": "Writable.uncork"
+							}
+						},
+						{
+							"id": 311,
+							"name": "write",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {},
+							"signatures": [
+								{
+									"id": 312,
+									"name": "write",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"parameters": [
+										{
+											"id": 313,
+											"name": "chunk",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "intrinsic",
+												"name": "any"
+											}
+										},
+										{
+											"id": 314,
+											"name": "cb",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isOptional": true
+											},
+											"type": {
+												"type": "union",
+												"types": [
+													{
+														"type": "intrinsic",
+														"name": "undefined"
+													},
+													{
+														"type": "reflection",
+														"declaration": {
+															"id": 315,
+															"name": "__type",
+															"kind": 65536,
+															"kindString": "Type literal",
+															"flags": {},
+															"signatures": [
+																{
+																	"id": 316,
+																	"name": "__call",
+																	"kind": 4096,
+																	"kindString": "Call signature",
+																	"flags": {},
+																	"parameters": [
+																		{
+																			"id": 317,
+																			"name": "error",
+																			"kind": 32768,
+																			"kindString": "Parameter",
+																			"flags": {},
+																			"type": {
+																				"type": "union",
+																				"types": [
+																					{
+																						"type": "reference",
+																						"name": "Error"
+																					},
+																					{
+																						"type": "intrinsic",
+																						"name": "null"
+																					},
+																					{
+																						"type": "intrinsic",
+																						"name": "undefined"
+																					}
+																				]
+																			}
+																		}
+																	],
+																	"type": {
+																		"type": "intrinsic",
+																		"name": "void"
+																	}
+																}
+															]
+														}
+													}
+												]
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "boolean"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 311,
+										"name": "Writable.write"
+									}
+								},
+								{
+									"id": 318,
+									"name": "write",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"parameters": [
+										{
+											"id": 319,
+											"name": "chunk",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "intrinsic",
+												"name": "any"
+											}
+										},
+										{
+											"id": 320,
+											"name": "encoding",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "reference",
+												"name": "BufferEncoding"
+											}
+										},
+										{
+											"id": 321,
+											"name": "cb",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isOptional": true
+											},
+											"type": {
+												"type": "union",
+												"types": [
+													{
+														"type": "intrinsic",
+														"name": "undefined"
+													},
+													{
+														"type": "reflection",
+														"declaration": {
+															"id": 322,
+															"name": "__type",
+															"kind": 65536,
+															"kindString": "Type literal",
+															"flags": {},
+															"signatures": [
+																{
+																	"id": 323,
+																	"name": "__call",
+																	"kind": 4096,
+																	"kindString": "Call signature",
+																	"flags": {},
+																	"parameters": [
+																		{
+																			"id": 324,
+																			"name": "error",
+																			"kind": 32768,
+																			"kindString": "Parameter",
+																			"flags": {},
+																			"type": {
+																				"type": "union",
+																				"types": [
+																					{
+																						"type": "reference",
+																						"name": "Error"
+																					},
+																					{
+																						"type": "intrinsic",
+																						"name": "null"
+																					},
+																					{
+																						"type": "intrinsic",
+																						"name": "undefined"
+																					}
+																				]
+																			}
+																		}
+																	],
+																	"type": {
+																		"type": "intrinsic",
+																		"name": "void"
+																	}
+																}
+															]
+														}
+													}
+												]
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "boolean"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 311,
+										"name": "Writable.write"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/@types/node/stream.d.ts",
+									"line": 151,
+									"character": 17
+								},
+								{
+									"fileName": "node_modules/@types/node/stream.d.ts",
+									"line": 152,
+									"character": 17
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 311,
+								"name": "Writable.write"
+							}
+						}
+					],
+					"groups": [
+						{
+							"title": "Constructors",
+							"kind": 512,
+							"children": [
+								269
+							]
+						},
+						{
+							"title": "Properties",
+							"kind": 1024,
+							"children": [
+								270,
+								287,
+								280,
+								286,
+								281,
+								282,
+								283,
+								284,
+								285,
+								268,
+								267
+							]
+						},
+						{
+							"title": "Methods",
+							"kind": 2048,
+							"children": [
+								298,
+								305,
+								273,
+								288,
+								351,
+								344,
+								348,
+								391,
+								328,
+								641,
+								630,
+								638,
+								632,
+								617,
+								410,
+								450,
+								610,
+								490,
+								530,
+								635,
+								624,
+								570,
+								325,
+								627,
+								346,
+								311
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "test/lib/index.ts",
+							"line": 3,
+							"character": 18
+						}
+					],
+					"extendedTypes": [
+						{
+							"type": "reference",
+							"name": "Writable"
+						}
+					],
+					"implementedTypes": [
+						{
+							"type": "reference",
+							"name": "WritableStream"
+						}
+					]
+				},
+				{
+					"id": 643,
+					"name": "makeWritable",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {
+						"isExported": true
+					},
+					"signatures": [
+						{
+							"id": 644,
+							"name": "makeWritable",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {
+								"isExported": true
+							},
+							"parameters": [
+								{
+									"id": 645,
+									"name": "amountToWrite",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"isExported": true,
+										"isOptional": true
+									},
+									"type": {
+										"type": "union",
+										"types": [
+											{
+												"type": "intrinsic",
+												"name": "undefined"
+											},
+											{
+												"type": "intrinsic",
+												"name": "number"
+											}
+										]
+									}
+								}
+							],
+							"type": {
+								"type": "intersection",
+								"types": [
+									{
+										"type": "reference",
+										"name": "WriteStream"
+									},
+									{
+										"type": "reference",
+										"id": 266,
+										"name": "MockWritable"
+									}
+								]
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "test/lib/index.ts",
+							"line": 21,
+							"character": 28
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"title": "Classes",
+					"kind": 128,
+					"children": [
+						266
+					]
+				},
+				{
+					"title": "Functions",
+					"kind": 64,
+					"children": [
+						643
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "test/lib/index.ts",
 					"line": 1,
 					"character": 0
 				}
@@ -6325,7 +12763,9 @@
 				1,
 				134,
 				100,
-				264
+				264,
+				646,
+				265
 			]
 		}
 	]
