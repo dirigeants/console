@@ -2851,9 +2851,9 @@
 							},
 							"sources": [
 								{
-									"fileName": "node_modules/@types/node/globals.d.ts",
-									"line": 3,
-									"character": 11
+									"fileName": "node_modules/@types/node/console.d.ts",
+									"line": 7,
+									"character": 19
 								}
 							],
 							"type": {
@@ -3164,9 +3164,9 @@
 							],
 							"sources": [
 								{
-									"fileName": "node_modules/@types/node/globals.d.ts",
-									"line": 9,
-									"character": 10
+									"fileName": "node_modules/@types/node/console.d.ts",
+									"line": 13,
+									"character": 18
 								}
 							],
 							"inheritedFrom": {
@@ -3208,9 +3208,9 @@
 							],
 							"sources": [
 								{
-									"fileName": "node_modules/@types/node/globals.d.ts",
-									"line": 14,
-									"character": 9
+									"fileName": "node_modules/@types/node/console.d.ts",
+									"line": 18,
+									"character": 17
 								}
 							],
 							"inheritedFrom": {
@@ -3277,9 +3277,9 @@
 							],
 							"sources": [
 								{
-									"fileName": "node_modules/@types/node/globals.d.ts",
-									"line": 18,
-									"character": 9
+									"fileName": "node_modules/@types/node/console.d.ts",
+									"line": 22,
+									"character": 17
 								}
 							],
 							"inheritedFrom": {
@@ -3346,9 +3346,9 @@
 							],
 							"sources": [
 								{
-									"fileName": "node_modules/@types/node/globals.d.ts",
-									"line": 22,
-									"character": 14
+									"fileName": "node_modules/@types/node/console.d.ts",
+									"line": 26,
+									"character": 22
 								}
 							],
 							"inheritedFrom": {
@@ -3477,7 +3477,7 @@
 											},
 											"type": {
 												"type": "reference",
-												"name": "NodeJS.InspectOptions"
+												"name": "InspectOptions"
 											}
 										}
 									],
@@ -3494,9 +3494,9 @@
 							],
 							"sources": [
 								{
-									"fileName": "node_modules/@types/node/globals.d.ts",
-									"line": 31,
-									"character": 7
+									"fileName": "node_modules/@types/node/console.d.ts",
+									"line": 35,
+									"character": 15
 								}
 							],
 							"inheritedFrom": {
@@ -3557,9 +3557,9 @@
 							],
 							"sources": [
 								{
-									"fileName": "node_modules/@types/node/globals.d.ts",
-									"line": 35,
-									"character": 10
+									"fileName": "node_modules/@types/node/console.d.ts",
+									"line": 39,
+									"character": 18
 								}
 							],
 							"inheritedFrom": {
@@ -3695,9 +3695,9 @@
 							],
 							"sources": [
 								{
-									"fileName": "node_modules/@types/node/globals.d.ts",
-									"line": 44,
-									"character": 9
+									"fileName": "node_modules/@types/node/console.d.ts",
+									"line": 48,
+									"character": 17
 								}
 							],
 							"inheritedFrom": {
@@ -3758,9 +3758,9 @@
 							],
 							"sources": [
 								{
-									"fileName": "node_modules/@types/node/globals.d.ts",
-									"line": 48,
-									"character": 18
+									"fileName": "node_modules/@types/node/console.d.ts",
+									"line": 52,
+									"character": 26
 								}
 							],
 							"inheritedFrom": {
@@ -3802,9 +3802,9 @@
 							],
 							"sources": [
 								{
-									"fileName": "node_modules/@types/node/globals.d.ts",
-									"line": 52,
-									"character": 12
+									"fileName": "node_modules/@types/node/console.d.ts",
+									"line": 56,
+									"character": 20
 								}
 							],
 							"inheritedFrom": {
@@ -3879,9 +3879,9 @@
 							],
 							"sources": [
 								{
-									"fileName": "node_modules/@types/node/globals.d.ts",
-									"line": 56,
-									"character": 8
+									"fileName": "node_modules/@types/node/console.d.ts",
+									"line": 60,
+									"character": 16
 								}
 							],
 							"inheritedFrom": {
@@ -4023,9 +4023,9 @@
 							],
 							"sources": [
 								{
-									"fileName": "node_modules/@types/node/globals.d.ts",
-									"line": 92,
-									"character": 11
+									"fileName": "node_modules/@types/node/console.d.ts",
+									"line": 96,
+									"character": 19
 								}
 							],
 							"inheritedFrom": {
@@ -4092,9 +4092,9 @@
 							],
 							"sources": [
 								{
-									"fileName": "node_modules/@types/node/globals.d.ts",
-									"line": 97,
-									"character": 14
+									"fileName": "node_modules/@types/node/console.d.ts",
+									"line": 101,
+									"character": 22
 								}
 							],
 							"inheritedFrom": {
@@ -4168,9 +4168,9 @@
 							],
 							"sources": [
 								{
-									"fileName": "node_modules/@types/node/globals.d.ts",
-									"line": 65,
-									"character": 9
+									"fileName": "node_modules/@types/node/console.d.ts",
+									"line": 69,
+									"character": 17
 								}
 							],
 							"inheritedFrom": {
@@ -4237,9 +4237,9 @@
 							],
 							"sources": [
 								{
-									"fileName": "node_modules/@types/node/globals.d.ts",
-									"line": 69,
-									"character": 8
+									"fileName": "node_modules/@types/node/console.d.ts",
+									"line": 73,
+									"character": 16
 								}
 							],
 							"inheritedFrom": {
@@ -4306,9 +4306,9 @@
 							],
 							"sources": [
 								{
-									"fileName": "node_modules/@types/node/globals.d.ts",
-									"line": 73,
-									"character": 11
+									"fileName": "node_modules/@types/node/console.d.ts",
+									"line": 77,
+									"character": 19
 								}
 							],
 							"inheritedFrom": {
@@ -4392,9 +4392,9 @@
 							],
 							"sources": [
 								{
-									"fileName": "node_modules/@types/node/globals.d.ts",
-									"line": 77,
-									"character": 11
+									"fileName": "node_modules/@types/node/console.d.ts",
+									"line": 81,
+									"character": 19
 								}
 							],
 							"inheritedFrom": {
@@ -4461,9 +4461,9 @@
 							],
 							"sources": [
 								{
-									"fileName": "node_modules/@types/node/globals.d.ts",
-									"line": 102,
-									"character": 13
+									"fileName": "node_modules/@types/node/console.d.ts",
+									"line": 106,
+									"character": 21
 								}
 							],
 							"inheritedFrom": {
@@ -4538,9 +4538,9 @@
 							],
 							"sources": [
 								{
-									"fileName": "node_modules/@types/node/globals.d.ts",
-									"line": 81,
-									"character": 9
+									"fileName": "node_modules/@types/node/console.d.ts",
+									"line": 85,
+									"character": 17
 								}
 							],
 							"inheritedFrom": {
@@ -8613,9 +8613,9 @@
 							],
 							"sources": [
 								{
-									"fileName": "node_modules/@types/node/globals.d.ts",
-									"line": 568,
-									"character": 18
+									"fileName": "node_modules/@types/node/events.d.ts",
+									"line": 77,
+									"character": 26
 								}
 							],
 							"inheritedFrom": {
@@ -8650,9 +8650,9 @@
 							],
 							"sources": [
 								{
-									"fileName": "node_modules/@types/node/globals.d.ts",
-									"line": 560,
-									"character": 23
+									"fileName": "node_modules/@types/node/events.d.ts",
+									"line": 69,
+									"character": 31
 								}
 							],
 							"inheritedFrom": {
@@ -8709,9 +8709,9 @@
 							],
 							"sources": [
 								{
-									"fileName": "node_modules/@types/node/globals.d.ts",
-									"line": 564,
-									"character": 21
+									"fileName": "node_modules/@types/node/events.d.ts",
+									"line": 73,
+									"character": 29
 								}
 							],
 							"inheritedFrom": {
@@ -8771,9 +8771,9 @@
 							],
 							"sources": [
 								{
-									"fileName": "node_modules/@types/node/globals.d.ts",
-									"line": 561,
-									"character": 17
+									"fileName": "node_modules/@types/node/events.d.ts",
+									"line": 70,
+									"character": 25
 								}
 							],
 							"inheritedFrom": {
@@ -8863,9 +8863,9 @@
 													],
 													"sources": [
 														{
-															"fileName": "node_modules/@types/node/globals.d.ts",
-															"line": 557,
-															"character": 45
+															"fileName": "node_modules/@types/node/events.d.ts",
+															"line": 66,
+															"character": 53
 														}
 													]
 												}
@@ -8885,9 +8885,9 @@
 							],
 							"sources": [
 								{
-									"fileName": "node_modules/@types/node/globals.d.ts",
-									"line": 557,
-									"character": 11
+									"fileName": "node_modules/@types/node/events.d.ts",
+									"line": 66,
+									"character": 19
 								}
 							],
 							"inheritedFrom": {
@@ -11534,9 +11534,9 @@
 							],
 							"sources": [
 								{
-									"fileName": "node_modules/@types/node/globals.d.ts",
-									"line": 562,
-									"character": 20
+									"fileName": "node_modules/@types/node/events.d.ts",
+									"line": 71,
+									"character": 28
 								}
 							],
 							"inheritedFrom": {
@@ -11595,9 +11595,9 @@
 							],
 							"sources": [
 								{
-									"fileName": "node_modules/@types/node/globals.d.ts",
-									"line": 558,
-									"character": 26
+									"fileName": "node_modules/@types/node/events.d.ts",
+									"line": 67,
+									"character": 34
 								}
 							],
 							"inheritedFrom": {
@@ -12306,9 +12306,9 @@
 							],
 							"sources": [
 								{
-									"fileName": "node_modules/@types/node/globals.d.ts",
-									"line": 559,
-									"character": 23
+									"fileName": "node_modules/@types/node/events.d.ts",
+									"line": 68,
+									"character": 31
 								}
 							],
 							"inheritedFrom": {
