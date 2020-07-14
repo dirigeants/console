@@ -6,7 +6,7 @@
 	"originalName": "",
 	"children": [
 		{
-			"id": 251,
+			"id": 255,
 			"name": "\"src/index\"",
 			"kind": 1,
 			"kindString": "Module",
@@ -16,7 +16,7 @@
 			"originalName": "/home/runner/work/console/console/src/index.ts",
 			"children": [
 				{
-					"id": 259,
+					"id": 263,
 					"name": "Color",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -26,7 +26,7 @@
 					"target": 98
 				},
 				{
-					"id": 261,
+					"id": 265,
 					"name": "Colors",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -36,7 +36,7 @@
 					"target": 9
 				},
 				{
-					"id": 258,
+					"id": 262,
 					"name": "ColorsFormatData",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -46,7 +46,7 @@
 					"target": 6
 				},
 				{
-					"id": 257,
+					"id": 261,
 					"name": "ColorsFormatOptions",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -56,17 +56,17 @@
 					"target": 2
 				},
 				{
-					"id": 254,
+					"id": 258,
 					"name": "ConsoleColorsOptions",
 					"kind": 16777216,
 					"kindString": "Reference",
 					"flags": {
 						"isExported": true
 					},
-					"target": 142
+					"target": 146
 				},
 				{
-					"id": 262,
+					"id": 266,
 					"name": "ConsoleDefaults",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -76,57 +76,57 @@
 					"target": 109
 				},
 				{
-					"id": 252,
+					"id": 256,
 					"name": "ConsoleOptions",
 					"kind": 16777216,
 					"kindString": "Reference",
 					"flags": {
 						"isExported": true
 					},
-					"target": 135
+					"target": 139
 				},
 				{
-					"id": 255,
+					"id": 259,
 					"name": "ConsoleOptionsColor",
 					"kind": 16777216,
 					"kindString": "Reference",
 					"flags": {
 						"isExported": true
 					},
-					"target": 150
+					"target": 154
 				},
 				{
-					"id": 253,
+					"id": 257,
 					"name": "ConsoleOutputType",
 					"kind": 16777216,
 					"kindString": "Reference",
 					"flags": {
 						"isExported": true
 					},
-					"target": 250
+					"target": 254
 				},
 				{
-					"id": 263,
+					"id": 267,
 					"name": "ConsoleTypes",
 					"kind": 16777216,
 					"kindString": "Reference",
 					"flags": {
 						"isExported": true
 					},
-					"target": 127
+					"target": 131
 				},
 				{
-					"id": 256,
+					"id": 260,
 					"name": "KlasaConsole",
 					"kind": 16777216,
 					"kindString": "Reference",
 					"flags": {
 						"isExported": true
 					},
-					"target": 155
+					"target": 159
 				},
 				{
-					"id": 260,
+					"id": 264,
 					"name": "Style",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -141,18 +141,18 @@
 					"title": "References",
 					"kind": 16777216,
 					"children": [
-						259,
+						263,
+						265,
+						262,
 						261,
 						258,
-						257,
-						254,
-						262,
-						252,
-						255,
-						253,
-						263,
+						266,
 						256,
-						260
+						259,
+						257,
+						267,
+						260,
+						264
 					]
 				}
 			],
@@ -2739,7 +2739,7 @@
 			]
 		},
 		{
-			"id": 134,
+			"id": 138,
 			"name": "\"src/lib/KlasaConsole\"",
 			"kind": 1,
 			"kindString": "Module",
@@ -2749,7 +2749,7 @@
 			"originalName": "/home/runner/work/console/console/src/lib/KlasaConsole.ts",
 			"children": [
 				{
-					"id": 155,
+					"id": 159,
 					"name": "KlasaConsole",
 					"kind": 128,
 					"kindString": "Class",
@@ -2767,7 +2767,7 @@
 					},
 					"children": [
 						{
-							"id": 160,
+							"id": 164,
 							"name": "constructor",
 							"kind": 512,
 							"kindString": "Constructor",
@@ -2785,7 +2785,7 @@
 							},
 							"signatures": [
 								{
-									"id": 161,
+									"id": 165,
 									"name": "new KlasaConsole",
 									"kind": 16384,
 									"kindString": "Constructor signature",
@@ -2802,7 +2802,7 @@
 									},
 									"parameters": [
 										{
-											"id": 162,
+											"id": 166,
 											"name": "options",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -2817,7 +2817,7 @@
 												"typeArguments": [
 													{
 														"type": "reference",
-														"id": 135,
+														"id": 139,
 														"name": "ConsoleOptions"
 													}
 												],
@@ -2828,7 +2828,7 @@
 									],
 									"type": {
 										"type": "reference",
-										"id": 155,
+										"id": 159,
 										"name": "KlasaConsole"
 									}
 								}
@@ -2842,7 +2842,7 @@
 							]
 						},
 						{
-							"id": 190,
+							"id": 194,
 							"name": "Console",
 							"kind": 1024,
 							"kindString": "Property",
@@ -2862,12 +2862,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 190,
+								"id": 194,
 								"name": "Console.Console"
 							}
 						},
 						{
-							"id": 157,
+							"id": 161,
 							"name": "colors",
 							"kind": 1024,
 							"kindString": "Property",
@@ -2896,7 +2896,7 @@
 								"typeArguments": [
 									{
 										"type": "reference",
-										"id": 250,
+										"id": 254,
 										"name": "ConsoleOutputType"
 									},
 									{
@@ -2919,7 +2919,7 @@
 							}
 						},
 						{
-							"id": 159,
+							"id": 163,
 							"name": "stdout",
 							"kind": 1024,
 							"kindString": "Property",
@@ -2949,7 +2949,7 @@
 							}
 						},
 						{
-							"id": 156,
+							"id": 160,
 							"name": "template",
 							"kind": 1024,
 							"kindString": "Property",
@@ -2988,7 +2988,7 @@
 							}
 						},
 						{
-							"id": 158,
+							"id": 162,
 							"name": "utc",
 							"kind": 1024,
 							"kindString": "Property",
@@ -3018,7 +3018,7 @@
 							}
 						},
 						{
-							"id": 163,
+							"id": 167,
 							"name": "timestamp",
 							"kind": 262144,
 							"kindString": "Accessor",
@@ -3037,7 +3037,7 @@
 							},
 							"getSignature": [
 								{
-									"id": 164,
+									"id": 168,
 									"name": "__get",
 									"kind": 524288,
 									"kindString": "Get signature",
@@ -3077,7 +3077,7 @@
 							]
 						},
 						{
-							"id": 191,
+							"id": 195,
 							"name": "assert",
 							"kind": 2048,
 							"kindString": "Method",
@@ -3086,7 +3086,7 @@
 							},
 							"signatures": [
 								{
-									"id": 192,
+									"id": 196,
 									"name": "assert",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -3098,7 +3098,7 @@
 									},
 									"parameters": [
 										{
-											"id": 193,
+											"id": 197,
 											"name": "value",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -3111,7 +3111,7 @@
 											}
 										},
 										{
-											"id": 194,
+											"id": 198,
 											"name": "message",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -3134,7 +3134,7 @@
 											}
 										},
 										{
-											"id": 195,
+											"id": 199,
 											"name": "optionalParams",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -3157,7 +3157,7 @@
 									},
 									"inheritedFrom": {
 										"type": "reference",
-										"id": 191,
+										"id": 195,
 										"name": "Console.assert"
 									}
 								}
@@ -3171,12 +3171,12 @@
 							],
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 191,
+								"id": 195,
 								"name": "Console.assert"
 							}
 						},
 						{
-							"id": 196,
+							"id": 200,
 							"name": "clear",
 							"kind": 2048,
 							"kindString": "Method",
@@ -3185,7 +3185,7 @@
 							},
 							"signatures": [
 								{
-									"id": 197,
+									"id": 201,
 									"name": "clear",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -3201,7 +3201,7 @@
 									},
 									"inheritedFrom": {
 										"type": "reference",
-										"id": 196,
+										"id": 200,
 										"name": "Console.clear"
 									}
 								}
@@ -3215,12 +3215,12 @@
 							],
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 196,
+								"id": 200,
 								"name": "Console.clear"
 							}
 						},
 						{
-							"id": 198,
+							"id": 202,
 							"name": "count",
 							"kind": 2048,
 							"kindString": "Method",
@@ -3229,7 +3229,7 @@
 							},
 							"signatures": [
 								{
-									"id": 199,
+									"id": 203,
 									"name": "count",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -3241,7 +3241,7 @@
 									},
 									"parameters": [
 										{
-											"id": 200,
+											"id": 204,
 											"name": "label",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -3270,7 +3270,7 @@
 									},
 									"inheritedFrom": {
 										"type": "reference",
-										"id": 198,
+										"id": 202,
 										"name": "Console.count"
 									}
 								}
@@ -3284,12 +3284,12 @@
 							],
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 198,
+								"id": 202,
 								"name": "Console.count"
 							}
 						},
 						{
-							"id": 201,
+							"id": 205,
 							"name": "countReset",
 							"kind": 2048,
 							"kindString": "Method",
@@ -3298,7 +3298,7 @@
 							},
 							"signatures": [
 								{
-									"id": 202,
+									"id": 206,
 									"name": "countReset",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -3310,7 +3310,7 @@
 									},
 									"parameters": [
 										{
-											"id": 203,
+											"id": 207,
 											"name": "label",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -3339,7 +3339,7 @@
 									},
 									"inheritedFrom": {
 										"type": "reference",
-										"id": 201,
+										"id": 205,
 										"name": "Console.countReset"
 									}
 								}
@@ -3353,12 +3353,12 @@
 							],
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 201,
+								"id": 205,
 								"name": "Console.countReset"
 							}
 						},
 						{
-							"id": 178,
+							"id": 182,
 							"name": "debug",
 							"kind": 2048,
 							"kindString": "Method",
@@ -3368,7 +3368,7 @@
 							},
 							"signatures": [
 								{
-									"id": 179,
+									"id": 183,
 									"name": "debug",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -3386,7 +3386,7 @@
 									},
 									"parameters": [
 										{
-											"id": 180,
+											"id": 184,
 											"name": "data",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -3433,7 +3433,7 @@
 							}
 						},
 						{
-							"id": 204,
+							"id": 208,
 							"name": "dir",
 							"kind": 2048,
 							"kindString": "Method",
@@ -3442,7 +3442,7 @@
 							},
 							"signatures": [
 								{
-									"id": 205,
+									"id": 209,
 									"name": "dir",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -3454,7 +3454,7 @@
 									},
 									"parameters": [
 										{
-											"id": 206,
+											"id": 210,
 											"name": "obj",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -3467,7 +3467,7 @@
 											}
 										},
 										{
-											"id": 207,
+											"id": 211,
 											"name": "options",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -3487,7 +3487,7 @@
 									},
 									"inheritedFrom": {
 										"type": "reference",
-										"id": 204,
+										"id": 208,
 										"name": "Console.dir"
 									}
 								}
@@ -3501,12 +3501,12 @@
 							],
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 204,
+								"id": 208,
 								"name": "Console.dir"
 							}
 						},
 						{
-							"id": 208,
+							"id": 212,
 							"name": "dirxml",
 							"kind": 2048,
 							"kindString": "Method",
@@ -3515,7 +3515,7 @@
 							},
 							"signatures": [
 								{
-									"id": 209,
+									"id": 213,
 									"name": "dirxml",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -3527,7 +3527,7 @@
 									},
 									"parameters": [
 										{
-											"id": 210,
+											"id": 214,
 											"name": "data",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -3550,7 +3550,7 @@
 									},
 									"inheritedFrom": {
 										"type": "reference",
-										"id": 208,
+										"id": 212,
 										"name": "Console.dirxml"
 									}
 								}
@@ -3564,12 +3564,12 @@
 							],
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 208,
+								"id": 212,
 								"name": "Console.dirxml"
 							}
 						},
 						{
-							"id": 175,
+							"id": 179,
 							"name": "error",
 							"kind": 2048,
 							"kindString": "Method",
@@ -3579,7 +3579,7 @@
 							},
 							"signatures": [
 								{
-									"id": 176,
+									"id": 180,
 									"name": "error",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -3597,7 +3597,7 @@
 									},
 									"parameters": [
 										{
-											"id": 177,
+											"id": 181,
 											"name": "data",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -3644,7 +3644,7 @@
 							}
 						},
 						{
-							"id": 211,
+							"id": 215,
 							"name": "group",
 							"kind": 2048,
 							"kindString": "Method",
@@ -3653,7 +3653,7 @@
 							},
 							"signatures": [
 								{
-									"id": 212,
+									"id": 216,
 									"name": "group",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -3665,7 +3665,7 @@
 									},
 									"parameters": [
 										{
-											"id": 213,
+											"id": 217,
 											"name": "label",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -3688,7 +3688,7 @@
 									},
 									"inheritedFrom": {
 										"type": "reference",
-										"id": 211,
+										"id": 215,
 										"name": "Console.group"
 									}
 								}
@@ -3702,12 +3702,12 @@
 							],
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 211,
+								"id": 215,
 								"name": "Console.group"
 							}
 						},
 						{
-							"id": 214,
+							"id": 218,
 							"name": "groupCollapsed",
 							"kind": 2048,
 							"kindString": "Method",
@@ -3716,7 +3716,7 @@
 							},
 							"signatures": [
 								{
-									"id": 215,
+									"id": 219,
 									"name": "groupCollapsed",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -3728,7 +3728,7 @@
 									},
 									"parameters": [
 										{
-											"id": 216,
+											"id": 220,
 											"name": "label",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -3751,7 +3751,7 @@
 									},
 									"inheritedFrom": {
 										"type": "reference",
-										"id": 214,
+										"id": 218,
 										"name": "Console.groupCollapsed"
 									}
 								}
@@ -3765,12 +3765,12 @@
 							],
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 214,
+								"id": 218,
 								"name": "Console.groupCollapsed"
 							}
 						},
 						{
-							"id": 217,
+							"id": 221,
 							"name": "groupEnd",
 							"kind": 2048,
 							"kindString": "Method",
@@ -3779,7 +3779,7 @@
 							},
 							"signatures": [
 								{
-									"id": 218,
+									"id": 222,
 									"name": "groupEnd",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -3795,7 +3795,7 @@
 									},
 									"inheritedFrom": {
 										"type": "reference",
-										"id": 217,
+										"id": 221,
 										"name": "Console.groupEnd"
 									}
 								}
@@ -3809,12 +3809,12 @@
 							],
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 217,
+								"id": 221,
 								"name": "Console.groupEnd"
 							}
 						},
 						{
-							"id": 219,
+							"id": 223,
 							"name": "info",
 							"kind": 2048,
 							"kindString": "Method",
@@ -3823,7 +3823,7 @@
 							},
 							"signatures": [
 								{
-									"id": 220,
+									"id": 224,
 									"name": "info",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -3835,7 +3835,7 @@
 									},
 									"parameters": [
 										{
-											"id": 221,
+											"id": 225,
 											"name": "message",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -3849,7 +3849,7 @@
 											}
 										},
 										{
-											"id": 222,
+											"id": 226,
 											"name": "optionalParams",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -3872,7 +3872,7 @@
 									},
 									"inheritedFrom": {
 										"type": "reference",
-										"id": 219,
+										"id": 223,
 										"name": "Console.info"
 									}
 								}
@@ -3886,12 +3886,12 @@
 							],
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 219,
+								"id": 223,
 								"name": "Console.info"
 							}
 						},
 						{
-							"id": 169,
+							"id": 173,
 							"name": "log",
 							"kind": 2048,
 							"kindString": "Method",
@@ -3901,7 +3901,7 @@
 							},
 							"signatures": [
 								{
-									"id": 170,
+									"id": 174,
 									"name": "log",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -3919,7 +3919,7 @@
 									},
 									"parameters": [
 										{
-											"id": 171,
+											"id": 175,
 											"name": "data",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -3966,7 +3966,7 @@
 							}
 						},
 						{
-							"id": 241,
+							"id": 245,
 							"name": "profile",
 							"kind": 2048,
 							"kindString": "Method",
@@ -3975,7 +3975,7 @@
 							},
 							"signatures": [
 								{
-									"id": 242,
+									"id": 246,
 									"name": "profile",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -3987,7 +3987,7 @@
 									},
 									"parameters": [
 										{
-											"id": 243,
+											"id": 247,
 											"name": "label",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -4016,7 +4016,7 @@
 									},
 									"inheritedFrom": {
 										"type": "reference",
-										"id": 241,
+										"id": 245,
 										"name": "Console.profile"
 									}
 								}
@@ -4030,12 +4030,12 @@
 							],
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 241,
+								"id": 245,
 								"name": "Console.profile"
 							}
 						},
 						{
-							"id": 244,
+							"id": 248,
 							"name": "profileEnd",
 							"kind": 2048,
 							"kindString": "Method",
@@ -4044,7 +4044,7 @@
 							},
 							"signatures": [
 								{
-									"id": 245,
+									"id": 249,
 									"name": "profileEnd",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -4056,7 +4056,7 @@
 									},
 									"parameters": [
 										{
-											"id": 246,
+											"id": 250,
 											"name": "label",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -4085,7 +4085,7 @@
 									},
 									"inheritedFrom": {
 										"type": "reference",
-										"id": 244,
+										"id": 248,
 										"name": "Console.profileEnd"
 									}
 								}
@@ -4099,12 +4099,12 @@
 							],
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 244,
+								"id": 248,
 								"name": "Console.profileEnd"
 							}
 						},
 						{
-							"id": 223,
+							"id": 227,
 							"name": "table",
 							"kind": 2048,
 							"kindString": "Method",
@@ -4113,7 +4113,7 @@
 							},
 							"signatures": [
 								{
-									"id": 224,
+									"id": 228,
 									"name": "table",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -4125,7 +4125,7 @@
 									},
 									"parameters": [
 										{
-											"id": 225,
+											"id": 229,
 											"name": "tabularData",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -4138,7 +4138,7 @@
 											}
 										},
 										{
-											"id": 226,
+											"id": 230,
 											"name": "properties",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -4161,7 +4161,7 @@
 									},
 									"inheritedFrom": {
 										"type": "reference",
-										"id": 223,
+										"id": 227,
 										"name": "Console.table"
 									}
 								}
@@ -4175,12 +4175,12 @@
 							],
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 223,
+								"id": 227,
 								"name": "Console.table"
 							}
 						},
 						{
-							"id": 227,
+							"id": 231,
 							"name": "time",
 							"kind": 2048,
 							"kindString": "Method",
@@ -4189,7 +4189,7 @@
 							},
 							"signatures": [
 								{
-									"id": 228,
+									"id": 232,
 									"name": "time",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -4201,7 +4201,7 @@
 									},
 									"parameters": [
 										{
-											"id": 229,
+											"id": 233,
 											"name": "label",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -4230,7 +4230,7 @@
 									},
 									"inheritedFrom": {
 										"type": "reference",
-										"id": 227,
+										"id": 231,
 										"name": "Console.time"
 									}
 								}
@@ -4244,12 +4244,12 @@
 							],
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 227,
+								"id": 231,
 								"name": "Console.time"
 							}
 						},
 						{
-							"id": 230,
+							"id": 234,
 							"name": "timeEnd",
 							"kind": 2048,
 							"kindString": "Method",
@@ -4258,7 +4258,7 @@
 							},
 							"signatures": [
 								{
-									"id": 231,
+									"id": 235,
 									"name": "timeEnd",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -4270,7 +4270,7 @@
 									},
 									"parameters": [
 										{
-											"id": 232,
+											"id": 236,
 											"name": "label",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -4299,7 +4299,7 @@
 									},
 									"inheritedFrom": {
 										"type": "reference",
-										"id": 230,
+										"id": 234,
 										"name": "Console.timeEnd"
 									}
 								}
@@ -4313,12 +4313,12 @@
 							],
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 230,
+								"id": 234,
 								"name": "Console.timeEnd"
 							}
 						},
 						{
-							"id": 233,
+							"id": 237,
 							"name": "timeLog",
 							"kind": 2048,
 							"kindString": "Method",
@@ -4327,7 +4327,7 @@
 							},
 							"signatures": [
 								{
-									"id": 234,
+									"id": 238,
 									"name": "timeLog",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -4339,7 +4339,7 @@
 									},
 									"parameters": [
 										{
-											"id": 235,
+											"id": 239,
 											"name": "label",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -4362,7 +4362,7 @@
 											}
 										},
 										{
-											"id": 236,
+											"id": 240,
 											"name": "data",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -4385,7 +4385,7 @@
 									},
 									"inheritedFrom": {
 										"type": "reference",
-										"id": 233,
+										"id": 237,
 										"name": "Console.timeLog"
 									}
 								}
@@ -4399,12 +4399,12 @@
 							],
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 233,
+								"id": 237,
 								"name": "Console.timeLog"
 							}
 						},
 						{
-							"id": 247,
+							"id": 251,
 							"name": "timeStamp",
 							"kind": 2048,
 							"kindString": "Method",
@@ -4413,7 +4413,7 @@
 							},
 							"signatures": [
 								{
-									"id": 248,
+									"id": 252,
 									"name": "timeStamp",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -4425,7 +4425,7 @@
 									},
 									"parameters": [
 										{
-											"id": 249,
+											"id": 253,
 											"name": "label",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -4454,7 +4454,7 @@
 									},
 									"inheritedFrom": {
 										"type": "reference",
-										"id": 247,
+										"id": 251,
 										"name": "Console.timeStamp"
 									}
 								}
@@ -4468,12 +4468,12 @@
 							],
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 247,
+								"id": 251,
 								"name": "Console.timeStamp"
 							}
 						},
 						{
-							"id": 237,
+							"id": 241,
 							"name": "trace",
 							"kind": 2048,
 							"kindString": "Method",
@@ -4482,7 +4482,7 @@
 							},
 							"signatures": [
 								{
-									"id": 238,
+									"id": 242,
 									"name": "trace",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -4494,7 +4494,7 @@
 									},
 									"parameters": [
 										{
-											"id": 239,
+											"id": 243,
 											"name": "message",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -4508,7 +4508,7 @@
 											}
 										},
 										{
-											"id": 240,
+											"id": 244,
 											"name": "optionalParams",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -4531,7 +4531,7 @@
 									},
 									"inheritedFrom": {
 										"type": "reference",
-										"id": 237,
+										"id": 241,
 										"name": "Console.trace"
 									}
 								}
@@ -4545,12 +4545,12 @@
 							],
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 237,
+								"id": 241,
 								"name": "Console.trace"
 							}
 						},
 						{
-							"id": 181,
+							"id": 185,
 							"name": "verbose",
 							"kind": 2048,
 							"kindString": "Method",
@@ -4560,7 +4560,7 @@
 							},
 							"signatures": [
 								{
-									"id": 182,
+									"id": 186,
 									"name": "verbose",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -4578,7 +4578,7 @@
 									},
 									"parameters": [
 										{
-											"id": 183,
+											"id": 187,
 											"name": "data",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -4617,7 +4617,7 @@
 							]
 						},
 						{
-							"id": 172,
+							"id": 176,
 							"name": "warn",
 							"kind": 2048,
 							"kindString": "Method",
@@ -4627,7 +4627,7 @@
 							},
 							"signatures": [
 								{
-									"id": 173,
+									"id": 177,
 									"name": "warn",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -4645,7 +4645,7 @@
 									},
 									"parameters": [
 										{
-											"id": 174,
+											"id": 178,
 											"name": "data",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -4692,7 +4692,7 @@
 							}
 						},
 						{
-							"id": 165,
+							"id": 169,
 							"name": "write",
 							"kind": 2048,
 							"kindString": "Method",
@@ -4702,7 +4702,7 @@
 							},
 							"signatures": [
 								{
-									"id": 166,
+									"id": 170,
 									"name": "write",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -4720,7 +4720,7 @@
 									},
 									"parameters": [
 										{
-											"id": 167,
+											"id": 171,
 											"name": "data",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -4743,7 +4743,7 @@
 											}
 										},
 										{
-											"id": 168,
+											"id": 172,
 											"name": "type",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -4755,7 +4755,7 @@
 											},
 											"type": {
 												"type": "reference",
-												"id": 250,
+												"id": 254,
 												"name": "ConsoleOutputType"
 											},
 											"defaultValue": "\"log\""
@@ -4776,7 +4776,7 @@
 							]
 						},
 						{
-							"id": 184,
+							"id": 188,
 							"name": "wtf",
 							"kind": 2048,
 							"kindString": "Method",
@@ -4786,7 +4786,7 @@
 							},
 							"signatures": [
 								{
-									"id": 185,
+									"id": 189,
 									"name": "wtf",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -4804,7 +4804,7 @@
 									},
 									"parameters": [
 										{
-											"id": 186,
+											"id": 190,
 											"name": "data",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -4843,7 +4843,7 @@
 							]
 						},
 						{
-							"id": 187,
+							"id": 191,
 							"name": "_flatten",
 							"kind": 2048,
 							"kindString": "Method",
@@ -4854,7 +4854,7 @@
 							},
 							"signatures": [
 								{
-									"id": 188,
+									"id": 192,
 									"name": "_flatten",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -4872,7 +4872,7 @@
 									},
 									"parameters": [
 										{
-											"id": 189,
+											"id": 193,
 											"name": "data",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -4924,57 +4924,57 @@
 							"title": "Constructors",
 							"kind": 512,
 							"children": [
-								160
+								164
 							]
 						},
 						{
 							"title": "Properties",
 							"kind": 1024,
 							"children": [
-								190,
-								157,
-								159,
-								156,
-								158
+								194,
+								161,
+								163,
+								160,
+								162
 							]
 						},
 						{
 							"title": "Accessors",
 							"kind": 262144,
 							"children": [
-								163
+								167
 							]
 						},
 						{
 							"title": "Methods",
 							"kind": 2048,
 							"children": [
-								191,
-								196,
-								198,
-								201,
-								178,
-								204,
+								195,
+								200,
+								202,
+								205,
+								182,
 								208,
-								175,
-								211,
-								214,
-								217,
-								219,
-								169,
-								241,
-								244,
+								212,
+								179,
+								215,
+								218,
+								221,
 								223,
+								173,
+								245,
+								248,
 								227,
-								230,
-								233,
-								247,
+								231,
+								234,
 								237,
-								181,
-								172,
-								165,
-								184,
-								187
+								251,
+								241,
+								185,
+								176,
+								169,
+								188,
+								191
 							]
 						}
 					],
@@ -4993,7 +4993,7 @@
 					]
 				},
 				{
-					"id": 142,
+					"id": 146,
 					"name": "ConsoleColorsOptions",
 					"kind": 256,
 					"kindString": "Interface",
@@ -5011,7 +5011,7 @@
 					},
 					"children": [
 						{
-							"id": 143,
+							"id": 147,
 							"name": "debug",
 							"kind": 1024,
 							"kindString": "Property",
@@ -5036,12 +5036,12 @@
 							],
 							"type": {
 								"type": "reference",
-								"id": 150,
+								"id": 154,
 								"name": "ConsoleOptionsColor"
 							}
 						},
 						{
-							"id": 144,
+							"id": 148,
 							"name": "error",
 							"kind": 1024,
 							"kindString": "Property",
@@ -5066,12 +5066,12 @@
 							],
 							"type": {
 								"type": "reference",
-								"id": 150,
+								"id": 154,
 								"name": "ConsoleOptionsColor"
 							}
 						},
 						{
-							"id": 145,
+							"id": 149,
 							"name": "log",
 							"kind": 1024,
 							"kindString": "Property",
@@ -5096,12 +5096,12 @@
 							],
 							"type": {
 								"type": "reference",
-								"id": 150,
+								"id": 154,
 								"name": "ConsoleOptionsColor"
 							}
 						},
 						{
-							"id": 146,
+							"id": 150,
 							"name": "verbose",
 							"kind": 1024,
 							"kindString": "Property",
@@ -5126,12 +5126,12 @@
 							],
 							"type": {
 								"type": "reference",
-								"id": 150,
+								"id": 154,
 								"name": "ConsoleOptionsColor"
 							}
 						},
 						{
-							"id": 147,
+							"id": 151,
 							"name": "warn",
 							"kind": 1024,
 							"kindString": "Property",
@@ -5156,12 +5156,12 @@
 							],
 							"type": {
 								"type": "reference",
-								"id": 150,
+								"id": 154,
 								"name": "ConsoleOptionsColor"
 							}
 						},
 						{
-							"id": 148,
+							"id": 152,
 							"name": "wtf",
 							"kind": 1024,
 							"kindString": "Property",
@@ -5186,7 +5186,7 @@
 							],
 							"type": {
 								"type": "reference",
-								"id": 150,
+								"id": 154,
 								"name": "ConsoleOptionsColor"
 							}
 						}
@@ -5196,12 +5196,12 @@
 							"title": "Properties",
 							"kind": 1024,
 							"children": [
-								143,
-								144,
-								145,
-								146,
 								147,
-								148
+								148,
+								149,
+								150,
+								151,
+								152
 							]
 						}
 					],
@@ -5216,7 +5216,7 @@
 						{
 							"type": "reflection",
 							"declaration": {
-								"id": 149,
+								"id": 153,
 								"name": "__type",
 								"kind": 65536,
 								"kindString": "Type literal",
@@ -5235,7 +5235,7 @@
 					]
 				},
 				{
-					"id": 135,
+					"id": 139,
 					"name": "ConsoleOptions",
 					"kind": 256,
 					"kindString": "Interface",
@@ -5253,7 +5253,7 @@
 					},
 					"children": [
 						{
-							"id": 141,
+							"id": 145,
 							"name": "colors",
 							"kind": 1024,
 							"kindString": "Property",
@@ -5278,12 +5278,12 @@
 							],
 							"type": {
 								"type": "reference",
-								"id": 142,
+								"id": 146,
 								"name": "ConsoleColorsOptions"
 							}
 						},
 						{
-							"id": 138,
+							"id": 142,
 							"name": "stderr",
 							"kind": 1024,
 							"kindString": "Property",
@@ -5316,7 +5316,7 @@
 							}
 						},
 						{
-							"id": 137,
+							"id": 141,
 							"name": "stdout",
 							"kind": 1024,
 							"kindString": "Property",
@@ -5349,7 +5349,7 @@
 							}
 						},
 						{
-							"id": 139,
+							"id": 143,
 							"name": "timestamps",
 							"kind": 1024,
 							"kindString": "Property",
@@ -5391,7 +5391,7 @@
 							}
 						},
 						{
-							"id": 136,
+							"id": 140,
 							"name": "useColor",
 							"kind": 1024,
 							"kindString": "Property",
@@ -5434,7 +5434,7 @@
 							}
 						},
 						{
-							"id": 140,
+							"id": 144,
 							"name": "utc",
 							"kind": 1024,
 							"kindString": "Property",
@@ -5472,12 +5472,12 @@
 							"title": "Properties",
 							"kind": 1024,
 							"children": [
+								145,
+								142,
 								141,
-								138,
-								137,
-								139,
-								136,
-								140
+								143,
+								140,
+								144
 							]
 						}
 					],
@@ -5490,7 +5490,7 @@
 					]
 				},
 				{
-					"id": 150,
+					"id": 154,
 					"name": "ConsoleOptionsColor",
 					"kind": 256,
 					"kindString": "Interface",
@@ -5508,7 +5508,7 @@
 					},
 					"children": [
 						{
-							"id": 152,
+							"id": 156,
 							"name": "message",
 							"kind": 1024,
 							"kindString": "Property",
@@ -5538,7 +5538,7 @@
 							}
 						},
 						{
-							"id": 153,
+							"id": 157,
 							"name": "shard",
 							"kind": 1024,
 							"kindString": "Property",
@@ -5568,7 +5568,7 @@
 							}
 						},
 						{
-							"id": 151,
+							"id": 155,
 							"name": "time",
 							"kind": 1024,
 							"kindString": "Property",
@@ -5603,9 +5603,9 @@
 							"title": "Properties",
 							"kind": 1024,
 							"children": [
-								152,
-								153,
-								151
+								156,
+								157,
+								155
 							]
 						}
 					],
@@ -5620,7 +5620,7 @@
 						{
 							"type": "reflection",
 							"declaration": {
-								"id": 154,
+								"id": 158,
 								"name": "__type",
 								"kind": 65536,
 								"kindString": "Type literal",
@@ -5639,7 +5639,7 @@
 					]
 				},
 				{
-					"id": 250,
+					"id": 254,
 					"name": "ConsoleOutputType",
 					"kind": 4194304,
 					"kindString": "Type alias",
@@ -5698,23 +5698,23 @@
 					"title": "Classes",
 					"kind": 128,
 					"children": [
-						155
+						159
 					]
 				},
 				{
 					"title": "Interfaces",
 					"kind": 256,
 					"children": [
-						142,
-						135,
-						150
+						146,
+						139,
+						154
 					]
 				},
 				{
 					"title": "Type aliases",
 					"kind": 4194304,
 					"children": [
-						250
+						254
 					]
 				}
 			],
@@ -5747,7 +5747,7 @@
 					},
 					"children": [
 						{
-							"id": 111,
+							"id": 113,
 							"name": "stderr",
 							"kind": 32,
 							"kindString": "Variable",
@@ -5762,8 +5762,56 @@
 								}
 							],
 							"type": {
-								"type": "reference",
-								"name": "WriteStream"
+								"type": "intersection",
+								"types": [
+									{
+										"type": "reference",
+										"name": "WriteStream"
+									},
+									{
+										"type": "reflection",
+										"declaration": {
+											"id": 114,
+											"name": "__type",
+											"kind": 65536,
+											"kindString": "Type literal",
+											"flags": {
+												"isExported": true
+											},
+											"children": [
+												{
+													"id": 115,
+													"name": "fd",
+													"kind": 32,
+													"kindString": "Variable",
+													"flags": {
+														"isExported": true
+													},
+													"sources": [
+														{
+															"fileName": "node_modules/@types/node/process.d.ts",
+															"line": 184,
+															"character": 22
+														}
+													],
+													"type": {
+														"type": "unknown",
+														"name": "2"
+													}
+												}
+											],
+											"groups": [
+												{
+													"title": "Variables",
+													"kind": 32,
+													"children": [
+														115
+													]
+												}
+											]
+										}
+									}
+								]
 							},
 							"defaultValue": "process.stderr"
 						},
@@ -5783,13 +5831,61 @@
 								}
 							],
 							"type": {
-								"type": "reference",
-								"name": "WriteStream"
+								"type": "intersection",
+								"types": [
+									{
+										"type": "reference",
+										"name": "WriteStream"
+									},
+									{
+										"type": "reflection",
+										"declaration": {
+											"id": 111,
+											"name": "__type",
+											"kind": 65536,
+											"kindString": "Type literal",
+											"flags": {
+												"isExported": true
+											},
+											"children": [
+												{
+													"id": 112,
+													"name": "fd",
+													"kind": 32,
+													"kindString": "Variable",
+													"flags": {
+														"isExported": true
+													},
+													"sources": [
+														{
+															"fileName": "node_modules/@types/node/process.d.ts",
+															"line": 178,
+															"character": 22
+														}
+													],
+													"type": {
+														"type": "unknown",
+														"name": "1"
+													}
+												}
+											],
+											"groups": [
+												{
+													"title": "Variables",
+													"kind": 32,
+													"children": [
+														112
+													]
+												}
+											]
+										}
+									}
+								]
 							},
 							"defaultValue": "process.stdout"
 						},
 						{
-							"id": 112,
+							"id": 116,
 							"name": "timestamps",
 							"kind": 32,
 							"kindString": "Variable",
@@ -5810,7 +5906,7 @@
 							"defaultValue": "true"
 						},
 						{
-							"id": 113,
+							"id": 117,
 							"name": "utc",
 							"kind": 32,
 							"kindString": "Variable",
@@ -5831,7 +5927,7 @@
 							"defaultValue": "false"
 						},
 						{
-							"id": 114,
+							"id": 118,
 							"name": "colors",
 							"kind": 2097152,
 							"kindString": "Object literal",
@@ -5840,7 +5936,7 @@
 							},
 							"children": [
 								{
-									"id": 115,
+									"id": 119,
 									"name": "debug",
 									"kind": 32,
 									"kindString": "Variable",
@@ -5857,7 +5953,7 @@
 									"type": {
 										"type": "reflection",
 										"declaration": {
-											"id": 116,
+											"id": 120,
 											"name": "__type",
 											"kind": 65536,
 											"kindString": "Type literal",
@@ -5869,7 +5965,7 @@
 									"defaultValue": "mergeDefault(colorBase, { time: { background: 'magenta' } })"
 								},
 								{
-									"id": 117,
+									"id": 121,
 									"name": "error",
 									"kind": 32,
 									"kindString": "Variable",
@@ -5886,7 +5982,7 @@
 									"type": {
 										"type": "reflection",
 										"declaration": {
-											"id": 118,
+											"id": 122,
 											"name": "__type",
 											"kind": 65536,
 											"kindString": "Type literal",
@@ -5898,7 +5994,7 @@
 									"defaultValue": "mergeDefault(colorBase, { time: { background: 'red' } })"
 								},
 								{
-									"id": 119,
+									"id": 123,
 									"name": "log",
 									"kind": 32,
 									"kindString": "Variable",
@@ -5915,7 +6011,7 @@
 									"type": {
 										"type": "reflection",
 										"declaration": {
-											"id": 120,
+											"id": 124,
 											"name": "__type",
 											"kind": 65536,
 											"kindString": "Type literal",
@@ -5927,7 +6023,7 @@
 									"defaultValue": "mergeDefault(colorBase, { time: { background: 'blue' } })"
 								},
 								{
-									"id": 121,
+									"id": 125,
 									"name": "verbose",
 									"kind": 32,
 									"kindString": "Variable",
@@ -5944,7 +6040,7 @@
 									"type": {
 										"type": "reflection",
 										"declaration": {
-											"id": 122,
+											"id": 126,
 											"name": "__type",
 											"kind": 65536,
 											"kindString": "Type literal",
@@ -5956,7 +6052,7 @@
 									"defaultValue": "mergeDefault(colorBase, { time: { text: 'gray' } })"
 								},
 								{
-									"id": 123,
+									"id": 127,
 									"name": "warn",
 									"kind": 32,
 									"kindString": "Variable",
@@ -5973,7 +6069,7 @@
 									"type": {
 										"type": "reflection",
 										"declaration": {
-											"id": 124,
+											"id": 128,
 											"name": "__type",
 											"kind": 65536,
 											"kindString": "Type literal",
@@ -5985,7 +6081,7 @@
 									"defaultValue": "mergeDefault(colorBase, { time: { background: 'lightyellow', text: 'black' } })"
 								},
 								{
-									"id": 125,
+									"id": 129,
 									"name": "wtf",
 									"kind": 32,
 									"kindString": "Variable",
@@ -6002,7 +6098,7 @@
 									"type": {
 										"type": "reflection",
 										"declaration": {
-											"id": 126,
+											"id": 130,
 											"name": "__type",
 											"kind": 65536,
 											"kindString": "Type literal",
@@ -6019,12 +6115,12 @@
 									"title": "Variables",
 									"kind": 32,
 									"children": [
-										115,
-										117,
 										119,
 										121,
 										123,
-										125
+										125,
+										127,
+										129
 									]
 								}
 							],
@@ -6046,17 +6142,17 @@
 							"title": "Variables",
 							"kind": 32,
 							"children": [
-								111,
+								113,
 								110,
-								112,
-								113
+								116,
+								117
 							]
 						},
 						{
 							"title": "Object literals",
 							"kind": 2097152,
 							"children": [
-								114
+								118
 							]
 						}
 					],
@@ -6073,7 +6169,7 @@
 					}
 				},
 				{
-					"id": 127,
+					"id": 131,
 					"name": "ConsoleTypes",
 					"kind": 2097152,
 					"kindString": "Object literal",
@@ -6083,7 +6179,7 @@
 					},
 					"children": [
 						{
-							"id": 128,
+							"id": 132,
 							"name": "debug",
 							"kind": 32,
 							"kindString": "Variable",
@@ -6104,7 +6200,7 @@
 							"defaultValue": "\"debug\""
 						},
 						{
-							"id": 129,
+							"id": 133,
 							"name": "error",
 							"kind": 32,
 							"kindString": "Variable",
@@ -6125,7 +6221,7 @@
 							"defaultValue": "\"error\""
 						},
 						{
-							"id": 130,
+							"id": 134,
 							"name": "log",
 							"kind": 32,
 							"kindString": "Variable",
@@ -6146,7 +6242,7 @@
 							"defaultValue": "\"log\""
 						},
 						{
-							"id": 131,
+							"id": 135,
 							"name": "verbose",
 							"kind": 32,
 							"kindString": "Variable",
@@ -6167,7 +6263,7 @@
 							"defaultValue": "\"log\""
 						},
 						{
-							"id": 132,
+							"id": 136,
 							"name": "warn",
 							"kind": 32,
 							"kindString": "Variable",
@@ -6188,7 +6284,7 @@
 							"defaultValue": "\"warn\""
 						},
 						{
-							"id": 133,
+							"id": 137,
 							"name": "wtf",
 							"kind": 32,
 							"kindString": "Variable",
@@ -6214,12 +6310,12 @@
 							"title": "Variables",
 							"kind": 32,
 							"children": [
-								128,
-								129,
-								130,
-								131,
 								132,
-								133
+								133,
+								134,
+								135,
+								136,
+								137
 							]
 						}
 					],
@@ -6397,7 +6493,7 @@
 					"kind": 2097152,
 					"children": [
 						109,
-						127,
+						131,
 						101
 					]
 				}
@@ -6411,7 +6507,7 @@
 			]
 		},
 		{
-			"id": 264,
+			"id": 268,
 			"name": "\"test/Colors\"",
 			"kind": 1,
 			"kindString": "Module",
@@ -6428,7 +6524,7 @@
 			]
 		},
 		{
-			"id": 646,
+			"id": 650,
 			"name": "\"test/Console\"",
 			"kind": 1,
 			"kindString": "Module",
@@ -6445,7 +6541,7 @@
 			]
 		},
 		{
-			"id": 265,
+			"id": 269,
 			"name": "\"test/lib/index\"",
 			"kind": 1,
 			"kindString": "Module",
@@ -6455,14 +6551,14 @@
 			"originalName": "/home/runner/work/console/console/test/lib/index.ts",
 			"children": [
 				{
-					"id": 266,
+					"id": 270,
 					"name": "MockWritable",
 					"kind": 128,
 					"kindString": "Class",
 					"flags": {},
 					"children": [
 						{
-							"id": 269,
+							"id": 273,
 							"name": "constructor",
 							"kind": 512,
 							"kindString": "Constructor",
@@ -6471,14 +6567,14 @@
 							},
 							"signatures": [
 								{
-									"id": 271,
+									"id": 275,
 									"name": "new MockWritable",
 									"kind": 16384,
 									"kindString": "Constructor signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 272,
+											"id": 276,
 											"name": "amountToWrite",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -6492,7 +6588,7 @@
 									],
 									"type": {
 										"type": "reference",
-										"id": 266,
+										"id": 270,
 										"name": "MockWritable"
 									},
 									"overwrites": {
@@ -6514,7 +6610,7 @@
 							}
 						},
 						{
-							"id": 270,
+							"id": 274,
 							"name": "amountToWrite",
 							"kind": 1024,
 							"kindString": "Property",
@@ -6535,7 +6631,7 @@
 							}
 						},
 						{
-							"id": 287,
+							"id": 291,
 							"name": "destroyed",
 							"kind": 1024,
 							"kindString": "Property",
@@ -6553,12 +6649,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 287,
+								"id": 291,
 								"name": "Writable.destroyed"
 							}
 						},
 						{
-							"id": 280,
+							"id": 284,
 							"name": "writable",
 							"kind": 1024,
 							"kindString": "Property",
@@ -6578,12 +6674,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 280,
+								"id": 284,
 								"name": "Writable.writable"
 							}
 						},
 						{
-							"id": 286,
+							"id": 290,
 							"name": "writableCorked",
 							"kind": 1024,
 							"kindString": "Property",
@@ -6603,12 +6699,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 286,
+								"id": 290,
 								"name": "Writable.writableCorked"
 							}
 						},
 						{
-							"id": 281,
+							"id": 285,
 							"name": "writableEnded",
 							"kind": 1024,
 							"kindString": "Property",
@@ -6628,12 +6724,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 281,
+								"id": 285,
 								"name": "Writable.writableEnded"
 							}
 						},
 						{
-							"id": 282,
+							"id": 286,
 							"name": "writableFinished",
 							"kind": 1024,
 							"kindString": "Property",
@@ -6653,12 +6749,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 282,
+								"id": 286,
 								"name": "Writable.writableFinished"
 							}
 						},
 						{
-							"id": 283,
+							"id": 287,
 							"name": "writableHighWaterMark",
 							"kind": 1024,
 							"kindString": "Property",
@@ -6678,12 +6774,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 283,
+								"id": 287,
 								"name": "Writable.writableHighWaterMark"
 							}
 						},
 						{
-							"id": 284,
+							"id": 288,
 							"name": "writableLength",
 							"kind": 1024,
 							"kindString": "Property",
@@ -6703,12 +6799,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 284,
+								"id": 288,
 								"name": "Writable.writableLength"
 							}
 						},
 						{
-							"id": 285,
+							"id": 289,
 							"name": "writableObjectMode",
 							"kind": 1024,
 							"kindString": "Property",
@@ -6728,12 +6824,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 285,
+								"id": 289,
 								"name": "Writable.writableObjectMode"
 							}
 						},
 						{
-							"id": 268,
+							"id": 272,
 							"name": "written",
 							"kind": 1024,
 							"kindString": "Property",
@@ -6754,7 +6850,7 @@
 							"defaultValue": "0"
 						},
 						{
-							"id": 267,
+							"id": 271,
 							"name": "writtenData",
 							"kind": 1024,
 							"kindString": "Property",
@@ -6778,21 +6874,21 @@
 							"defaultValue": "[]"
 						},
 						{
-							"id": 298,
+							"id": 302,
 							"name": "_destroy",
 							"kind": 2048,
 							"kindString": "Method",
 							"flags": {},
 							"signatures": [
 								{
-									"id": 299,
+									"id": 303,
 									"name": "_destroy",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 300,
+											"id": 304,
 											"name": "error",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -6812,7 +6908,7 @@
 											}
 										},
 										{
-											"id": 301,
+											"id": 305,
 											"name": "callback",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -6820,21 +6916,21 @@
 											"type": {
 												"type": "reflection",
 												"declaration": {
-													"id": 302,
+													"id": 306,
 													"name": "__type",
 													"kind": 65536,
 													"kindString": "Type literal",
 													"flags": {},
 													"signatures": [
 														{
-															"id": 303,
+															"id": 307,
 															"name": "__call",
 															"kind": 4096,
 															"kindString": "Call signature",
 															"flags": {},
 															"parameters": [
 																{
-																	"id": 304,
+																	"id": 308,
 																	"name": "error",
 																	"kind": 32768,
 																	"kindString": "Parameter",
@@ -6879,7 +6975,7 @@
 									},
 									"inheritedFrom": {
 										"type": "reference",
-										"id": 298,
+										"id": 302,
 										"name": "Writable._destroy"
 									}
 								}
@@ -6893,26 +6989,26 @@
 							],
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 298,
+								"id": 302,
 								"name": "Writable._destroy"
 							}
 						},
 						{
-							"id": 305,
+							"id": 309,
 							"name": "_final",
 							"kind": 2048,
 							"kindString": "Method",
 							"flags": {},
 							"signatures": [
 								{
-									"id": 306,
+									"id": 310,
 									"name": "_final",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 307,
+											"id": 311,
 											"name": "callback",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -6920,21 +7016,21 @@
 											"type": {
 												"type": "reflection",
 												"declaration": {
-													"id": 308,
+													"id": 312,
 													"name": "__type",
 													"kind": 65536,
 													"kindString": "Type literal",
 													"flags": {},
 													"signatures": [
 														{
-															"id": 309,
+															"id": 313,
 															"name": "__call",
 															"kind": 4096,
 															"kindString": "Call signature",
 															"flags": {},
 															"parameters": [
 																{
-																	"id": 310,
+																	"id": 314,
 																	"name": "error",
 																	"kind": 32768,
 																	"kindString": "Parameter",
@@ -6979,7 +7075,7 @@
 									},
 									"inheritedFrom": {
 										"type": "reference",
-										"id": 305,
+										"id": 309,
 										"name": "Writable._final"
 									}
 								}
@@ -6993,12 +7089,12 @@
 							],
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 305,
+								"id": 309,
 								"name": "Writable._final"
 							}
 						},
 						{
-							"id": 273,
+							"id": 277,
 							"name": "_write",
 							"kind": 2048,
 							"kindString": "Method",
@@ -7007,14 +7103,14 @@
 							},
 							"signatures": [
 								{
-									"id": 274,
+									"id": 278,
 									"name": "_write",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 275,
+											"id": 279,
 											"name": "chunk",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -7034,7 +7130,7 @@
 											}
 										},
 										{
-											"id": 276,
+											"id": 280,
 											"name": "_encoding",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -7045,7 +7141,7 @@
 											}
 										},
 										{
-											"id": 277,
+											"id": 281,
 											"name": "next",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -7053,14 +7149,14 @@
 											"type": {
 												"type": "reflection",
 												"declaration": {
-													"id": 278,
+													"id": 282,
 													"name": "__type",
 													"kind": 65536,
 													"kindString": "Type literal",
 													"flags": {},
 													"signatures": [
 														{
-															"id": 279,
+															"id": 283,
 															"name": "__call",
 															"kind": 4096,
 															"kindString": "Call signature",
@@ -7105,7 +7201,7 @@
 							}
 						},
 						{
-							"id": 288,
+							"id": 292,
 							"name": "_writev",
 							"kind": 2048,
 							"kindString": "Method",
@@ -7114,14 +7210,14 @@
 							},
 							"signatures": [
 								{
-									"id": 289,
+									"id": 293,
 									"name": "_writev",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 290,
+											"id": 294,
 											"name": "chunks",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -7132,14 +7228,14 @@
 													{
 														"type": "reflection",
 														"declaration": {
-															"id": 291,
+															"id": 295,
 															"name": "__type",
 															"kind": 65536,
 															"kindString": "Type literal",
 															"flags": {},
 															"children": [
 																{
-																	"id": 292,
+																	"id": 296,
 																	"name": "chunk",
 																	"kind": 32,
 																	"kindString": "Variable",
@@ -7157,7 +7253,7 @@
 																	}
 																},
 																{
-																	"id": 293,
+																	"id": 297,
 																	"name": "encoding",
 																	"kind": 32,
 																	"kindString": "Variable",
@@ -7180,8 +7276,8 @@
 																	"title": "Variables",
 																	"kind": 32,
 																	"children": [
-																		292,
-																		293
+																		296,
+																		297
 																	]
 																}
 															],
@@ -7199,7 +7295,7 @@
 											}
 										},
 										{
-											"id": 294,
+											"id": 298,
 											"name": "callback",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -7207,21 +7303,21 @@
 											"type": {
 												"type": "reflection",
 												"declaration": {
-													"id": 295,
+													"id": 299,
 													"name": "__type",
 													"kind": 65536,
 													"kindString": "Type literal",
 													"flags": {},
 													"signatures": [
 														{
-															"id": 296,
+															"id": 300,
 															"name": "__call",
 															"kind": 4096,
 															"kindString": "Call signature",
 															"flags": {},
 															"parameters": [
 																{
-																	"id": 297,
+																	"id": 301,
 																	"name": "error",
 																	"kind": 32768,
 																	"kindString": "Parameter",
@@ -7266,7 +7362,7 @@
 									},
 									"inheritedFrom": {
 										"type": "reference",
-										"id": 288,
+										"id": 292,
 										"name": "Writable._writev"
 									}
 								}
@@ -7280,19 +7376,19 @@
 							],
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 288,
+								"id": 292,
 								"name": "Writable._writev"
 							}
 						},
 						{
-							"id": 351,
+							"id": 355,
 							"name": "addListener",
 							"kind": 2048,
 							"kindString": "Method",
 							"flags": {},
 							"signatures": [
 								{
-									"id": 352,
+									"id": 356,
 									"name": "addListener",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -7302,7 +7398,7 @@
 									},
 									"parameters": [
 										{
-											"id": 353,
+											"id": 357,
 											"name": "event",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -7313,7 +7409,7 @@
 											}
 										},
 										{
-											"id": 354,
+											"id": 358,
 											"name": "listener",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -7321,14 +7417,14 @@
 											"type": {
 												"type": "reflection",
 												"declaration": {
-													"id": 355,
+													"id": 359,
 													"name": "__type",
 													"kind": 65536,
 													"kindString": "Type literal",
 													"flags": {},
 													"signatures": [
 														{
-															"id": 356,
+															"id": 360,
 															"name": "__call",
 															"kind": 4096,
 															"kindString": "Call signature",
@@ -7360,19 +7456,19 @@
 									},
 									"inheritedFrom": {
 										"type": "reference",
-										"id": 351,
+										"id": 355,
 										"name": "Writable.addListener"
 									}
 								},
 								{
-									"id": 357,
+									"id": 361,
 									"name": "addListener",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 358,
+											"id": 362,
 											"name": "event",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -7383,7 +7479,7 @@
 											}
 										},
 										{
-											"id": 359,
+											"id": 363,
 											"name": "listener",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -7391,14 +7487,14 @@
 											"type": {
 												"type": "reflection",
 												"declaration": {
-													"id": 360,
+													"id": 364,
 													"name": "__type",
 													"kind": 65536,
 													"kindString": "Type literal",
 													"flags": {},
 													"signatures": [
 														{
-															"id": 361,
+															"id": 365,
 															"name": "__call",
 															"kind": 4096,
 															"kindString": "Call signature",
@@ -7430,19 +7526,19 @@
 									},
 									"inheritedFrom": {
 										"type": "reference",
-										"id": 351,
+										"id": 355,
 										"name": "Writable.addListener"
 									}
 								},
 								{
-									"id": 362,
+									"id": 366,
 									"name": "addListener",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 363,
+											"id": 367,
 											"name": "event",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -7453,7 +7549,7 @@
 											}
 										},
 										{
-											"id": 364,
+											"id": 368,
 											"name": "listener",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -7461,21 +7557,21 @@
 											"type": {
 												"type": "reflection",
 												"declaration": {
-													"id": 365,
+													"id": 369,
 													"name": "__type",
 													"kind": 65536,
 													"kindString": "Type literal",
 													"flags": {},
 													"signatures": [
 														{
-															"id": 366,
+															"id": 370,
 															"name": "__call",
 															"kind": 4096,
 															"kindString": "Call signature",
 															"flags": {},
 															"parameters": [
 																{
-																	"id": 367,
+																	"id": 371,
 																	"name": "err",
 																	"kind": 32768,
 																	"kindString": "Parameter",
@@ -7513,19 +7609,19 @@
 									},
 									"inheritedFrom": {
 										"type": "reference",
-										"id": 351,
+										"id": 355,
 										"name": "Writable.addListener"
 									}
 								},
 								{
-									"id": 368,
+									"id": 372,
 									"name": "addListener",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 369,
+											"id": 373,
 											"name": "event",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -7536,7 +7632,7 @@
 											}
 										},
 										{
-											"id": 370,
+											"id": 374,
 											"name": "listener",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -7544,14 +7640,14 @@
 											"type": {
 												"type": "reflection",
 												"declaration": {
-													"id": 371,
+													"id": 375,
 													"name": "__type",
 													"kind": 65536,
 													"kindString": "Type literal",
 													"flags": {},
 													"signatures": [
 														{
-															"id": 372,
+															"id": 376,
 															"name": "__call",
 															"kind": 4096,
 															"kindString": "Call signature",
@@ -7583,19 +7679,19 @@
 									},
 									"inheritedFrom": {
 										"type": "reference",
-										"id": 351,
+										"id": 355,
 										"name": "Writable.addListener"
 									}
 								},
 								{
-									"id": 373,
+									"id": 377,
 									"name": "addListener",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 374,
+											"id": 378,
 											"name": "event",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -7606,7 +7702,7 @@
 											}
 										},
 										{
-											"id": 375,
+											"id": 379,
 											"name": "listener",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -7614,21 +7710,21 @@
 											"type": {
 												"type": "reflection",
 												"declaration": {
-													"id": 376,
+													"id": 380,
 													"name": "__type",
 													"kind": 65536,
 													"kindString": "Type literal",
 													"flags": {},
 													"signatures": [
 														{
-															"id": 377,
+															"id": 381,
 															"name": "__call",
 															"kind": 4096,
 															"kindString": "Call signature",
 															"flags": {},
 															"parameters": [
 																{
-																	"id": 378,
+																	"id": 382,
 																	"name": "src",
 																	"kind": 32768,
 																	"kindString": "Parameter",
@@ -7666,19 +7762,19 @@
 									},
 									"inheritedFrom": {
 										"type": "reference",
-										"id": 351,
+										"id": 355,
 										"name": "Writable.addListener"
 									}
 								},
 								{
-									"id": 379,
+									"id": 383,
 									"name": "addListener",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 380,
+											"id": 384,
 											"name": "event",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -7689,7 +7785,7 @@
 											}
 										},
 										{
-											"id": 381,
+											"id": 385,
 											"name": "listener",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -7697,21 +7793,21 @@
 											"type": {
 												"type": "reflection",
 												"declaration": {
-													"id": 382,
+													"id": 386,
 													"name": "__type",
 													"kind": 65536,
 													"kindString": "Type literal",
 													"flags": {},
 													"signatures": [
 														{
-															"id": 383,
+															"id": 387,
 															"name": "__call",
 															"kind": 4096,
 															"kindString": "Call signature",
 															"flags": {},
 															"parameters": [
 																{
-																	"id": 384,
+																	"id": 388,
 																	"name": "src",
 																	"kind": 32768,
 																	"kindString": "Parameter",
@@ -7749,19 +7845,19 @@
 									},
 									"inheritedFrom": {
 										"type": "reference",
-										"id": 351,
+										"id": 355,
 										"name": "Writable.addListener"
 									}
 								},
 								{
-									"id": 385,
+									"id": 389,
 									"name": "addListener",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 386,
+											"id": 390,
 											"name": "event",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -7781,7 +7877,7 @@
 											}
 										},
 										{
-											"id": 387,
+											"id": 391,
 											"name": "listener",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -7789,21 +7885,21 @@
 											"type": {
 												"type": "reflection",
 												"declaration": {
-													"id": 388,
+													"id": 392,
 													"name": "__type",
 													"kind": 65536,
 													"kindString": "Type literal",
 													"flags": {},
 													"signatures": [
 														{
-															"id": 389,
+															"id": 393,
 															"name": "__call",
 															"kind": 4096,
 															"kindString": "Call signature",
 															"flags": {},
 															"parameters": [
 																{
-																	"id": 390,
+																	"id": 394,
 																	"name": "args",
 																	"kind": 32768,
 																	"kindString": "Parameter",
@@ -7846,7 +7942,7 @@
 									},
 									"inheritedFrom": {
 										"type": "reference",
-										"id": 351,
+										"id": 355,
 										"name": "Writable.addListener"
 									}
 								}
@@ -7894,19 +7990,19 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 351,
+								"id": 355,
 								"name": "Writable.addListener"
 							}
 						},
 						{
-							"id": 344,
+							"id": 348,
 							"name": "cork",
 							"kind": 2048,
 							"kindString": "Method",
 							"flags": {},
 							"signatures": [
 								{
-									"id": 345,
+									"id": 349,
 									"name": "cork",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -7917,7 +8013,7 @@
 									},
 									"inheritedFrom": {
 										"type": "reference",
-										"id": 344,
+										"id": 348,
 										"name": "Writable.cork"
 									}
 								}
@@ -7931,26 +8027,26 @@
 							],
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 344,
+								"id": 348,
 								"name": "Writable.cork"
 							}
 						},
 						{
-							"id": 348,
+							"id": 352,
 							"name": "destroy",
 							"kind": 2048,
 							"kindString": "Method",
 							"flags": {},
 							"signatures": [
 								{
-									"id": 349,
+									"id": 353,
 									"name": "destroy",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 350,
+											"id": 354,
 											"name": "error",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -7969,7 +8065,7 @@
 									},
 									"inheritedFrom": {
 										"type": "reference",
-										"id": 348,
+										"id": 352,
 										"name": "Writable.destroy"
 									}
 								}
@@ -7983,26 +8079,26 @@
 							],
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 348,
+								"id": 352,
 								"name": "Writable.destroy"
 							}
 						},
 						{
-							"id": 391,
+							"id": 395,
 							"name": "emit",
 							"kind": 2048,
 							"kindString": "Method",
 							"flags": {},
 							"signatures": [
 								{
-									"id": 392,
+									"id": 396,
 									"name": "emit",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 393,
+											"id": 397,
 											"name": "event",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -8023,19 +8119,19 @@
 									},
 									"inheritedFrom": {
 										"type": "reference",
-										"id": 391,
+										"id": 395,
 										"name": "Writable.emit"
 									}
 								},
 								{
-									"id": 394,
+									"id": 398,
 									"name": "emit",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 395,
+											"id": 399,
 											"name": "event",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -8056,19 +8152,19 @@
 									},
 									"inheritedFrom": {
 										"type": "reference",
-										"id": 391,
+										"id": 395,
 										"name": "Writable.emit"
 									}
 								},
 								{
-									"id": 396,
+									"id": 400,
 									"name": "emit",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 397,
+											"id": 401,
 											"name": "event",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -8079,7 +8175,7 @@
 											}
 										},
 										{
-											"id": 398,
+											"id": 402,
 											"name": "err",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -8100,19 +8196,19 @@
 									},
 									"inheritedFrom": {
 										"type": "reference",
-										"id": 391,
+										"id": 395,
 										"name": "Writable.emit"
 									}
 								},
 								{
-									"id": 399,
+									"id": 403,
 									"name": "emit",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 400,
+											"id": 404,
 											"name": "event",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -8133,19 +8229,19 @@
 									},
 									"inheritedFrom": {
 										"type": "reference",
-										"id": 391,
+										"id": 395,
 										"name": "Writable.emit"
 									}
 								},
 								{
-									"id": 401,
+									"id": 405,
 									"name": "emit",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 402,
+											"id": 406,
 											"name": "event",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -8156,7 +8252,7 @@
 											}
 										},
 										{
-											"id": 403,
+											"id": 407,
 											"name": "src",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -8177,19 +8273,19 @@
 									},
 									"inheritedFrom": {
 										"type": "reference",
-										"id": 391,
+										"id": 395,
 										"name": "Writable.emit"
 									}
 								},
 								{
-									"id": 404,
+									"id": 408,
 									"name": "emit",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 405,
+											"id": 409,
 											"name": "event",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -8200,7 +8296,7 @@
 											}
 										},
 										{
-											"id": 406,
+											"id": 410,
 											"name": "src",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -8221,19 +8317,19 @@
 									},
 									"inheritedFrom": {
 										"type": "reference",
-										"id": 391,
+										"id": 395,
 										"name": "Writable.emit"
 									}
 								},
 								{
-									"id": 407,
+									"id": 411,
 									"name": "emit",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 408,
+											"id": 412,
 											"name": "event",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -8253,7 +8349,7 @@
 											}
 										},
 										{
-											"id": 409,
+											"id": 413,
 											"name": "args",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -8279,7 +8375,7 @@
 									},
 									"inheritedFrom": {
 										"type": "reference",
-										"id": 391,
+										"id": 395,
 										"name": "Writable.emit"
 									}
 								}
@@ -8327,76 +8423,17 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 391,
+								"id": 395,
 								"name": "Writable.emit"
 							}
 						},
 						{
-							"id": 328,
+							"id": 332,
 							"name": "end",
 							"kind": 2048,
 							"kindString": "Method",
 							"flags": {},
 							"signatures": [
-								{
-									"id": 329,
-									"name": "end",
-									"kind": 4096,
-									"kindString": "Call signature",
-									"flags": {},
-									"parameters": [
-										{
-											"id": 330,
-											"name": "cb",
-											"kind": 32768,
-											"kindString": "Parameter",
-											"flags": {
-												"isOptional": true
-											},
-											"type": {
-												"type": "union",
-												"types": [
-													{
-														"type": "intrinsic",
-														"name": "undefined"
-													},
-													{
-														"type": "reflection",
-														"declaration": {
-															"id": 331,
-															"name": "__type",
-															"kind": 65536,
-															"kindString": "Type literal",
-															"flags": {},
-															"signatures": [
-																{
-																	"id": 332,
-																	"name": "__call",
-																	"kind": 4096,
-																	"kindString": "Call signature",
-																	"flags": {},
-																	"type": {
-																		"type": "intrinsic",
-																		"name": "void"
-																	}
-																}
-															]
-														}
-													}
-												]
-											}
-										}
-									],
-									"type": {
-										"type": "intrinsic",
-										"name": "void"
-									},
-									"inheritedFrom": {
-										"type": "reference",
-										"id": 328,
-										"name": "Writable.end"
-									}
-								},
 								{
 									"id": 333,
 									"name": "end",
@@ -8406,17 +8443,6 @@
 									"parameters": [
 										{
 											"id": 334,
-											"name": "chunk",
-											"kind": 32768,
-											"kindString": "Parameter",
-											"flags": {},
-											"type": {
-												"type": "intrinsic",
-												"name": "any"
-											}
-										},
-										{
-											"id": 335,
 											"name": "cb",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -8433,14 +8459,14 @@
 													{
 														"type": "reflection",
 														"declaration": {
-															"id": 336,
+															"id": 335,
 															"name": "__type",
 															"kind": 65536,
 															"kindString": "Type literal",
 															"flags": {},
 															"signatures": [
 																{
-																	"id": 337,
+																	"id": 336,
 																	"name": "__call",
 																	"kind": 4096,
 																	"kindString": "Call signature",
@@ -8463,19 +8489,19 @@
 									},
 									"inheritedFrom": {
 										"type": "reference",
-										"id": 328,
+										"id": 332,
 										"name": "Writable.end"
 									}
 								},
 								{
-									"id": 338,
+									"id": 337,
 									"name": "end",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 339,
+											"id": 338,
 											"name": "chunk",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -8486,7 +8512,77 @@
 											}
 										},
 										{
-											"id": 340,
+											"id": 339,
+											"name": "cb",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isOptional": true
+											},
+											"type": {
+												"type": "union",
+												"types": [
+													{
+														"type": "intrinsic",
+														"name": "undefined"
+													},
+													{
+														"type": "reflection",
+														"declaration": {
+															"id": 340,
+															"name": "__type",
+															"kind": 65536,
+															"kindString": "Type literal",
+															"flags": {},
+															"signatures": [
+																{
+																	"id": 341,
+																	"name": "__call",
+																	"kind": 4096,
+																	"kindString": "Call signature",
+																	"flags": {},
+																	"type": {
+																		"type": "intrinsic",
+																		"name": "void"
+																	}
+																}
+															]
+														}
+													}
+												]
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 332,
+										"name": "Writable.end"
+									}
+								},
+								{
+									"id": 342,
+									"name": "end",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"parameters": [
+										{
+											"id": 343,
+											"name": "chunk",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "intrinsic",
+												"name": "any"
+											}
+										},
+										{
+											"id": 344,
 											"name": "encoding",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -8497,7 +8593,7 @@
 											}
 										},
 										{
-											"id": 341,
+											"id": 345,
 											"name": "cb",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -8514,14 +8610,14 @@
 													{
 														"type": "reflection",
 														"declaration": {
-															"id": 342,
+															"id": 346,
 															"name": "__type",
 															"kind": 65536,
 															"kindString": "Type literal",
 															"flags": {},
 															"signatures": [
 																{
-																	"id": 343,
+																	"id": 347,
 																	"name": "__call",
 																	"kind": 4096,
 																	"kindString": "Call signature",
@@ -8544,7 +8640,7 @@
 									},
 									"inheritedFrom": {
 										"type": "reference",
-										"id": 328,
+										"id": 332,
 										"name": "Writable.end"
 									}
 								}
@@ -8568,19 +8664,19 @@
 							],
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 328,
+								"id": 332,
 								"name": "Writable.end"
 							}
 						},
 						{
-							"id": 641,
+							"id": 645,
 							"name": "eventNames",
 							"kind": 2048,
 							"kindString": "Method",
 							"flags": {},
 							"signatures": [
 								{
-									"id": 642,
+									"id": 646,
 									"name": "eventNames",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -8606,7 +8702,7 @@
 									},
 									"inheritedFrom": {
 										"type": "reference",
-										"id": 641,
+										"id": 645,
 										"name": "EventEmitter.eventNames"
 									}
 								}
@@ -8620,19 +8716,19 @@
 							],
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 641,
+								"id": 645,
 								"name": "EventEmitter.eventNames"
 							}
 						},
 						{
-							"id": 630,
+							"id": 634,
 							"name": "getMaxListeners",
 							"kind": 2048,
 							"kindString": "Method",
 							"flags": {},
 							"signatures": [
 								{
-									"id": 631,
+									"id": 635,
 									"name": "getMaxListeners",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -8643,7 +8739,7 @@
 									},
 									"inheritedFrom": {
 										"type": "reference",
-										"id": 630,
+										"id": 634,
 										"name": "EventEmitter.getMaxListeners"
 									}
 								}
@@ -8657,26 +8753,26 @@
 							],
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 630,
+								"id": 634,
 								"name": "EventEmitter.getMaxListeners"
 							}
 						},
 						{
-							"id": 638,
+							"id": 642,
 							"name": "listenerCount",
 							"kind": 2048,
 							"kindString": "Method",
 							"flags": {},
 							"signatures": [
 								{
-									"id": 639,
+									"id": 643,
 									"name": "listenerCount",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 640,
+											"id": 644,
 											"name": "type",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -8702,7 +8798,7 @@
 									},
 									"inheritedFrom": {
 										"type": "reference",
-										"id": 638,
+										"id": 642,
 										"name": "EventEmitter.listenerCount"
 									}
 								}
@@ -8716,26 +8812,26 @@
 							],
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 638,
+								"id": 642,
 								"name": "EventEmitter.listenerCount"
 							}
 						},
 						{
-							"id": 632,
+							"id": 636,
 							"name": "listeners",
 							"kind": 2048,
 							"kindString": "Method",
 							"flags": {},
 							"signatures": [
 								{
-									"id": 633,
+									"id": 637,
 									"name": "listeners",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 634,
+											"id": 638,
 											"name": "event",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -8764,7 +8860,7 @@
 									},
 									"inheritedFrom": {
 										"type": "reference",
-										"id": 632,
+										"id": 636,
 										"name": "EventEmitter.listeners"
 									}
 								}
@@ -8778,26 +8874,26 @@
 							],
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 632,
+								"id": 636,
 								"name": "EventEmitter.listeners"
 							}
 						},
 						{
-							"id": 617,
+							"id": 621,
 							"name": "off",
 							"kind": 2048,
 							"kindString": "Method",
 							"flags": {},
 							"signatures": [
 								{
-									"id": 618,
+									"id": 622,
 									"name": "off",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 619,
+											"id": 623,
 											"name": "event",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -8817,7 +8913,7 @@
 											}
 										},
 										{
-											"id": 620,
+											"id": 624,
 											"name": "listener",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -8825,21 +8921,21 @@
 											"type": {
 												"type": "reflection",
 												"declaration": {
-													"id": 621,
+													"id": 625,
 													"name": "__type",
 													"kind": 65536,
 													"kindString": "Type literal",
 													"flags": {},
 													"signatures": [
 														{
-															"id": 622,
+															"id": 626,
 															"name": "__call",
 															"kind": 4096,
 															"kindString": "Call signature",
 															"flags": {},
 															"parameters": [
 																{
-																	"id": 623,
+																	"id": 627,
 																	"name": "args",
 																	"kind": 32768,
 																	"kindString": "Parameter",
@@ -8878,7 +8974,7 @@
 									},
 									"inheritedFrom": {
 										"type": "reference",
-										"id": 617,
+										"id": 621,
 										"name": "EventEmitter.off"
 									}
 								}
@@ -8892,26 +8988,26 @@
 							],
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 617,
+								"id": 621,
 								"name": "EventEmitter.off"
 							}
 						},
 						{
-							"id": 410,
+							"id": 414,
 							"name": "on",
 							"kind": 2048,
 							"kindString": "Method",
 							"flags": {},
 							"signatures": [
 								{
-									"id": 411,
+									"id": 415,
 									"name": "on",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 412,
+											"id": 416,
 											"name": "event",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -8922,7 +9018,7 @@
 											}
 										},
 										{
-											"id": 413,
+											"id": 417,
 											"name": "listener",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -8930,14 +9026,14 @@
 											"type": {
 												"type": "reflection",
 												"declaration": {
-													"id": 414,
+													"id": 418,
 													"name": "__type",
 													"kind": 65536,
 													"kindString": "Type literal",
 													"flags": {},
 													"signatures": [
 														{
-															"id": 415,
+															"id": 419,
 															"name": "__call",
 															"kind": 4096,
 															"kindString": "Call signature",
@@ -8969,19 +9065,19 @@
 									},
 									"inheritedFrom": {
 										"type": "reference",
-										"id": 410,
+										"id": 414,
 										"name": "Writable.on"
 									}
 								},
 								{
-									"id": 416,
+									"id": 420,
 									"name": "on",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 417,
+											"id": 421,
 											"name": "event",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -8992,7 +9088,7 @@
 											}
 										},
 										{
-											"id": 418,
+											"id": 422,
 											"name": "listener",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -9000,14 +9096,14 @@
 											"type": {
 												"type": "reflection",
 												"declaration": {
-													"id": 419,
+													"id": 423,
 													"name": "__type",
 													"kind": 65536,
 													"kindString": "Type literal",
 													"flags": {},
 													"signatures": [
 														{
-															"id": 420,
+															"id": 424,
 															"name": "__call",
 															"kind": 4096,
 															"kindString": "Call signature",
@@ -9039,19 +9135,19 @@
 									},
 									"inheritedFrom": {
 										"type": "reference",
-										"id": 410,
+										"id": 414,
 										"name": "Writable.on"
 									}
 								},
 								{
-									"id": 421,
+									"id": 425,
 									"name": "on",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 422,
+											"id": 426,
 											"name": "event",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -9062,7 +9158,7 @@
 											}
 										},
 										{
-											"id": 423,
+											"id": 427,
 											"name": "listener",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -9070,21 +9166,21 @@
 											"type": {
 												"type": "reflection",
 												"declaration": {
-													"id": 424,
+													"id": 428,
 													"name": "__type",
 													"kind": 65536,
 													"kindString": "Type literal",
 													"flags": {},
 													"signatures": [
 														{
-															"id": 425,
+															"id": 429,
 															"name": "__call",
 															"kind": 4096,
 															"kindString": "Call signature",
 															"flags": {},
 															"parameters": [
 																{
-																	"id": 426,
+																	"id": 430,
 																	"name": "err",
 																	"kind": 32768,
 																	"kindString": "Parameter",
@@ -9122,19 +9218,19 @@
 									},
 									"inheritedFrom": {
 										"type": "reference",
-										"id": 410,
+										"id": 414,
 										"name": "Writable.on"
 									}
 								},
 								{
-									"id": 427,
+									"id": 431,
 									"name": "on",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 428,
+											"id": 432,
 											"name": "event",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -9145,7 +9241,7 @@
 											}
 										},
 										{
-											"id": 429,
+											"id": 433,
 											"name": "listener",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -9153,14 +9249,14 @@
 											"type": {
 												"type": "reflection",
 												"declaration": {
-													"id": 430,
+													"id": 434,
 													"name": "__type",
 													"kind": 65536,
 													"kindString": "Type literal",
 													"flags": {},
 													"signatures": [
 														{
-															"id": 431,
+															"id": 435,
 															"name": "__call",
 															"kind": 4096,
 															"kindString": "Call signature",
@@ -9192,19 +9288,19 @@
 									},
 									"inheritedFrom": {
 										"type": "reference",
-										"id": 410,
+										"id": 414,
 										"name": "Writable.on"
 									}
 								},
 								{
-									"id": 432,
+									"id": 436,
 									"name": "on",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 433,
+											"id": 437,
 											"name": "event",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -9215,7 +9311,7 @@
 											}
 										},
 										{
-											"id": 434,
+											"id": 438,
 											"name": "listener",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -9223,21 +9319,21 @@
 											"type": {
 												"type": "reflection",
 												"declaration": {
-													"id": 435,
+													"id": 439,
 													"name": "__type",
 													"kind": 65536,
 													"kindString": "Type literal",
 													"flags": {},
 													"signatures": [
 														{
-															"id": 436,
+															"id": 440,
 															"name": "__call",
 															"kind": 4096,
 															"kindString": "Call signature",
 															"flags": {},
 															"parameters": [
 																{
-																	"id": 437,
+																	"id": 441,
 																	"name": "src",
 																	"kind": 32768,
 																	"kindString": "Parameter",
@@ -9275,19 +9371,19 @@
 									},
 									"inheritedFrom": {
 										"type": "reference",
-										"id": 410,
+										"id": 414,
 										"name": "Writable.on"
 									}
 								},
 								{
-									"id": 438,
+									"id": 442,
 									"name": "on",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 439,
+											"id": 443,
 											"name": "event",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -9298,7 +9394,7 @@
 											}
 										},
 										{
-											"id": 440,
+											"id": 444,
 											"name": "listener",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -9306,21 +9402,21 @@
 											"type": {
 												"type": "reflection",
 												"declaration": {
-													"id": 441,
+													"id": 445,
 													"name": "__type",
 													"kind": 65536,
 													"kindString": "Type literal",
 													"flags": {},
 													"signatures": [
 														{
-															"id": 442,
+															"id": 446,
 															"name": "__call",
 															"kind": 4096,
 															"kindString": "Call signature",
 															"flags": {},
 															"parameters": [
 																{
-																	"id": 443,
+																	"id": 447,
 																	"name": "src",
 																	"kind": 32768,
 																	"kindString": "Parameter",
@@ -9358,19 +9454,19 @@
 									},
 									"inheritedFrom": {
 										"type": "reference",
-										"id": 410,
+										"id": 414,
 										"name": "Writable.on"
 									}
 								},
 								{
-									"id": 444,
+									"id": 448,
 									"name": "on",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 445,
+											"id": 449,
 											"name": "event",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -9390,7 +9486,7 @@
 											}
 										},
 										{
-											"id": 446,
+											"id": 450,
 											"name": "listener",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -9398,21 +9494,21 @@
 											"type": {
 												"type": "reflection",
 												"declaration": {
-													"id": 447,
+													"id": 451,
 													"name": "__type",
 													"kind": 65536,
 													"kindString": "Type literal",
 													"flags": {},
 													"signatures": [
 														{
-															"id": 448,
+															"id": 452,
 															"name": "__call",
 															"kind": 4096,
 															"kindString": "Call signature",
 															"flags": {},
 															"parameters": [
 																{
-																	"id": 449,
+																	"id": 453,
 																	"name": "args",
 																	"kind": 32768,
 																	"kindString": "Parameter",
@@ -9455,7 +9551,7 @@
 									},
 									"inheritedFrom": {
 										"type": "reference",
-										"id": 410,
+										"id": 414,
 										"name": "Writable.on"
 									}
 								}
@@ -9503,26 +9599,26 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 410,
+								"id": 414,
 								"name": "Writable.on"
 							}
 						},
 						{
-							"id": 450,
+							"id": 454,
 							"name": "once",
 							"kind": 2048,
 							"kindString": "Method",
 							"flags": {},
 							"signatures": [
 								{
-									"id": 451,
+									"id": 455,
 									"name": "once",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 452,
+											"id": 456,
 											"name": "event",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -9533,7 +9629,7 @@
 											}
 										},
 										{
-											"id": 453,
+											"id": 457,
 											"name": "listener",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -9541,14 +9637,14 @@
 											"type": {
 												"type": "reflection",
 												"declaration": {
-													"id": 454,
+													"id": 458,
 													"name": "__type",
 													"kind": 65536,
 													"kindString": "Type literal",
 													"flags": {},
 													"signatures": [
 														{
-															"id": 455,
+															"id": 459,
 															"name": "__call",
 															"kind": 4096,
 															"kindString": "Call signature",
@@ -9580,19 +9676,19 @@
 									},
 									"inheritedFrom": {
 										"type": "reference",
-										"id": 450,
+										"id": 454,
 										"name": "Writable.once"
 									}
 								},
 								{
-									"id": 456,
+									"id": 460,
 									"name": "once",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 457,
+											"id": 461,
 											"name": "event",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -9603,7 +9699,7 @@
 											}
 										},
 										{
-											"id": 458,
+											"id": 462,
 											"name": "listener",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -9611,14 +9707,14 @@
 											"type": {
 												"type": "reflection",
 												"declaration": {
-													"id": 459,
+													"id": 463,
 													"name": "__type",
 													"kind": 65536,
 													"kindString": "Type literal",
 													"flags": {},
 													"signatures": [
 														{
-															"id": 460,
+															"id": 464,
 															"name": "__call",
 															"kind": 4096,
 															"kindString": "Call signature",
@@ -9650,19 +9746,19 @@
 									},
 									"inheritedFrom": {
 										"type": "reference",
-										"id": 450,
+										"id": 454,
 										"name": "Writable.once"
 									}
 								},
 								{
-									"id": 461,
+									"id": 465,
 									"name": "once",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 462,
+											"id": 466,
 											"name": "event",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -9673,7 +9769,7 @@
 											}
 										},
 										{
-											"id": 463,
+											"id": 467,
 											"name": "listener",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -9681,21 +9777,21 @@
 											"type": {
 												"type": "reflection",
 												"declaration": {
-													"id": 464,
+													"id": 468,
 													"name": "__type",
 													"kind": 65536,
 													"kindString": "Type literal",
 													"flags": {},
 													"signatures": [
 														{
-															"id": 465,
+															"id": 469,
 															"name": "__call",
 															"kind": 4096,
 															"kindString": "Call signature",
 															"flags": {},
 															"parameters": [
 																{
-																	"id": 466,
+																	"id": 470,
 																	"name": "err",
 																	"kind": 32768,
 																	"kindString": "Parameter",
@@ -9733,19 +9829,19 @@
 									},
 									"inheritedFrom": {
 										"type": "reference",
-										"id": 450,
+										"id": 454,
 										"name": "Writable.once"
 									}
 								},
 								{
-									"id": 467,
+									"id": 471,
 									"name": "once",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 468,
+											"id": 472,
 											"name": "event",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -9756,7 +9852,7 @@
 											}
 										},
 										{
-											"id": 469,
+											"id": 473,
 											"name": "listener",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -9764,14 +9860,14 @@
 											"type": {
 												"type": "reflection",
 												"declaration": {
-													"id": 470,
+													"id": 474,
 													"name": "__type",
 													"kind": 65536,
 													"kindString": "Type literal",
 													"flags": {},
 													"signatures": [
 														{
-															"id": 471,
+															"id": 475,
 															"name": "__call",
 															"kind": 4096,
 															"kindString": "Call signature",
@@ -9803,19 +9899,19 @@
 									},
 									"inheritedFrom": {
 										"type": "reference",
-										"id": 450,
+										"id": 454,
 										"name": "Writable.once"
 									}
 								},
 								{
-									"id": 472,
+									"id": 476,
 									"name": "once",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 473,
+											"id": 477,
 											"name": "event",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -9826,7 +9922,7 @@
 											}
 										},
 										{
-											"id": 474,
+											"id": 478,
 											"name": "listener",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -9834,21 +9930,21 @@
 											"type": {
 												"type": "reflection",
 												"declaration": {
-													"id": 475,
+													"id": 479,
 													"name": "__type",
 													"kind": 65536,
 													"kindString": "Type literal",
 													"flags": {},
 													"signatures": [
 														{
-															"id": 476,
+															"id": 480,
 															"name": "__call",
 															"kind": 4096,
 															"kindString": "Call signature",
 															"flags": {},
 															"parameters": [
 																{
-																	"id": 477,
+																	"id": 481,
 																	"name": "src",
 																	"kind": 32768,
 																	"kindString": "Parameter",
@@ -9886,19 +9982,19 @@
 									},
 									"inheritedFrom": {
 										"type": "reference",
-										"id": 450,
+										"id": 454,
 										"name": "Writable.once"
 									}
 								},
 								{
-									"id": 478,
+									"id": 482,
 									"name": "once",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 479,
+											"id": 483,
 											"name": "event",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -9909,7 +10005,7 @@
 											}
 										},
 										{
-											"id": 480,
+											"id": 484,
 											"name": "listener",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -9917,21 +10013,21 @@
 											"type": {
 												"type": "reflection",
 												"declaration": {
-													"id": 481,
+													"id": 485,
 													"name": "__type",
 													"kind": 65536,
 													"kindString": "Type literal",
 													"flags": {},
 													"signatures": [
 														{
-															"id": 482,
+															"id": 486,
 															"name": "__call",
 															"kind": 4096,
 															"kindString": "Call signature",
 															"flags": {},
 															"parameters": [
 																{
-																	"id": 483,
+																	"id": 487,
 																	"name": "src",
 																	"kind": 32768,
 																	"kindString": "Parameter",
@@ -9969,19 +10065,19 @@
 									},
 									"inheritedFrom": {
 										"type": "reference",
-										"id": 450,
+										"id": 454,
 										"name": "Writable.once"
 									}
 								},
 								{
-									"id": 484,
+									"id": 488,
 									"name": "once",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 485,
+											"id": 489,
 											"name": "event",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -10001,7 +10097,7 @@
 											}
 										},
 										{
-											"id": 486,
+											"id": 490,
 											"name": "listener",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -10009,21 +10105,21 @@
 											"type": {
 												"type": "reflection",
 												"declaration": {
-													"id": 487,
+													"id": 491,
 													"name": "__type",
 													"kind": 65536,
 													"kindString": "Type literal",
 													"flags": {},
 													"signatures": [
 														{
-															"id": 488,
+															"id": 492,
 															"name": "__call",
 															"kind": 4096,
 															"kindString": "Call signature",
 															"flags": {},
 															"parameters": [
 																{
-																	"id": 489,
+																	"id": 493,
 																	"name": "args",
 																	"kind": 32768,
 																	"kindString": "Parameter",
@@ -10066,7 +10162,7 @@
 									},
 									"inheritedFrom": {
 										"type": "reference",
-										"id": 450,
+										"id": 454,
 										"name": "Writable.once"
 									}
 								}
@@ -10114,26 +10210,26 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 450,
+								"id": 454,
 								"name": "Writable.once"
 							}
 						},
 						{
-							"id": 610,
+							"id": 614,
 							"name": "pipe",
 							"kind": 2048,
 							"kindString": "Method",
 							"flags": {},
 							"signatures": [
 								{
-									"id": 611,
+									"id": 615,
 									"name": "pipe",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"typeParameter": [
 										{
-											"id": 612,
+											"id": 616,
 											"name": "T",
 											"kind": 131072,
 											"kindString": "Type parameter",
@@ -10146,7 +10242,7 @@
 									],
 									"parameters": [
 										{
-											"id": 613,
+											"id": 617,
 											"name": "destination",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -10161,7 +10257,7 @@
 											}
 										},
 										{
-											"id": 614,
+											"id": 618,
 											"name": "options",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -10178,14 +10274,14 @@
 													{
 														"type": "reflection",
 														"declaration": {
-															"id": 615,
+															"id": 619,
 															"name": "__type",
 															"kind": 65536,
 															"kindString": "Type literal",
 															"flags": {},
 															"children": [
 																{
-																	"id": 616,
+																	"id": 620,
 																	"name": "end",
 																	"kind": 32,
 																	"kindString": "Variable",
@@ -10223,7 +10319,7 @@
 																	"title": "Variables",
 																	"kind": 32,
 																	"children": [
-																		616
+																		620
 																	]
 																}
 															]
@@ -10243,7 +10339,7 @@
 									},
 									"inheritedFrom": {
 										"type": "reference",
-										"id": 610,
+										"id": 614,
 										"name": "internal.pipe"
 									}
 								}
@@ -10257,26 +10353,26 @@
 							],
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 610,
+								"id": 614,
 								"name": "internal.pipe"
 							}
 						},
 						{
-							"id": 490,
+							"id": 494,
 							"name": "prependListener",
 							"kind": 2048,
 							"kindString": "Method",
 							"flags": {},
 							"signatures": [
 								{
-									"id": 491,
+									"id": 495,
 									"name": "prependListener",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 492,
+											"id": 496,
 											"name": "event",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -10287,7 +10383,7 @@
 											}
 										},
 										{
-											"id": 493,
+											"id": 497,
 											"name": "listener",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -10295,14 +10391,14 @@
 											"type": {
 												"type": "reflection",
 												"declaration": {
-													"id": 494,
+													"id": 498,
 													"name": "__type",
 													"kind": 65536,
 													"kindString": "Type literal",
 													"flags": {},
 													"signatures": [
 														{
-															"id": 495,
+															"id": 499,
 															"name": "__call",
 															"kind": 4096,
 															"kindString": "Call signature",
@@ -10334,19 +10430,19 @@
 									},
 									"inheritedFrom": {
 										"type": "reference",
-										"id": 490,
+										"id": 494,
 										"name": "Writable.prependListener"
 									}
 								},
 								{
-									"id": 496,
+									"id": 500,
 									"name": "prependListener",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 497,
+											"id": 501,
 											"name": "event",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -10357,7 +10453,7 @@
 											}
 										},
 										{
-											"id": 498,
+											"id": 502,
 											"name": "listener",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -10365,14 +10461,14 @@
 											"type": {
 												"type": "reflection",
 												"declaration": {
-													"id": 499,
+													"id": 503,
 													"name": "__type",
 													"kind": 65536,
 													"kindString": "Type literal",
 													"flags": {},
 													"signatures": [
 														{
-															"id": 500,
+															"id": 504,
 															"name": "__call",
 															"kind": 4096,
 															"kindString": "Call signature",
@@ -10404,19 +10500,19 @@
 									},
 									"inheritedFrom": {
 										"type": "reference",
-										"id": 490,
+										"id": 494,
 										"name": "Writable.prependListener"
 									}
 								},
 								{
-									"id": 501,
+									"id": 505,
 									"name": "prependListener",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 502,
+											"id": 506,
 											"name": "event",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -10427,7 +10523,7 @@
 											}
 										},
 										{
-											"id": 503,
+											"id": 507,
 											"name": "listener",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -10435,21 +10531,21 @@
 											"type": {
 												"type": "reflection",
 												"declaration": {
-													"id": 504,
+													"id": 508,
 													"name": "__type",
 													"kind": 65536,
 													"kindString": "Type literal",
 													"flags": {},
 													"signatures": [
 														{
-															"id": 505,
+															"id": 509,
 															"name": "__call",
 															"kind": 4096,
 															"kindString": "Call signature",
 															"flags": {},
 															"parameters": [
 																{
-																	"id": 506,
+																	"id": 510,
 																	"name": "err",
 																	"kind": 32768,
 																	"kindString": "Parameter",
@@ -10487,19 +10583,19 @@
 									},
 									"inheritedFrom": {
 										"type": "reference",
-										"id": 490,
+										"id": 494,
 										"name": "Writable.prependListener"
 									}
 								},
 								{
-									"id": 507,
+									"id": 511,
 									"name": "prependListener",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 508,
+											"id": 512,
 											"name": "event",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -10510,7 +10606,7 @@
 											}
 										},
 										{
-											"id": 509,
+											"id": 513,
 											"name": "listener",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -10518,14 +10614,14 @@
 											"type": {
 												"type": "reflection",
 												"declaration": {
-													"id": 510,
+													"id": 514,
 													"name": "__type",
 													"kind": 65536,
 													"kindString": "Type literal",
 													"flags": {},
 													"signatures": [
 														{
-															"id": 511,
+															"id": 515,
 															"name": "__call",
 															"kind": 4096,
 															"kindString": "Call signature",
@@ -10557,19 +10653,19 @@
 									},
 									"inheritedFrom": {
 										"type": "reference",
-										"id": 490,
+										"id": 494,
 										"name": "Writable.prependListener"
 									}
 								},
 								{
-									"id": 512,
+									"id": 516,
 									"name": "prependListener",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 513,
+											"id": 517,
 											"name": "event",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -10580,7 +10676,7 @@
 											}
 										},
 										{
-											"id": 514,
+											"id": 518,
 											"name": "listener",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -10588,21 +10684,21 @@
 											"type": {
 												"type": "reflection",
 												"declaration": {
-													"id": 515,
+													"id": 519,
 													"name": "__type",
 													"kind": 65536,
 													"kindString": "Type literal",
 													"flags": {},
 													"signatures": [
 														{
-															"id": 516,
+															"id": 520,
 															"name": "__call",
 															"kind": 4096,
 															"kindString": "Call signature",
 															"flags": {},
 															"parameters": [
 																{
-																	"id": 517,
+																	"id": 521,
 																	"name": "src",
 																	"kind": 32768,
 																	"kindString": "Parameter",
@@ -10640,19 +10736,19 @@
 									},
 									"inheritedFrom": {
 										"type": "reference",
-										"id": 490,
+										"id": 494,
 										"name": "Writable.prependListener"
 									}
 								},
 								{
-									"id": 518,
+									"id": 522,
 									"name": "prependListener",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 519,
+											"id": 523,
 											"name": "event",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -10663,7 +10759,7 @@
 											}
 										},
 										{
-											"id": 520,
+											"id": 524,
 											"name": "listener",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -10671,21 +10767,21 @@
 											"type": {
 												"type": "reflection",
 												"declaration": {
-													"id": 521,
+													"id": 525,
 													"name": "__type",
 													"kind": 65536,
 													"kindString": "Type literal",
 													"flags": {},
 													"signatures": [
 														{
-															"id": 522,
+															"id": 526,
 															"name": "__call",
 															"kind": 4096,
 															"kindString": "Call signature",
 															"flags": {},
 															"parameters": [
 																{
-																	"id": 523,
+																	"id": 527,
 																	"name": "src",
 																	"kind": 32768,
 																	"kindString": "Parameter",
@@ -10723,19 +10819,19 @@
 									},
 									"inheritedFrom": {
 										"type": "reference",
-										"id": 490,
+										"id": 494,
 										"name": "Writable.prependListener"
 									}
 								},
 								{
-									"id": 524,
+									"id": 528,
 									"name": "prependListener",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 525,
+											"id": 529,
 											"name": "event",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -10755,7 +10851,7 @@
 											}
 										},
 										{
-											"id": 526,
+											"id": 530,
 											"name": "listener",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -10763,21 +10859,21 @@
 											"type": {
 												"type": "reflection",
 												"declaration": {
-													"id": 527,
+													"id": 531,
 													"name": "__type",
 													"kind": 65536,
 													"kindString": "Type literal",
 													"flags": {},
 													"signatures": [
 														{
-															"id": 528,
+															"id": 532,
 															"name": "__call",
 															"kind": 4096,
 															"kindString": "Call signature",
 															"flags": {},
 															"parameters": [
 																{
-																	"id": 529,
+																	"id": 533,
 																	"name": "args",
 																	"kind": 32768,
 																	"kindString": "Parameter",
@@ -10820,7 +10916,7 @@
 									},
 									"inheritedFrom": {
 										"type": "reference",
-										"id": 490,
+										"id": 494,
 										"name": "Writable.prependListener"
 									}
 								}
@@ -10868,26 +10964,26 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 490,
+								"id": 494,
 								"name": "Writable.prependListener"
 							}
 						},
 						{
-							"id": 530,
+							"id": 534,
 							"name": "prependOnceListener",
 							"kind": 2048,
 							"kindString": "Method",
 							"flags": {},
 							"signatures": [
 								{
-									"id": 531,
+									"id": 535,
 									"name": "prependOnceListener",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 532,
+											"id": 536,
 											"name": "event",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -10898,7 +10994,7 @@
 											}
 										},
 										{
-											"id": 533,
+											"id": 537,
 											"name": "listener",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -10906,14 +11002,14 @@
 											"type": {
 												"type": "reflection",
 												"declaration": {
-													"id": 534,
+													"id": 538,
 													"name": "__type",
 													"kind": 65536,
 													"kindString": "Type literal",
 													"flags": {},
 													"signatures": [
 														{
-															"id": 535,
+															"id": 539,
 															"name": "__call",
 															"kind": 4096,
 															"kindString": "Call signature",
@@ -10945,19 +11041,19 @@
 									},
 									"inheritedFrom": {
 										"type": "reference",
-										"id": 530,
+										"id": 534,
 										"name": "Writable.prependOnceListener"
 									}
 								},
 								{
-									"id": 536,
+									"id": 540,
 									"name": "prependOnceListener",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 537,
+											"id": 541,
 											"name": "event",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -10968,7 +11064,7 @@
 											}
 										},
 										{
-											"id": 538,
+											"id": 542,
 											"name": "listener",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -10976,14 +11072,14 @@
 											"type": {
 												"type": "reflection",
 												"declaration": {
-													"id": 539,
+													"id": 543,
 													"name": "__type",
 													"kind": 65536,
 													"kindString": "Type literal",
 													"flags": {},
 													"signatures": [
 														{
-															"id": 540,
+															"id": 544,
 															"name": "__call",
 															"kind": 4096,
 															"kindString": "Call signature",
@@ -11015,19 +11111,19 @@
 									},
 									"inheritedFrom": {
 										"type": "reference",
-										"id": 530,
+										"id": 534,
 										"name": "Writable.prependOnceListener"
 									}
 								},
 								{
-									"id": 541,
+									"id": 545,
 									"name": "prependOnceListener",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 542,
+											"id": 546,
 											"name": "event",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -11038,7 +11134,7 @@
 											}
 										},
 										{
-											"id": 543,
+											"id": 547,
 											"name": "listener",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -11046,21 +11142,21 @@
 											"type": {
 												"type": "reflection",
 												"declaration": {
-													"id": 544,
+													"id": 548,
 													"name": "__type",
 													"kind": 65536,
 													"kindString": "Type literal",
 													"flags": {},
 													"signatures": [
 														{
-															"id": 545,
+															"id": 549,
 															"name": "__call",
 															"kind": 4096,
 															"kindString": "Call signature",
 															"flags": {},
 															"parameters": [
 																{
-																	"id": 546,
+																	"id": 550,
 																	"name": "err",
 																	"kind": 32768,
 																	"kindString": "Parameter",
@@ -11098,19 +11194,19 @@
 									},
 									"inheritedFrom": {
 										"type": "reference",
-										"id": 530,
+										"id": 534,
 										"name": "Writable.prependOnceListener"
 									}
 								},
 								{
-									"id": 547,
+									"id": 551,
 									"name": "prependOnceListener",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 548,
+											"id": 552,
 											"name": "event",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -11121,7 +11217,7 @@
 											}
 										},
 										{
-											"id": 549,
+											"id": 553,
 											"name": "listener",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -11129,14 +11225,14 @@
 											"type": {
 												"type": "reflection",
 												"declaration": {
-													"id": 550,
+													"id": 554,
 													"name": "__type",
 													"kind": 65536,
 													"kindString": "Type literal",
 													"flags": {},
 													"signatures": [
 														{
-															"id": 551,
+															"id": 555,
 															"name": "__call",
 															"kind": 4096,
 															"kindString": "Call signature",
@@ -11168,19 +11264,19 @@
 									},
 									"inheritedFrom": {
 										"type": "reference",
-										"id": 530,
+										"id": 534,
 										"name": "Writable.prependOnceListener"
 									}
 								},
 								{
-									"id": 552,
+									"id": 556,
 									"name": "prependOnceListener",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 553,
+											"id": 557,
 											"name": "event",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -11191,7 +11287,7 @@
 											}
 										},
 										{
-											"id": 554,
+											"id": 558,
 											"name": "listener",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -11199,21 +11295,21 @@
 											"type": {
 												"type": "reflection",
 												"declaration": {
-													"id": 555,
+													"id": 559,
 													"name": "__type",
 													"kind": 65536,
 													"kindString": "Type literal",
 													"flags": {},
 													"signatures": [
 														{
-															"id": 556,
+															"id": 560,
 															"name": "__call",
 															"kind": 4096,
 															"kindString": "Call signature",
 															"flags": {},
 															"parameters": [
 																{
-																	"id": 557,
+																	"id": 561,
 																	"name": "src",
 																	"kind": 32768,
 																	"kindString": "Parameter",
@@ -11251,19 +11347,19 @@
 									},
 									"inheritedFrom": {
 										"type": "reference",
-										"id": 530,
+										"id": 534,
 										"name": "Writable.prependOnceListener"
 									}
 								},
 								{
-									"id": 558,
+									"id": 562,
 									"name": "prependOnceListener",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 559,
+											"id": 563,
 											"name": "event",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -11274,7 +11370,7 @@
 											}
 										},
 										{
-											"id": 560,
+											"id": 564,
 											"name": "listener",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -11282,21 +11378,21 @@
 											"type": {
 												"type": "reflection",
 												"declaration": {
-													"id": 561,
+													"id": 565,
 													"name": "__type",
 													"kind": 65536,
 													"kindString": "Type literal",
 													"flags": {},
 													"signatures": [
 														{
-															"id": 562,
+															"id": 566,
 															"name": "__call",
 															"kind": 4096,
 															"kindString": "Call signature",
 															"flags": {},
 															"parameters": [
 																{
-																	"id": 563,
+																	"id": 567,
 																	"name": "src",
 																	"kind": 32768,
 																	"kindString": "Parameter",
@@ -11334,19 +11430,19 @@
 									},
 									"inheritedFrom": {
 										"type": "reference",
-										"id": 530,
+										"id": 534,
 										"name": "Writable.prependOnceListener"
 									}
 								},
 								{
-									"id": 564,
+									"id": 568,
 									"name": "prependOnceListener",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 565,
+											"id": 569,
 											"name": "event",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -11366,7 +11462,7 @@
 											}
 										},
 										{
-											"id": 566,
+											"id": 570,
 											"name": "listener",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -11374,21 +11470,21 @@
 											"type": {
 												"type": "reflection",
 												"declaration": {
-													"id": 567,
+													"id": 571,
 													"name": "__type",
 													"kind": 65536,
 													"kindString": "Type literal",
 													"flags": {},
 													"signatures": [
 														{
-															"id": 568,
+															"id": 572,
 															"name": "__call",
 															"kind": 4096,
 															"kindString": "Call signature",
 															"flags": {},
 															"parameters": [
 																{
-																	"id": 569,
+																	"id": 573,
 																	"name": "args",
 																	"kind": 32768,
 																	"kindString": "Parameter",
@@ -11431,7 +11527,7 @@
 									},
 									"inheritedFrom": {
 										"type": "reference",
-										"id": 530,
+										"id": 534,
 										"name": "Writable.prependOnceListener"
 									}
 								}
@@ -11479,26 +11575,26 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 530,
+								"id": 534,
 								"name": "Writable.prependOnceListener"
 							}
 						},
 						{
-							"id": 635,
+							"id": 639,
 							"name": "rawListeners",
 							"kind": 2048,
 							"kindString": "Method",
 							"flags": {},
 							"signatures": [
 								{
-									"id": 636,
+									"id": 640,
 									"name": "rawListeners",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 637,
+											"id": 641,
 											"name": "event",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -11527,7 +11623,7 @@
 									},
 									"inheritedFrom": {
 										"type": "reference",
-										"id": 635,
+										"id": 639,
 										"name": "EventEmitter.rawListeners"
 									}
 								}
@@ -11541,26 +11637,26 @@
 							],
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 635,
+								"id": 639,
 								"name": "EventEmitter.rawListeners"
 							}
 						},
 						{
-							"id": 624,
+							"id": 628,
 							"name": "removeAllListeners",
 							"kind": 2048,
 							"kindString": "Method",
 							"flags": {},
 							"signatures": [
 								{
-									"id": 625,
+									"id": 629,
 									"name": "removeAllListeners",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 626,
+											"id": 630,
 											"name": "event",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -11588,7 +11684,7 @@
 									},
 									"inheritedFrom": {
 										"type": "reference",
-										"id": 624,
+										"id": 628,
 										"name": "EventEmitter.removeAllListeners"
 									}
 								}
@@ -11602,26 +11698,26 @@
 							],
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 624,
+								"id": 628,
 								"name": "EventEmitter.removeAllListeners"
 							}
 						},
 						{
-							"id": 570,
+							"id": 574,
 							"name": "removeListener",
 							"kind": 2048,
 							"kindString": "Method",
 							"flags": {},
 							"signatures": [
 								{
-									"id": 571,
+									"id": 575,
 									"name": "removeListener",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 572,
+											"id": 576,
 											"name": "event",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -11632,7 +11728,7 @@
 											}
 										},
 										{
-											"id": 573,
+											"id": 577,
 											"name": "listener",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -11640,14 +11736,14 @@
 											"type": {
 												"type": "reflection",
 												"declaration": {
-													"id": 574,
+													"id": 578,
 													"name": "__type",
 													"kind": 65536,
 													"kindString": "Type literal",
 													"flags": {},
 													"signatures": [
 														{
-															"id": 575,
+															"id": 579,
 															"name": "__call",
 															"kind": 4096,
 															"kindString": "Call signature",
@@ -11679,19 +11775,19 @@
 									},
 									"inheritedFrom": {
 										"type": "reference",
-										"id": 570,
+										"id": 574,
 										"name": "Writable.removeListener"
 									}
 								},
 								{
-									"id": 576,
+									"id": 580,
 									"name": "removeListener",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 577,
+											"id": 581,
 											"name": "event",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -11702,7 +11798,7 @@
 											}
 										},
 										{
-											"id": 578,
+											"id": 582,
 											"name": "listener",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -11710,14 +11806,14 @@
 											"type": {
 												"type": "reflection",
 												"declaration": {
-													"id": 579,
+													"id": 583,
 													"name": "__type",
 													"kind": 65536,
 													"kindString": "Type literal",
 													"flags": {},
 													"signatures": [
 														{
-															"id": 580,
+															"id": 584,
 															"name": "__call",
 															"kind": 4096,
 															"kindString": "Call signature",
@@ -11749,19 +11845,19 @@
 									},
 									"inheritedFrom": {
 										"type": "reference",
-										"id": 570,
+										"id": 574,
 										"name": "Writable.removeListener"
 									}
 								},
 								{
-									"id": 581,
+									"id": 585,
 									"name": "removeListener",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 582,
+											"id": 586,
 											"name": "event",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -11772,7 +11868,7 @@
 											}
 										},
 										{
-											"id": 583,
+											"id": 587,
 											"name": "listener",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -11780,21 +11876,21 @@
 											"type": {
 												"type": "reflection",
 												"declaration": {
-													"id": 584,
+													"id": 588,
 													"name": "__type",
 													"kind": 65536,
 													"kindString": "Type literal",
 													"flags": {},
 													"signatures": [
 														{
-															"id": 585,
+															"id": 589,
 															"name": "__call",
 															"kind": 4096,
 															"kindString": "Call signature",
 															"flags": {},
 															"parameters": [
 																{
-																	"id": 586,
+																	"id": 590,
 																	"name": "err",
 																	"kind": 32768,
 																	"kindString": "Parameter",
@@ -11832,19 +11928,19 @@
 									},
 									"inheritedFrom": {
 										"type": "reference",
-										"id": 570,
+										"id": 574,
 										"name": "Writable.removeListener"
 									}
 								},
 								{
-									"id": 587,
+									"id": 591,
 									"name": "removeListener",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 588,
+											"id": 592,
 											"name": "event",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -11855,7 +11951,7 @@
 											}
 										},
 										{
-											"id": 589,
+											"id": 593,
 											"name": "listener",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -11863,14 +11959,14 @@
 											"type": {
 												"type": "reflection",
 												"declaration": {
-													"id": 590,
+													"id": 594,
 													"name": "__type",
 													"kind": 65536,
 													"kindString": "Type literal",
 													"flags": {},
 													"signatures": [
 														{
-															"id": 591,
+															"id": 595,
 															"name": "__call",
 															"kind": 4096,
 															"kindString": "Call signature",
@@ -11902,19 +11998,19 @@
 									},
 									"inheritedFrom": {
 										"type": "reference",
-										"id": 570,
+										"id": 574,
 										"name": "Writable.removeListener"
 									}
 								},
 								{
-									"id": 592,
+									"id": 596,
 									"name": "removeListener",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 593,
+											"id": 597,
 											"name": "event",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -11925,7 +12021,7 @@
 											}
 										},
 										{
-											"id": 594,
+											"id": 598,
 											"name": "listener",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -11933,21 +12029,21 @@
 											"type": {
 												"type": "reflection",
 												"declaration": {
-													"id": 595,
+													"id": 599,
 													"name": "__type",
 													"kind": 65536,
 													"kindString": "Type literal",
 													"flags": {},
 													"signatures": [
 														{
-															"id": 596,
+															"id": 600,
 															"name": "__call",
 															"kind": 4096,
 															"kindString": "Call signature",
 															"flags": {},
 															"parameters": [
 																{
-																	"id": 597,
+																	"id": 601,
 																	"name": "src",
 																	"kind": 32768,
 																	"kindString": "Parameter",
@@ -11985,19 +12081,19 @@
 									},
 									"inheritedFrom": {
 										"type": "reference",
-										"id": 570,
+										"id": 574,
 										"name": "Writable.removeListener"
 									}
 								},
 								{
-									"id": 598,
+									"id": 602,
 									"name": "removeListener",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 599,
+											"id": 603,
 											"name": "event",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -12008,7 +12104,7 @@
 											}
 										},
 										{
-											"id": 600,
+											"id": 604,
 											"name": "listener",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -12016,21 +12112,21 @@
 											"type": {
 												"type": "reflection",
 												"declaration": {
-													"id": 601,
+													"id": 605,
 													"name": "__type",
 													"kind": 65536,
 													"kindString": "Type literal",
 													"flags": {},
 													"signatures": [
 														{
-															"id": 602,
+															"id": 606,
 															"name": "__call",
 															"kind": 4096,
 															"kindString": "Call signature",
 															"flags": {},
 															"parameters": [
 																{
-																	"id": 603,
+																	"id": 607,
 																	"name": "src",
 																	"kind": 32768,
 																	"kindString": "Parameter",
@@ -12068,19 +12164,19 @@
 									},
 									"inheritedFrom": {
 										"type": "reference",
-										"id": 570,
+										"id": 574,
 										"name": "Writable.removeListener"
 									}
 								},
 								{
-									"id": 604,
+									"id": 608,
 									"name": "removeListener",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 605,
+											"id": 609,
 											"name": "event",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -12100,7 +12196,7 @@
 											}
 										},
 										{
-											"id": 606,
+											"id": 610,
 											"name": "listener",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -12108,21 +12204,21 @@
 											"type": {
 												"type": "reflection",
 												"declaration": {
-													"id": 607,
+													"id": 611,
 													"name": "__type",
 													"kind": 65536,
 													"kindString": "Type literal",
 													"flags": {},
 													"signatures": [
 														{
-															"id": 608,
+															"id": 612,
 															"name": "__call",
 															"kind": 4096,
 															"kindString": "Call signature",
 															"flags": {},
 															"parameters": [
 																{
-																	"id": 609,
+																	"id": 613,
 																	"name": "args",
 																	"kind": 32768,
 																	"kindString": "Parameter",
@@ -12165,7 +12261,7 @@
 									},
 									"inheritedFrom": {
 										"type": "reference",
-										"id": 570,
+										"id": 574,
 										"name": "Writable.removeListener"
 									}
 								}
@@ -12213,26 +12309,26 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 570,
+								"id": 574,
 								"name": "Writable.removeListener"
 							}
 						},
 						{
-							"id": 325,
+							"id": 329,
 							"name": "setDefaultEncoding",
 							"kind": 2048,
 							"kindString": "Method",
 							"flags": {},
 							"signatures": [
 								{
-									"id": 326,
+									"id": 330,
 									"name": "setDefaultEncoding",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 327,
+											"id": 331,
 											"name": "encoding",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -12249,7 +12345,7 @@
 									},
 									"inheritedFrom": {
 										"type": "reference",
-										"id": 325,
+										"id": 329,
 										"name": "Writable.setDefaultEncoding"
 									}
 								}
@@ -12263,26 +12359,26 @@
 							],
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 325,
+								"id": 329,
 								"name": "Writable.setDefaultEncoding"
 							}
 						},
 						{
-							"id": 627,
+							"id": 631,
 							"name": "setMaxListeners",
 							"kind": 2048,
 							"kindString": "Method",
 							"flags": {},
 							"signatures": [
 								{
-									"id": 628,
+									"id": 632,
 									"name": "setMaxListeners",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 629,
+											"id": 633,
 											"name": "n",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -12299,7 +12395,7 @@
 									},
 									"inheritedFrom": {
 										"type": "reference",
-										"id": 627,
+										"id": 631,
 										"name": "EventEmitter.setMaxListeners"
 									}
 								}
@@ -12313,19 +12409,19 @@
 							],
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 627,
+								"id": 631,
 								"name": "EventEmitter.setMaxListeners"
 							}
 						},
 						{
-							"id": 346,
+							"id": 350,
 							"name": "uncork",
 							"kind": 2048,
 							"kindString": "Method",
 							"flags": {},
 							"signatures": [
 								{
-									"id": 347,
+									"id": 351,
 									"name": "uncork",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -12336,7 +12432,7 @@
 									},
 									"inheritedFrom": {
 										"type": "reference",
-										"id": 346,
+										"id": 350,
 										"name": "Writable.uncork"
 									}
 								}
@@ -12350,26 +12446,26 @@
 							],
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 346,
+								"id": 350,
 								"name": "Writable.uncork"
 							}
 						},
 						{
-							"id": 311,
+							"id": 315,
 							"name": "write",
 							"kind": 2048,
 							"kindString": "Method",
 							"flags": {},
 							"signatures": [
 								{
-									"id": 312,
+									"id": 316,
 									"name": "write",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 313,
+											"id": 317,
 											"name": "chunk",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -12380,7 +12476,7 @@
 											}
 										},
 										{
-											"id": 314,
+											"id": 318,
 											"name": "cb",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -12397,21 +12493,21 @@
 													{
 														"type": "reflection",
 														"declaration": {
-															"id": 315,
+															"id": 319,
 															"name": "__type",
 															"kind": 65536,
 															"kindString": "Type literal",
 															"flags": {},
 															"signatures": [
 																{
-																	"id": 316,
+																	"id": 320,
 																	"name": "__call",
 																	"kind": 4096,
 																	"kindString": "Call signature",
 																	"flags": {},
 																	"parameters": [
 																		{
-																			"id": 317,
+																			"id": 321,
 																			"name": "error",
 																			"kind": 32768,
 																			"kindString": "Parameter",
@@ -12453,19 +12549,19 @@
 									},
 									"inheritedFrom": {
 										"type": "reference",
-										"id": 311,
+										"id": 315,
 										"name": "Writable.write"
 									}
 								},
 								{
-									"id": 318,
+									"id": 322,
 									"name": "write",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 319,
+											"id": 323,
 											"name": "chunk",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -12476,7 +12572,7 @@
 											}
 										},
 										{
-											"id": 320,
+											"id": 324,
 											"name": "encoding",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -12487,7 +12583,7 @@
 											}
 										},
 										{
-											"id": 321,
+											"id": 325,
 											"name": "cb",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -12504,21 +12600,21 @@
 													{
 														"type": "reflection",
 														"declaration": {
-															"id": 322,
+															"id": 326,
 															"name": "__type",
 															"kind": 65536,
 															"kindString": "Type literal",
 															"flags": {},
 															"signatures": [
 																{
-																	"id": 323,
+																	"id": 327,
 																	"name": "__call",
 																	"kind": 4096,
 																	"kindString": "Call signature",
 																	"flags": {},
 																	"parameters": [
 																		{
-																			"id": 324,
+																			"id": 328,
 																			"name": "error",
 																			"kind": 32768,
 																			"kindString": "Parameter",
@@ -12560,7 +12656,7 @@
 									},
 									"inheritedFrom": {
 										"type": "reference",
-										"id": 311,
+										"id": 315,
 										"name": "Writable.write"
 									}
 								}
@@ -12579,7 +12675,7 @@
 							],
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 311,
+								"id": 315,
 								"name": "Writable.write"
 							}
 						}
@@ -12589,56 +12685,56 @@
 							"title": "Constructors",
 							"kind": 512,
 							"children": [
-								269
+								273
 							]
 						},
 						{
 							"title": "Properties",
 							"kind": 1024,
 							"children": [
-								270,
-								287,
-								280,
-								286,
-								281,
-								282,
-								283,
+								274,
+								291,
 								284,
+								290,
 								285,
-								268,
-								267
+								286,
+								287,
+								288,
+								289,
+								272,
+								271
 							]
 						},
 						{
 							"title": "Methods",
 							"kind": 2048,
 							"children": [
-								298,
-								305,
-								273,
-								288,
-								351,
-								344,
+								302,
+								309,
+								277,
+								292,
+								355,
 								348,
-								391,
-								328,
-								641,
-								630,
-								638,
-								632,
-								617,
-								410,
-								450,
-								610,
-								490,
-								530,
-								635,
-								624,
-								570,
-								325,
-								627,
-								346,
-								311
+								352,
+								395,
+								332,
+								645,
+								634,
+								642,
+								636,
+								621,
+								414,
+								454,
+								614,
+								494,
+								534,
+								639,
+								628,
+								574,
+								329,
+								631,
+								350,
+								315
 							]
 						}
 					],
@@ -12663,7 +12759,7 @@
 					]
 				},
 				{
-					"id": 643,
+					"id": 647,
 					"name": "makeWritable",
 					"kind": 64,
 					"kindString": "Function",
@@ -12672,7 +12768,7 @@
 					},
 					"signatures": [
 						{
-							"id": 644,
+							"id": 648,
 							"name": "makeWritable",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -12681,7 +12777,7 @@
 							},
 							"parameters": [
 								{
-									"id": 645,
+									"id": 649,
 									"name": "amountToWrite",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -12713,7 +12809,7 @@
 									},
 									{
 										"type": "reference",
-										"id": 266,
+										"id": 270,
 										"name": "MockWritable"
 									}
 								]
@@ -12734,14 +12830,14 @@
 					"title": "Classes",
 					"kind": 128,
 					"children": [
-						266
+						270
 					]
 				},
 				{
 					"title": "Functions",
 					"kind": 64,
 					"children": [
-						643
+						647
 					]
 				}
 			],
@@ -12759,13 +12855,13 @@
 			"title": "Modules",
 			"kind": 1,
 			"children": [
-				251,
+				255,
 				1,
-				134,
+				138,
 				100,
-				264,
-				646,
-				265
+				268,
+				650,
+				269
 			]
 		}
 	]
