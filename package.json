@@ -53,7 +53,7 @@
   },
   "dependencies": {
     "@klasa/timestamp": "^0.0.1",
-    "@klasa/utils": "^0.0.8"
+    "@klasa/utils": "^0.1.0"
   },
   "files": [
     "dist/src/"
